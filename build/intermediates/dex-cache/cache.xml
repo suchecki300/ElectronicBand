@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Damian Bondaruk\.android\build-cache\f5e0933b3c4f9a3c35345961294516f79fb1c79f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="C:\Users\Damian Bondaruk\Desktop\Projekty\Android Studio\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bc020c652d37ab7000cee8312a598fa044007c14\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Damian Bondaruk\.android\build-cache\05746aa77645d0cbf5580ecbe3e2c01201253bff\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="C:\Users\Damian Bondaruk\Desktop\Projekty\Android Studio\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7303adea5bf8cdafa34f1c537cd9eff6ec57e034\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Damian Bondaruk\Desktop\Projekty\Android Studio\ElectronicBand\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Damian Bondaruk\Desktop\Projekty\Android Studio\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_75bef5561dfd8b2ecc0e05d2eababc9098fb42b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Damian Bondaruk\Desktop\Projekty\Android Studio\ElectronicBand\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="baf2b2ed2cab2581886e0638f95d72ff000955f9">
+        <dex dex="C:\Users\Damian Bondaruk\Desktop\Projekty\Android Studio\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4550c6f5c28ffaba8838099f6b4398a8f90f5947\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Damian Bondaruk\.android\build-cache\dc068babe21a0c64b1c75dfffb6e8f8016b7cd25\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="C:\Users\Damian Bondaruk\Desktop\Projekty\Android Studio\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_751d02ae974badb1242d606ec2f3bd6969648618\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Damian Bondaruk\.android\build-cache\d9df4193f87a6a9bcb52446ca6d87346c5bad339\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="C:\Users\Damian Bondaruk\Desktop\Projekty\Android Studio\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e650c762c0e7cac5b4f1f431abfae929d1c7d4d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Damian Bondaruk\.android\build-cache\99e009e1de6f726fe0d7807df383835aecb1fdba\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="C:\Users\Damian Bondaruk\Desktop\Projekty\Android Studio\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d99f30f0d3ce8462a7af889e704c85d233cd856e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Damian Bondaruk\.android\build-cache\fd976f6a84f459b6913e3a62423be482c9f5bc49\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Damian Bondaruk\Desktop\Projekty\Android Studio\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5d1f40f98a16e0f934437435f453d0c051ef2d70\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Damian Bondaruk\.android\build-cache\df9d5ce4d6d48f46647fbf0f31baf1a1f2a1f2f2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="C:\Users\Damian Bondaruk\Desktop\Projekty\Android Studio\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0ea6820d5bcf0e27fb496441585231f7e94d4e95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Damian Bondaruk\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="C:\Users\Damian Bondaruk\Desktop\Projekty\Android Studio\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.0_c7538b7c5e5cce5b612d3cd2bdeb9ebc2e775391\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Damian Bondaruk\.android\build-cache\50e230f087c5908c8f732c18308ca1012c4a04ec\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="C:\Users\Damian Bondaruk\Desktop\Projekty\Android Studio\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8b41203b91cd572356a4a33e51ad3e8d24314832\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Damian Bondaruk\.android\build-cache\6bc75e302cda8717117b1b476160c5636a19f40d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="C:\Users\Damian Bondaruk\Desktop\Projekty\Android Studio\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8eae09fde4f237a62dab2b86b00c5bfddac1b275\classes.dex" />
+    </item>
+
+</items>
