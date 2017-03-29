@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.wat.wel.projekt.pumo.electronicband.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/prosty_k"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prosty"
+            android:drawableStart="@mipmap/ic_launcher_round"
+            android:textAlignment="textStart"
+            android:background="@drawable/button_kalkulatorki"
+            style="@style/button_text"/>
+        <Button
+            android:id="@+id/bramki_k"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bramki_logiczne"
+            android:drawableStart="@mipmap/ic_launcher_round"
+            android:textAlignment="textStart"
+            android:background="@drawable/button_kalkulatorki"
+            style="@style/button_text"/>
+        <Button
+            android:id="@+id/opisy_k"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/descriptions"
+            android:drawableStart="@mipmap/ic_launcher_round"
+            android:textAlignment="textStart"
+            android:background="@drawable/button_kalkulatorki"
+            style="@style/button_text"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

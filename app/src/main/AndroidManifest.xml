@@ -16,7 +16,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".TheoryActivity"></activity>
+        <activity
+            android:name=".TheoryActivity"
+            android:label="Teoria" />
+        <activity
+            android:name=".Kalkulatory"
+            android:label="@string/kalk" />
+        <activity
+            android:name=".Prosty_Kalkulator"
+            android:label="@string/prosty" />
+        <activity android:name=".Slowniczek_Activity" />
+        <activity android:name=".UkladyScaloneActivity"
+            android:label="Układy scalone"/>
+        <activity android:name=".ElementyElektoniczneActivity"
+            android:label="Elementy elektroniczne"/>
+        <activity android:name=".OgolnePojeciaActivity"
+            android:label="Ogólne pojęcia"/>
+        <activity android:name=".WarsztatActivity"
+            android:label="Warsztat"/>
     </application>
 
 </manifest>

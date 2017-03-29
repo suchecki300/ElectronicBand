@@ -1,9 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="pl.wat.wel.projekt.pumo.electronicband.TheoryActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/elem_elektroniczne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elementy elektroniczne"
+            android:drawableStart="@mipmap/ic_launcher_round"
+            android:textAlignment="textStart"
+            android:background="@drawable/button_kalkulatorki"
+            style="@style/button_text"/>
+        <Button
+            android:id="@+id/uklady"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="układy scalone"
+            android:drawableStart="@mipmap/ic_launcher_round"
+            android:textAlignment="textStart"
+            android:background="@drawable/button_kalkulatorki"
+            style="@style/button_text"/>
+        <Button
+            android:id="@+id/ogolne_pojecia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ogólne pojęcia"
+            android:drawableStart="@mipmap/ic_launcher_round"
+            android:textAlignment="textStart"
+            android:background="@drawable/button_kalkulatorki"
+            style="@style/button_text"/>
+        <Button
+            android:id="@+id/warsztat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Warsztat"
+            android:drawableStart="@mipmap/ic_launcher_round"
+            android:textAlignment="textStart"
+            android:background="@drawable/button_kalkulatorki"
+            style="@style/button_text"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
