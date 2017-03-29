@@ -43,6 +43,7 @@ public class Prosty_Kalkulator extends AppCompatActivity {
                 liczba1="";
                 editText.setText(liczba1);
                 break;
+            //////wpisywanie cyfer//////////////////////////////
             case R.id.button1:
                 liczba1=editText.getText().toString() + "1";
                 editText.setText(liczba1);
@@ -87,7 +88,7 @@ public class Prosty_Kalkulator extends AppCompatActivity {
                 liczba1 = editText.getText().toString() + ".";
                 editText.setText(liczba1);
                 break;
-
+////////////////////////////////////////////////////////
             case R.id.button10:
                 if (i == 0) {
                     if(editText.getText().toString().equals(""))
