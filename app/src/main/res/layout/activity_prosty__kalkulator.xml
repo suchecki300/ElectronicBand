@@ -17,6 +17,8 @@
             tools:layout_editor_absoluteY="0dp"
             tools:layout_editor_absoluteX="0dp">
 
+            <!-- Tu jest wynik -->
+
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="match_parent"
@@ -27,6 +29,8 @@
                 tools:layout_editor_absoluteY="0dp"
                 tools:layout_editor_absoluteX="8dp" />
 
+            <!-- Tu jest obliczenie -->
+
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
@@ -36,7 +40,7 @@
                 tools:layout_editor_absoluteY="0dp"
                 tools:layout_editor_absoluteX="8dp" />
 
-
+            <!-- Tu jest miejsce do wpisywania -->
             <TextView
                 android:id="@+id/edittext"
                 android:layout_width="match_parent"
@@ -249,7 +253,7 @@
                     android:background="@color/buttons_color_calc"
                     android:fontFamily="monospace"
                     android:onClick="onClick"
-                    android:text="@string/pierwiastek"
+                    android:text="@string/sqrrt"
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:layout_marginRight="1dp"

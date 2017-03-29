@@ -16,8 +16,6 @@ public class Prosty_Kalkulator extends AppCompatActivity {
     TextView textView1;
     TextView textView2;
     int i=0;
-    int padl_wynik=0;
-    int o=0;
     float wynik;
 
     @Override

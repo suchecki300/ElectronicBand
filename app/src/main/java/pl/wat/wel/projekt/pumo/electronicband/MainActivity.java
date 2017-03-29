@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         button2= (Button) findViewById(R.id.button2);
         button3= (Button) findViewById(R.id.button3);
 
+        //Przyciski do menu glownego, kalkulatory, słownik i opisy
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override

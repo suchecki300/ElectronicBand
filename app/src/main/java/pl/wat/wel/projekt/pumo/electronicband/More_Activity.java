@@ -25,6 +25,7 @@ public class More_Activity extends AppCompatActivity {
 
         moree = resources.getStringArray(R.array.more_array);
 
+        //obsługa listy
         list= (ListView) findViewById(R.id.listView1);
         list.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, moree));
 
@@ -36,6 +37,8 @@ public class More_Activity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), moree[position], Toast.LENGTH_SHORT).show();
             }
         });
+
+
 
     }
 }
