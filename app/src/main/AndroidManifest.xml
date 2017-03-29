@@ -30,7 +30,7 @@
             android:name=".ChipsActivity"
             android:label="Układy scalone" />
         <activity
-            android:name=".ElectronicElementrsActivity"
+            android:name=".ElectronicElementsActivity"
             android:label="Elementy elektroniczne" />
         <activity
             android:name=".BasicTermsActivity"

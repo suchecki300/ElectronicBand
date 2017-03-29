@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Kldwld\Documents\GitHub\ElectronicBand\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="D:\Projekty\Android\git repo PUMO\ElectronicBand\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9a813957a03e89d5b6b4f28b39db32b830228923">
+        <dex dex="D:\Projekty\Android\git repo PUMO\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f29063331cedfc412b05057bb4658912e7e4e75c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Projekty\Android\git repo PUMO\ElectronicBand\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="C:\Users\Kldwld\Documents\GitHub\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d2c55075af416e82806aa3c0a7a8e0e3311dd758\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Kldwld\Documents\GitHub\ElectronicBand\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bb0ba11c61d3980601155aab3be59e5058434d03">
-        <dex dex="C:\Users\Kldwld\Documents\GitHub\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a92f87b147e1aac8d94137a74820164d668653d6\classes.dex" />
+        <dex dex="D:\Projekty\Android\git repo PUMO\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_bbe513722eacd854bfa2f05e83514ef2240a78fa\classes.dex" />
     </item>
 
 </items>

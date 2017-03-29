@@ -36,9 +36,9 @@ public class List {
     }
 
     /**
-     * Getter zwracający zawartość pola wordText.
+     * Getter zwracający zawartość pola wordText
      *
-     * @return Zwracana zmienna typu String.
+     * @return Zwracana zmienna typu String
      */
     public String getWordText() {
         return wordText;
