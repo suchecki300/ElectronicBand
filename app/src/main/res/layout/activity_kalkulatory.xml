@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     tools:context="pl.wat.wel.projekt.pumo.electronicband.MainActivity">
 
     <LinearLayout
@@ -29,6 +29,69 @@
             android:textAlignment="textStart"
             android:background="@drawable/button_kalkulatorki"
             style="@style/button_text"/>
+
+        <!-- shows submenu -->
+
+        <LinearLayout
+            android:id="@+id/logic_submenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/gate_not"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:onClick="onClickNOT"
+                android:text="NOT"/>
+            <Button
+                android:id="@+id/gate_and"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:onClick="onClickAND"
+                android:text="AND"/>
+            <Button
+                android:id="@+id/gate_nand"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:onClick="onClickNAND"
+                android:text="NAND"/>
+            <Button
+                android:id="@+id/gate_or"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:onClick="onClickOR"
+                android:text="OR"/>
+            <Button
+                android:id="@+id/gate_nor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:onClick="onClickNOR"
+                android:text="NOR"/>
+            <Button
+                android:id="@+id/gate_xor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:onClick="onClickXOR"
+                android:text="XOR"/>
+
+
+
+        </LinearLayout>
+
         <Button
             android:id="@+id/opisy_k"
             android:layout_width="match_parent"
