@@ -15,7 +15,7 @@
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/s_owniczek"
+            android:text="@string/dictionaryy"
             android:drawableStart="@mipmap/ic_launcher"
             android:textAlignment="textStart"
             android:background="@drawable/button_main_activity"

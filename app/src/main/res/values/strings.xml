@@ -3,7 +3,7 @@
     <string name="theory">Teoria</string>
     <string name="calculators">Kalkulatory</string>
     <string name="descriptions">Opisy</string>
-    <string name="bramki_logiczne">Bramki logiczne</string>
+    <string name="logic_bram">Bramki logiczne</string>
     <string name="prosty">Prosty</string>
     <string name="asin">asin</string>
     <string name="acos">acos</string>
@@ -33,5 +33,17 @@
     <string name="dziele">/</string>
     <string name="ce">CE</string>
     <string name="kalk">Kalkulatory</string>
-    <string name="s_owniczek">Słowniczek</string>
+    <string name="dictionaryy">Słowniczek</string>
+    <color name="buttons_color_calc">#8f9491</color>
+
+    <string-array name="more_array">
+        <item>sinus</item>
+        <item>cosinus</item>
+        <item>tangens</item>
+        <item>cotangens</item>
+        <item>potęga</item>
+        <item>logarytm naturalny</item>
+        <item>logarytm dziesiętny</item>
+
+    </string-array>
 </resources>

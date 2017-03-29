@@ -24,7 +24,7 @@
             android:id="@+id/bramki_k"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/bramki_logiczne"
+            android:text="@string/logic_bram"
             android:drawableStart="@mipmap/ic_launcher_round"
             android:textAlignment="textStart"
             android:background="@drawable/button_kalkulatorki"

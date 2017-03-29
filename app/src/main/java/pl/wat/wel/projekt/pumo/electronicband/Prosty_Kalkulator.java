@@ -1,5 +1,6 @@
 package pl.wat.wel.projekt.pumo.electronicband;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -43,6 +44,10 @@ public class Prosty_Kalkulator extends AppCompatActivity {
                 liczba1="";
                 editText.setText(liczba1);
                 break;
+            case R.id.more:
+                Intent more_functions = new Intent (getApplicationContext(), More_Activity.class);
+                more_functions.putExtra("name", editText.getText().toString());
+                startActivity(more_functions);
             //////wpisywanie cyfer//////////////////////////////
             case R.id.button1:
                 liczba1=editText.getText().toString() + "1";
@@ -218,31 +223,7 @@ public class Prosty_Kalkulator extends AppCompatActivity {
                     i = 0;
                 }
                 break;
-            case R.id.pi:
-                d= Math.PI;
-                editText.setText(String.valueOf(d));
-                break;
-
-            case R.id.sin:
-                d= Math.sin(Double.valueOf(editText.getText().toString()));
-                editText.setText(String.valueOf(d));
-                break;
-
-            case R.id.cos:
-                d= Math.cos(Double.valueOf(editText.getText().toString()));
-                editText.setText(String.valueOf(d));
-                break;
-
-            case R.id.tg:
-                d= Math.tan(Double.valueOf(editText.getText().toString()));
-                editText.setText(String.valueOf(d));
-                break;
-
-            case R.id.ctg:
-                d= 1/Math.tan(Double.valueOf(editText.getText().toString()));
-                editText.setText(String.valueOf(d));
-                break;
-            case R.id.sqrt:
+           case R.id.sqrt:
                 liczba1 = editText.getText().toString();
                 break;
 
