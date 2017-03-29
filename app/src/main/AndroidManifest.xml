@@ -25,15 +25,19 @@
         <activity
             android:name=".Prosty_Kalkulator"
             android:label="@string/prosty" />
-        <activity android:name=".Slowniczek_Activity" />
-        <activity android:name=".UkladyScaloneActivity"
-            android:label="Układy scalone"/>
-        <activity android:name=".ElementyElektoniczneActivity"
-            android:label="Elementy elektroniczne"/>
-        <activity android:name=".OgolnePojeciaActivity"
-            android:label="Ogólne pojęcia"/>
-        <activity android:name=".WarsztatActivity"
-            android:label="Warsztat"/>
+        <activity android:name=".DictionaryActivity" />
+        <activity
+            android:name=".ChipsActivity"
+            android:label="Układy scalone" />
+        <activity
+            android:name=".ElectronicElementrsActivity"
+            android:label="Elementy elektroniczne" />
+        <activity
+            android:name=".BasicTermsActivity"
+            android:label="Ogólne pojęcia" />
+        <activity
+            android:name=".WorkshopActivity"
+            android:label="Warsztat" />
     </application>
 
 </manifest>
