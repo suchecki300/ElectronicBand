@@ -6,23 +6,50 @@ package pl.wat.wel.projekt.pumo.electronicband;
 
 public class List {
 
-    private String tekst;
-    private int zdjecieID;
+    //========     Zmienne do przechowywania danych o konkretnym elemencie z listy.    =============
 
-    public List(String tekst) {
-        this.tekst = tekst;
+    private String wordText;
+    private int pictureID;
+
+    //==============================================================================================
+
+    /**
+     * Konstruktor tworzący obiekt, przyjmujący pojedynczy parametr. Ustawia tekst, który zostanie
+     * wyświetlony w liście.
+     *
+     * @param wordText Tekst, który ma być wyświetlony.
+     */
+    public List(String wordText) {
+        this.wordText = wordText;
     }
 
-    public List(String tekst, int id_zdjecia) {
-        this.tekst = tekst;
-        this.zdjecieID = id_zdjecia;
+    /**
+     * Konstruktor tworzący obiekt, przyjmujący dwa parametry. Ustawia tekst oraz charakterystyczne
+     * zdjęcie, które zostaną wyświetlone w liście.
+     *
+     * @param wordText   Tekst, który ma być wyświetlony.
+     * @param id_zdjecia Nazwa zdjęcia z folderu res np. R.raw.przykladowe_zdjecie
+     */
+    public List(String wordText, int id_zdjecia) {
+        this.wordText = wordText;
+        this.pictureID = id_zdjecia;
     }
 
-    public String getTekst() {
-        return tekst;
+    /**
+     * Getter zwracający zawartość pola wordText
+     *
+     * @return Zwracana zmienna typu String
+     */
+    public String getWordText() {
+        return wordText;
     }
 
-    public int getZdjecieID() {
-        return zdjecieID;
+    /**
+     * Getter zwracający zawartość pola pictureID.
+     *
+     * @return Zwaracana zmienna typu int.
+     */
+    public int getPictureID() {
+        return pictureID;
     }
 }

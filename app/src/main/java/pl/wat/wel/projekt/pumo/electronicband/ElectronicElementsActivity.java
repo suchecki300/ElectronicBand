@@ -6,15 +6,16 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class ElementyElektoniczneActivity extends AppCompatActivity {
+public class ElectronicElementsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list);
-
+        //Tworzenie nowej listy
         final ArrayList<List> list = new ArrayList<>();
 
+        //Dodwanie przykładowych danych
         list.add(new List("hello"));
         list.add(new List("hello"));
         list.add(new List("hello"));

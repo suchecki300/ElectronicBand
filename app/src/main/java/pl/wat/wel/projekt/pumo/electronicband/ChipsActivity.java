@@ -7,16 +7,17 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class UkladyScaloneActivity extends AppCompatActivity {
+public class ChipsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.i("UkladyScalone","Wszedlem");
         setContentView(R.layout.list);
-        Log.i("UkladyScalone","Jestem po ustawieniu kontentu");
+
+        //Tworzenie listy słów.
         final ArrayList<List> list = new ArrayList<>();
 
+        //Dodanie przykładowych zmiennych do listy.
         list.add(new List("sdasdad"));
         list.add(new List("asdasdads"));
         list.add(new List("asasdasd"));
@@ -28,12 +29,11 @@ public class UkladyScaloneActivity extends AppCompatActivity {
         list.add(new List("asdasd"));
         list.add(new List("asasdassad"));
 
-        Log.i("UkladyScalone","Jestem po wpisaniu do listy danych");
-        ListAdapter adapter = new ListAdapter(this,list);
-        Log.i("UkladyScalone","Ustawiam widok....");
+        //Tworzenie obiektu klasy ListAdapter.
+        ListAdapter adapter = new ListAdapter(this, list);
+
+        //Ustawianie na listView adaptera.
         ListView listView = (ListView) findViewById(R.id.list);
-        Log.i("UkladyScalone","Ustawilem widok, wlaczam adapter");
         listView.setAdapter(adapter);
-        Log.i("UkladyScalone","OK!!!!!!");
     }
 }

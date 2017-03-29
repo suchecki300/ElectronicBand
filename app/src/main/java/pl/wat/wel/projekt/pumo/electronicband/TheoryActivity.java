@@ -8,27 +8,32 @@ import android.widget.Button;
 
 public class TheoryActivity extends AppCompatActivity {
 
-    Button buttonElemElektro;
-    Button buttonUkladyScalone;
-    Button buttonOgolnePojecia;
-    Button buttonWarsztat;
+    Button buttonElectronicElements;
+    Button buttonChips;
+    Button buttonCommonTerms;
+    Button buttonWorkshop;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_theory);
 
-        buttonElemElektro = (Button) findViewById(R.id.elem_elektroniczne);
-        buttonUkladyScalone = (Button) findViewById(R.id.uklady);
-        buttonOgolnePojecia = (Button) findViewById(R.id.ogolne_pojecia);
-        buttonWarsztat = (Button) findViewById(R.id.warsztat);
+        buttonElectronicElements = (Button) findViewById(R.id.electronics_elements);
+        buttonChips = (Button) findViewById(R.id.integrated_circuits);
+        buttonCommonTerms = (Button) findViewById(R.id.basic_terms);
+        buttonWorkshop = (Button) findViewById(R.id.workshop);
 
-        onClickButton(buttonElemElektro,ElementyElektoniczneActivity.class);
-        onClickButton(buttonUkladyScalone,UkladyScaloneActivity.class);
-        onClickButton(buttonOgolnePojecia,OgolnePojeciaActivity.class);
-        onClickButton(buttonWarsztat,WarsztatActivity.class);
+        onClickButton(buttonElectronicElements,ElectronicElementsActivity.class);
+        onClickButton(buttonChips,ChipsActivity.class);
+        onClickButton(buttonCommonTerms,BasicTermsActivity.class);
+        onClickButton(buttonWorkshop,WorkshopActivity.class);
     }
 
+    /**
+     * Metoda obsługująca przełączanie pomiędzy aktywnościami.
+     * @param button    Przycisk, który ma przełączyć aktywność.
+     * @param c         Aktywność, która się uruchomi po naciśnięciu przycisku.
+     */
     private void onClickButton(Button button, final Class c){
         button.setOnClickListener(new View.OnClickListener() {
             @Override
