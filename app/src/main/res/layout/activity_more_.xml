@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="pl.wat.wel.projekt.pumo.electronicband.More_Activity"
+    tools:context="pl.wat.wel.projekt.pumo.electronicband.More_Activity_moreee"
     android:orientation="horizontal">
 
-<!--Operacje matematyczne tu beda-->
+
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/listView1"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true">
+        >
     </ListView>
 
 

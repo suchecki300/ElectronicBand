@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Prosty_Kalkulator extends AppCompatActivity {
 
@@ -43,9 +44,12 @@ public class Prosty_Kalkulator extends AppCompatActivity {
                 editText.setText(liczba1);
                 break;
             case R.id.more:
-                Intent more_functions = new Intent (getApplicationContext(), More_Activity.class);
-                more_functions.putExtra("name", editText.getText().toString());
+               Intent more_functions = new Intent (getApplicationContext(), More_Activity_moreee.class);
+                String sending_mes= editText.getText().toString();
+                more_functions.putExtra("name", sending_mes);
+
                 startActivity(more_functions);
+                break;
             //////wpisywanie cyfer//////////////////////////////
             case R.id.button1:
                 liczba1=editText.getText().toString() + "1";
@@ -94,23 +98,7 @@ public class Prosty_Kalkulator extends AppCompatActivity {
 ////////////////////////////////////////////////////////
             case R.id.button10:
                 if (i == 0) {
-                    if(editText.getText().toString().equals(""))
-                    {
-                        if(textView2.getText().toString().equals(""))
-                            textView2.setText("0");
-                        textView1.setText(textView2.getText().toString());
-                        textView2.setText("+");
-                        editText.setText("");
-                        i=1;
-                    }
-                    else {
-                        liczba2 = editText.getText().toString();
-                        textView1.setText(liczba2);
-                        textView2.setText("+");
-                        liczba1 = "";
-                        editText.setText("");
-                        i = 1;
-                    }
+                    settters('+');
                 } else {
                     if(textView2.getText().toString().equals("-") || textView2.getText().toString().equals("x") || textView2.getText().toString().equals("/") )
                     {    textView2.setText("+"); textView1.setText(textView1.getText().toString()); break; }
@@ -126,24 +114,9 @@ public class Prosty_Kalkulator extends AppCompatActivity {
             //---------------------ODEJMOWANIE--------------------------------------------------------
             case R.id.button11:
                 if (i == 0) {
-                    if(editText.getText().toString().equals(""))
-                    {
-                        if(textView2.getText().toString().equals(""))
-                            textView2.setText("0");
-                        textView1.setText(textView2.getText().toString());
-                        textView2.setText("-");
-                        editText.setText("");
-                        i=1;
-                    }
-                    else {
-                        liczba2 = editText.getText().toString();
-                        textView1.setText(liczba2);
-                        textView2.setText("-");
-                        liczba1 = "";
-                        editText.setText("");
-                        i = 1;
-                    }
-                } else {
+                    settters('-');
+                }
+                else {
                     if(textView2.getText().toString().equals("+") || textView2.getText().toString().equals("x") || textView2.getText().toString().equals("/") )
                     {    textView2.setText("-"); textView1.setText(textView1.getText().toString()); break; }
                     if(editText.getText().toString().equals(""))
@@ -160,23 +133,7 @@ public class Prosty_Kalkulator extends AppCompatActivity {
             case R.id.mnoz:
 
                 if (i == 0) {
-                    if(editText.getText().toString().equals(""))
-                    {
-                        if(textView2.getText().toString().equals(""))
-                            textView2.setText("0");
-                        textView1.setText(textView2.getText().toString());
-                        textView2.setText("x");
-                        editText.setText("");
-                        i=1;
-                    }
-                    else {
-                        liczba2 = editText.getText().toString();
-                        textView1.setText(liczba2);
-                        textView2.setText("x");
-                        liczba1 = "";
-                        editText.setText("");
-                        i = 1;
-                    }
+                    settters('x');
                 } else {
                     if(textView2.getText().toString().equals("+") || textView2.getText().toString().equals("-") || textView2.getText().toString().equals("/") )
                     {    textView2.setText("x"); textView1.setText(textView1.getText().toString()); break; }
@@ -192,23 +149,7 @@ public class Prosty_Kalkulator extends AppCompatActivity {
             //---------------------Dzielenie--------------------------------------------------------
             case R.id.dziel:
                 if (i == 0) {
-                    if(editText.getText().toString().equals(""))
-                    {
-                        if(textView2.getText().toString().equals(""))
-                            textView2.setText("0");
-                        textView1.setText(textView2.getText().toString());
-                        textView2.setText("/");
-                        editText.setText("");
-                        i=1;
-                    }
-                    else {
-                        liczba2 = editText.getText().toString();
-                        textView1.setText(liczba2);
-                        textView2.setText("/");
-                        liczba1 = "";
-                        editText.setText("");
-                        i = 1;
-                    }
+                    settters('/');
                 } else {
                     if(textView2.getText().toString().equals("+") || textView2.getText().toString().equals("x") || textView2.getText().toString().equals("-") )
                     {    textView2.setText("/"); textView1.setText(textView1.getText().toString()); break; }
@@ -223,6 +164,10 @@ public class Prosty_Kalkulator extends AppCompatActivity {
                 break;
            case R.id.sqrt:
                 liczba1 = editText.getText().toString();
+               Math.sqrt(Float.valueOf(liczba1));
+               editText.setText(String.valueOf(Math.sqrt(Float.valueOf(liczba1))));
+               Toast.makeText(getApplicationContext(), "sqrt(" + liczba1 + ") =" + editText.getText().toString(), Toast.LENGTH_SHORT).show();
+
                 break;
 
             case R.id.button12:
@@ -256,6 +201,8 @@ public class Prosty_Kalkulator extends AppCompatActivity {
     }
 
 
+
+
     public void zerowanie_do_wyniku()
     {
         textView1.setText("");
@@ -264,7 +211,7 @@ public class Prosty_Kalkulator extends AppCompatActivity {
         i = 0;
     }
 
-    /*
+
     public void settters(char znak)
     {
         if(editText.getText().toString().equals(""))
@@ -272,34 +219,19 @@ public class Prosty_Kalkulator extends AppCompatActivity {
             if(textView2.getText().toString().equals(""))
                 textView2.setText("0");
             textView1.setText(textView2.getText().toString());
-            textView2.setText("-");
+            textView2.setText(String.valueOf(znak));
             editText.setText("");
             i=1;
         }
         else {
-            if (i == 0) {
-                liczba2 = editText.getText().toString();
-                textView1.setText(liczba2);
-                textView2.setText(znak);
-                liczba1 = "";
-                editText.setText("");
-                i = 1;
-
-            } else {
-                if (znak=='+')
-                wynik = Float.valueOf(textView1.getText().toString()) + Float.valueOf(editText.getText().toString());
-                else if(znak =='-')
-                    wynik = Float.valueOf(textView1.getText().toString()) - Float.valueOf(editText.getText().toString());
-                else if(znak =='-')
-                    wynik = Float.valueOf(textView1.getText().toString()) - Float.valueOf(editText.getText().toString());
-                textView1.setText("");
-                editText.setText("");
-                textView2.setText(String.valueOf(wynik));
-                i = 0;
-            }
+            liczba2 = editText.getText().toString();
+            textView1.setText(liczba2);
+            textView2.setText(String.valueOf(znak));
+            liczba1 = "";
+            editText.setText("");
+            i = 1;
         }
     }
-    */
 
 }
 

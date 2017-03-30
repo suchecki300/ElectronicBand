@@ -97,7 +97,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d1d1ea042aa3d85d60b0c66aedccc7549a5a1e0d">
+        sha1="2f74dcf45d94afb977a9f87ef4363c9062827d0d">
         <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_dec4dfbdf2a0aadade65fdc4b7296ca19106b58e/classes.dex" />
     </item>
     <item

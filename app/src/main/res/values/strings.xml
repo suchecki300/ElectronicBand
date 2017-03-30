@@ -35,6 +35,10 @@
     <string name="kalk">Kalkulatory</string>
     <string name="dictionaryy">Słowniczek</string>
     <color name="buttons_color_calc">#8f9491</color>
+    <string name="elementy_elektroniczne">Elementy elektroniczne</string>
+    <string name="uklady_scalone">układy scalone</string>
+    <string name="ogolne_pojecia">Ogólne pojęcia</string>
+    <string name="warsztat">Warsztat</string>
 
     <string-array name="more_array">
         <item>sinus</item>
