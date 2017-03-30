@@ -38,7 +38,8 @@
         <activity
             android:name=".WorkshopActivity"
             android:label="Warsztat" />
-        <activity android:name=".More_Activity_moreee"></activity>
+        <activity android:name=".More_Activity_moreee" />
+        <activity android:name=".LogicCalcs"></activity>
     </application>
 
 </manifest>
