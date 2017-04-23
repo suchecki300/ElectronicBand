@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     Button button;
     Button button2;
     Button button3;
+    Button button4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         button= (Button) findViewById(R.id.button);
         button2= (Button) findViewById(R.id.button2);
         button3= (Button) findViewById(R.id.button3);
+        button4= (Button) findViewById(R.id.button4);
 
         //Przyciski do menu glownego, kalkulatory, słownik i opisy
 
@@ -46,6 +48,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), DictionaryActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Courses.class);
                 startActivity(intent);
             }
         });

@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">ElectronicBand</string>
     <string name="theory">Teoria</string>
+    <string name="courses">Kursy</string>
     <string name="calculators">Kalkulatory</string>
     <string name="descriptions">Opisy</string>
     <string name="logic_bram">Bramki logiczne</string>
