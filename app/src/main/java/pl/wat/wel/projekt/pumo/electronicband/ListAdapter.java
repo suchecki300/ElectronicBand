@@ -57,7 +57,7 @@ public class ListAdapter extends ArrayAdapter<List> {
         tekst.setText(currentList.getWordText());
 
         LinearLayout linearLayout = (LinearLayout) listItemView.findViewById(R.id.text_container);
-        linearLayout.setBackgroundColor(Color.GREEN);
+        linearLayout.setBackgroundColor(mContext.getResources().getColor(R.color.listColor));
 
         return listItemView;
     }

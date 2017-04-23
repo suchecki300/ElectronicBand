@@ -39,6 +39,7 @@
     <string name="uklady_scalone">układy scalone</string>
     <string name="ogolne_pojecia">Ogólne pojęcia</string>
     <string name="warsztat">Warsztat</string>
+    <string name="edytor_schemat_w">Edytor schematów</string>
 
     <string-array name="more_array">
         <item>sinus</item>
@@ -50,4 +51,5 @@
         <item>logarytm dziesiętny</item>
 
     </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
 </resources>

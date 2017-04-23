@@ -21,24 +21,25 @@ public class WorkshopActivity extends AppCompatActivity {
         final ArrayList<List> list = new ArrayList<>();
 
         //Dodanie przykładowych zmiennych do listy.
-        list.add(new List("sdaxxxxxx"));
-        list.add(new List("xcxcxcxxc"));
-        list.add(new List("xcxxccxxc"));
-        list.add(new List("hcxcxcx"));
-        list.add(new List("hcxcxcx"));
-        list.add(new List("hxccxcxcxlo"));
-        list.add(new List("helasdasdasdlo"));
-        list.add(new List("hxccxcxcxlo"));
-        list.add(new List("helasdasdasdlo"));
-        list.add(new List("heasdasdallo"));
-        list.add(new List("hasdadasdllo"));
-        list.add(new List("heasdasdllo"));
-        list.add(new List("sdaxxxxxx"));
-        list.add(new List("xcxcxcxxc"));
-        list.add(new List("xcxxccxxc"));
-        list.add(new List("heasdasdallo"));
-        list.add(new List("hasdadasdllo"));
-        list.add(new List("heasdasdllo"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
 
         //Tworzenie obiektu klasy ListAdapter.
         ListAdapter adapter = new ListAdapter(this, list);

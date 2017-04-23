@@ -16,16 +16,26 @@ public class ElectronicElementsActivity extends AppCompatActivity {
         final ArrayList<List> list = new ArrayList<>();
 
         //Dodwanie przykładowych danych
-        list.add(new List("hello"));
-        list.add(new List("hello"));
-        list.add(new List("hello"));
-        list.add(new List("hello"));
-        list.add(new List("hello"));
-        list.add(new List("hello"));
-        list.add(new List("hello"));
-        list.add(new List("hello"));
-        list.add(new List("hello"));
-        list.add(new List("hello"));
+        list.add(new List("Rezystor"));
+        list.add(new List("Kondensator"));
+        list.add(new List("Cewka"));
+        list.add(new List("Potencjometr"));
+        list.add(new List("Trymer"));
+        list.add(new List("Transformmator"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+
 
 
         ListAdapter adapter = new ListAdapter(this,list);

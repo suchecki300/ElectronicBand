@@ -3,5 +3,16 @@
     <color name="colorPrimary">#70b169</color>
     <color name="colorPrimaryDark">#438116</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="schematic_backg">#405138</color>
     <color name="black">#000000</color>
+    <color name="listColor">#29691b</color>
+
+
+    //kolory do designa
+    <color name="dis_usun">#87d6d0</color>
+    <color name="dis_zapisz">#df9999</color>
+    <color name="dis_polacz">#a7b8e2</color>
+    <color name="dis_parametry">#8fdcac</color>
+    <color name="dis_przesuwaj">#e7e79a</color>
+
 </resources>
