@@ -41,6 +41,11 @@
     <string name="warsztat">Warsztat</string>
     <string name="AND"><u>Bramka AND</u></string>
     <string name="OR"><u>Bramka OR</u></string>
+    <string name="NOR"><u>Bramka NOR</u></string>
+    <string name="XOR"><u>Bramka XOR</u></string>
+    <string name="NOT"><u>Bramka NOT</u></string>
+    <string name="NAND"><u>Bramka NAND</u></string>
+
 
     <string-array name="more_array">
         <item>sinus</item>
