@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import static pl.wat.wel.projekt.pumo.electronicband.R.id.button4;
+
 public class MainActivity extends AppCompatActivity {
 
     Button button;
@@ -52,10 +54,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Courses.class);
+                Intent intent = new Intent(getApplicationContext(), SchematicsEditor.class);
                 startActivity(intent);
             }
         });

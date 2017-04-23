@@ -18,16 +18,26 @@ public class ChipsActivity extends AppCompatActivity {
         final ArrayList<List> list = new ArrayList<>();
 
         //Dodanie przykładowych zmiennych do listy.
-        list.add(new List("sdasdad"));
-        list.add(new List("asdasdads"));
-        list.add(new List("asasdasd"));
-        list.add(new List("asdasd"));
-        list.add(new List("asasdassad"));
-        list.add(new List("sdasdad"));
-        list.add(new List("asdasdads"));
-        list.add(new List("asasdasd"));
-        list.add(new List("asdasd"));
-        list.add(new List("asasdassad"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+        list.add(new List("TEST TEST TEST TEST"));
+
 
         //Tworzenie obiektu klasy ListAdapter.
         ListAdapter adapter = new ListAdapter(this, list);
