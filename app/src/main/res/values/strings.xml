@@ -46,6 +46,17 @@
     <string name="XOR"><u>Bramka XOR</u></string>
     <string name="NOT"><u>Bramka NOT</u></string>
     <string name="NAND"><u>Bramka NAND</u></string>
+    <string name="kurs_arduino1">http://forbot.pl/blog/artykuly/programowanie/kurs-arduino-0-zapowiedz-cyklu-id5290</string>
+    <string name="kurs_arduino2">http://forbot.pl/blog/artykuly/programowanie/kurs-arduino-ii-1-wstep-spis-tresci-id15494</string>
+    <string name="kurs_robotow">http://forbot.pl/blog/artykuly/roboty/kurs-budowy-robotow-1-wstep-spis-tresci-id18935</string>
+    <string name="kurs_edison">http://forbot.pl/blog/artykuly/programowanie/kurs-intel-edison-1-spis-tresci-id11185</string>
+    <string name="kurs_elektroniki1">http://forbot.pl/blog/artykuly/podstawy/podstawy-elektroniki-1-napiecie-prad-opor-zasilanie-id3947</string>
+    <string name="kurs_elektroniki2">http://forbot.pl/blog/artykuly/elektronika/kurs-elektroniki-ii-1-spis-tresci-id10746</string>
+    <string name="kurs_stmf4">http://forbot.pl/blog/artykuly/programowanie/kurs-stm32-f4-1-czas-poznac-hal-spis-tresci-kursu-id14114</string>
+    <string name="kurs_stm32">http://forbot.pl/blog/artykuly/programowanie/stm32-praktyce-1-platforma-srodowisko-id2733</string>
+    <string name="kurs_lutowania">http://forbot.pl/blog/artykuly/podstawy/kurs-lutowania-1-wstep-spis-tresci-id12556</string>
+    <string name="kurs_eagle">http://forbot.pl/blog/artykuly/podstawy/cadsoft-eagle-czesc-1-schematy-id1468</string>
+    <string name="kurs_cyfrowki">http://forbot.pl/blog/artykuly/elektronika/technika-cyfrowa-1-wstep-spis-tresci-id18070</string>
 
 
     <string-array name="more_array">
