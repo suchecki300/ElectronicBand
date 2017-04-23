@@ -3,21 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Kldwld\Documents\GitHub\ElectronicBand\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="74ba1337a4bb9ccb504e7d3d223de9e1a8243e11">
-        <dex dex="C:\Users\Kldwld\Documents\GitHub\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a92f87b147e1aac8d94137a74820164d668653d6\classes.dex" />
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_71eaa06cf0176d5c9238ae10cc486d71ec814169\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Kldwld\Documents\GitHub\ElectronicBand\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Konrad\.android\build-cache\3f8c524a7c9d29fc3bafa455e1f7d426bf5c54d2\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="C:\Users\Kldwld\Documents\GitHub\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d2c55075af416e82806aa3c0a7a8e0e3311dd758\classes.dex" />
+        sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
+        <dex dex="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_41eaec8075d75605ad74f0dc5cf1440c14ad4103\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6e0de749b467245022df0b829db83e80756604c7">
+        <dex dex="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d5a30dffbbe95ea318dffb230875a12c8e156691\classes.dex" />
     </item>
 
 </items>
