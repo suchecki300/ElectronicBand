@@ -17,8 +17,13 @@ public class LogicCalcsAND extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_logic_calcs_and);
+        Button aAnd = (Button) findViewById(R.id.butAand);
+        Button bAnd = (Button) findViewById(R.id.butBand);
+        TextView out = (TextView) findViewById(R.id.outQand);
+        aAnd.setText("1");
+        bAnd.setText("1");
         Context context = getApplicationContext();
-        CharSequence text = "Dotknij aby ustawic wartosci startowe";
+        CharSequence text = "Dotknij aby zmienic wartosci bramki";
         int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();

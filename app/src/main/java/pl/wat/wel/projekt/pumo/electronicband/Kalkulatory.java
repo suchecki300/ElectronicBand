@@ -47,12 +47,18 @@ public class Kalkulatory extends AppCompatActivity {
     }
 
     public void onClickNOR(View view) {
+        Intent intent = new Intent(getApplicationContext(), LogicCalcsNOR.class);
+        startActivity(intent);
     }
 
     public void onClickNAND(View view) {
+        Intent intent = new Intent(getApplicationContext(), LogicCalcsNAND.class);
+        startActivity(intent);
     }
 
     public void onClickNOT(View view) {
+        Intent intent = new Intent(getApplicationContext(), LogicCalcsNOT.class);
+        startActivity(intent);
     }
 
     public void onClickAND(View view) {
@@ -61,8 +67,12 @@ public class Kalkulatory extends AppCompatActivity {
     }
 
     public void onClickOR(View view) {
+        Intent intent = new Intent(getApplicationContext(), LogicCalcsOR.class );
+        startActivity(intent);
     }
 
     public void onClickXOR(View view) {
+        Intent intent = new Intent(getApplicationContext(), LogicCalcsXOR.class);
+        startActivity(intent);
     }
 }

@@ -40,7 +40,11 @@
             android:label="Warsztat" />
         <activity android:name=".More_Activity_moreee" />
         <activity android:name=".LogicCalcsAND" />
-        <activity android:name=".LogicCalcsOR"></activity>
+        <activity android:name=".LogicCalcsOR" />
+        <activity android:name=".LogicCalcsNOR" />
+        <activity android:name=".LogicCalcsXOR" />
+        <activity android:name=".LogicCalcsNAND" />
+        <activity android:name=".LogicCalcsNOT"></activity>
     </application>
 
 </manifest>
