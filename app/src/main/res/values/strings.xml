@@ -39,6 +39,8 @@
     <string name="uklady_scalone">układy scalone</string>
     <string name="ogolne_pojecia">Ogólne pojęcia</string>
     <string name="warsztat">Warsztat</string>
+    <string name="AND"><u>Bramka AND</u></string>
+    <string name="OR"><u>Bramka OR</u></string>
 
     <string-array name="more_array">
         <item>sinus</item>
