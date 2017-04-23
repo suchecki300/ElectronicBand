@@ -56,6 +56,8 @@ public class Kalkulatory extends AppCompatActivity {
     }
 
     public void onClickAND(View view) {
+        Intent intent = new Intent(getApplicationContext(), LogicCalcsAND.class );
+        startActivity(intent);
     }
 
     public void onClickOR(View view) {

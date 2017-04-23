@@ -3,6 +3,15 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3cf433242aaf260d5b494da23a6b9b7228cd6618">
+        <dex dex="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d5a30dffbbe95ea318dffb230875a12c8e156691\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -18,15 +27,6 @@
         revision="25.0.0"
         sha1="c5d103b270b3f3b50d8e6b44aa8e068b0de33426">
         <dex dex="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_41eaec8075d75605ad74f0dc5cf1440c14ad4103\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6e0de749b467245022df0b829db83e80756604c7">
-        <dex dex="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d5a30dffbbe95ea318dffb230875a12c8e156691\classes.dex" />
     </item>
 
 </items>
