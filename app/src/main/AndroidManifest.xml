@@ -44,7 +44,8 @@
         <activity android:name=".LogicCalcsNOR" />
         <activity android:name=".LogicCalcsXOR" />
         <activity android:name=".LogicCalcsNAND" />
-        <activity android:name=".LogicCalcsNOT"></activity>
+        <activity android:name=".LogicCalcsNOT" />
+        <activity android:name=".Courses"></activity>
     </application>
 
 </manifest>

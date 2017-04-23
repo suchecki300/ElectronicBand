@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pl.wat.wel.projekt.pumo.electronicband.Courses">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/arduinokurs"
+                android:onClick="ard1OnClick"/>
+
+            <Button
+                android:id="@+id/button14"
+                android:background="#FFFFFF"
+                style="@style/button_course"
+                android:text="Kurs arduino - Poziom&#10;I"
+                android:onClick="ard1OnClick2"/>
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ard2OnClick"
+                app:srcCompat="@drawable/arduinokurs2" />
+
+            <Button
+                android:id="@+id/button15"
+                style="@style/button_course"
+                android:onClick="ard2OnClick2"
+                android:text="Kurs araduino - poziom&#10;II" />
+
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kursbudowyrotow_1"
+                android:onClick="robOnClick"/>
+
+            <Button
+                android:id="@+id/button16"
+                style="@style/button_course"
+                android:text="Kurs budowy robotow"
+                android:onClick="robOnClick2"/>
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kursedisona_1"
+                android:onClick="ediOnClick"/>
+
+            <Button
+                android:id="@+id/button22"
+                style="@style/button_course"
+                android:text="Kurs Intel Edisona"
+                android:onClick="ediOnClick2"/>
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kurselektroniki"
+                android:onClick="elek1OnClick"/>
+
+            <Button
+                android:id="@+id/button21"
+                style="@style/button_course"
+                android:text="Kurs podstaw elektroniki"
+                android:onClick="elek1OnClick2"/>
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+
+                android:id="@+id/imageButton15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kurselektroniki2_1"
+                android:onClick="elek2OnClick"/>
+
+            <Button
+                android:id="@+id/button20"
+                style="@style/button_course"
+                android:text="Kurs podstaw elektroniki&#10; II"
+                android:onClick="elek2OnClick2"/>
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kursstm32f4_1"
+                android:onClick="stmf4OnClick"/>
+
+            <Button
+                android:id="@+id/button19"
+                style="@style/button_course"
+                android:text="Kurs stm32 f4 cube i hal"
+                android:onClick="stmf4OnClick2"/>
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageButton17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kursstm32_1"
+                android:onClick="stm32OnClick"/>
+
+            <Button
+                android:id="@+id/button18"
+                style="@style/button_course"
+                android:text="Kurs stm32"
+                android:onClick="stmf32OnClick2"/>
+        </TableRow>
+
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kurslutowania"
+                android:onClick="lutOnClick"/>
+
+            <Button
+                android:id="@+id/button17"
+                style="@style/button_course"
+                android:text="Kurs lutowania"
+                android:onClick="lutOnClick2"/>
+        </TableRow>
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageButton19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/eagle"
+                android:onClick="eagOnClick"/>
+
+            <Button
+                android:id="@+id/button24"
+                style="@style/button_course"
+                android:text="Kurs Eagle"
+                android:onClick="eagOnClick2"/>
+
+        </TableRow>
+        <TableRow
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageButton20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kurstc_miniaturka_1"
+                android:onClick="cyfrOnClick"/>
+
+            <Button
+                android:id="@+id/button25"
+                style="@style/button_course"
+                android:text="Kurs techniki cyfrowej"
+                android:onClick="cyfrOnClick2"/>
+
+        </TableRow>
+    </TableLayout>
+</ScrollView>
