@@ -14,9 +14,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import static android.R.attr.y;
 import static android.widget.Toast.makeText;
-import static pl.wat.wel.projekt.pumo.electronicband.R.string.c;
 
 
 public class SchematicsEditor extends AppCompatActivity {
@@ -108,6 +106,8 @@ public class SchematicsEditor extends AppCompatActivity {
         else if(position==0)
             imgs[general_id].setImageResource(R.drawable.rezystor2);
         else if(position==3)
+            imgs[general_id].setImageResource(R.drawable.diode2);
+        else if(position==4)
             imgs[general_id].setImageResource(R.drawable.diode_led);
 
 
@@ -187,10 +187,27 @@ public class SchematicsEditor extends AppCompatActivity {
             connections[general_id].setY(y_first+68);
 
         }
-
-
         if(y_first < y_position)
         {
+            connectionspion[general_id].setX(start+(scale*fin_scale)-68-(y_position-(y_first))*(float)0.5);    //-300
+            connectionspion[general_id].setY(y_first+68+( y_position-(y_first))*(float)0.5);
+            connectionspion[general_id].getLayoutParams().width = (int) y_position-(y_first);
+
+            connectionspion[general_id].setRotation((float) 90.0);
+
+        }
+        else if(y_first > y_position)
+        {
+            int tempx,tempy;
+            tempx= x_first;
+            tempy= y_first;
+
+            x_first=x_position;
+            y_first=y_position;
+            x_position=tempx;
+            y_position=tempy;
+
+
             connectionspion[general_id].setX(start+(scale*fin_scale)-68-(y_position-(y_first))*(float)0.5);    //-300
             connectionspion[general_id].setY(y_first+68+( y_position-(y_first))*(float)0.5);
             connectionspion[general_id].getLayoutParams().width = (int) y_position-(y_first);

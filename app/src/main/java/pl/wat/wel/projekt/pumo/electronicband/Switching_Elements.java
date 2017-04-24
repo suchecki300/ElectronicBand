@@ -4,15 +4,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 public class Switching_Elements extends AppCompatActivity {
 
@@ -72,7 +69,9 @@ public class Switching_Elements extends AppCompatActivity {
                 R.drawable.resistor,
                 R.drawable.capacity_electroit,
                 R.drawable.induction,
-                R.drawable.battery
+                R.drawable.diodee,
+
+                R.drawable.diode_leed
 
         };
 

@@ -10,7 +10,7 @@
     android:id="@+id/settings"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:src="@drawable/eagle"
+    android:src="@drawable/ustaw"
 
 
     android:layout_alignParentRight="true"
