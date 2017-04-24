@@ -42,7 +42,7 @@
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/courses"
+            android:text="kursy"
             android:drawableStart="@mipmap/ic_launcher"
             android:textAlignment="textStart"
             android:background="@drawable/button_main_activity"

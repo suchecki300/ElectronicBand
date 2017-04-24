@@ -39,12 +39,12 @@
     </style>
 
     <style name="button_course" >
-        <item name="android:layout_width" >match_parent</item>
+        <item name="android:layout_width" >210dp</item>
         <item name="android:layout_height" >match_parent</item>
-        <item name="android:layout_margin" >0dp</item>
+        <item name="android:layout_marginLeft" >0dp</item>
         <item name="android:gravity" >center</item>
-        <item name="android:layout_gravity"></item>
-        <item name="android:padding" >4dp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:padding" >0dp</item>
         <item name="android:background">#FFFFFF</item>
 
     </style>
