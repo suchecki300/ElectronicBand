@@ -48,6 +48,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/suchecki300/Pulpit/ElectronicBand/ElectronicBand/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="af0d2e5ef62b8091c23822024cc070cf45c1bca7">
+        <dex dex="/home/suchecki300/Pulpit/ElectronicBand/ElectronicBand/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_a6fd9b821e1d4742d1748d7eec44856b0116402f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/suchecki300/.android/build-cache/3327084a5b8b4071ee18964c13868eb970ecd3ff/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -72,6 +81,15 @@
         revision="25.0.0"
         sha1="439eeb5ffd54cbd18db0a6aea471e8356f19fc36">
         <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha7_05b49cb9ef16c73a866f1728a4c9eb5ba15693f0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/suchecki300/Pulpit/ElectronicBand/ElectronicBand/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/home/suchecki300/Pulpit/ElectronicBand/ElectronicBand/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_6d47729f071f06ee4e67ce1f27a6d813bcf3d977/classes.dex" />
     </item>
     <item
         is-multidex="false"

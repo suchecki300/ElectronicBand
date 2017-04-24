@@ -59,4 +59,16 @@
 
     </string-array>
     <string name="title_activity_main2">Main2Activity</string>
+    <string name="courses">courses</string>
+    <string name="kurs_arduino1" />
+    <string name="kurs_arduino2" />
+    <string name="kurs_robotow" />
+    <string name="kurs_edison" />
+    <string name="kurs_elektroniki1" />
+    <string name="kurs_elektroniki2" />
+    <string name="kurs_stmf4" />
+    <string name="kurs_stm32" />
+    <string name="kurs_lutowania" />
+    <string name="kurs_eagle" />
+    <string name="kurs_cyfrowki" />
 </resources>
