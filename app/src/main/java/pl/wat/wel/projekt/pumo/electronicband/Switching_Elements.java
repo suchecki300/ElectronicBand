@@ -61,6 +61,7 @@ public class Switching_Elements extends AppCompatActivity {
             imageView.setLayoutParams(new GridView.LayoutParams(250,250));
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
             imageView.setPadding(8,8,8,8);
+            
             imageView.setImageResource(mThumbIds[position]);
             return imageView;
         }
