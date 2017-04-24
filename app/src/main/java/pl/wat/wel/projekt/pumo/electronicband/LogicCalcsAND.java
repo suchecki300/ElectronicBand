@@ -1,6 +1,5 @@
 package pl.wat.wel.projekt.pumo.electronicband;
 
-
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
