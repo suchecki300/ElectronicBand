@@ -9,17 +9,19 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58519fd3-9313-4662-b9a2-a04c66c91871" name="Default" comment="//Damian uzupelnienie listy">
+    <list default="true" id="58519fd3-9313-4662-b9a2-a04c66c91871" name="Default" comment="//Damian nowy branch">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Dictionary/BasicTermsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Dictionary/BasicTermsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Dictionary/ChipsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Dictionary/ChipsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Dictionary/ElectronicElementsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Dictionary/ElectronicElementsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/test_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/test_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="ElectronicBand.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,19 +64,60 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="0">
               <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorkshopActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WorkshopActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Dictionary/WorkshopActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicTermsActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Dictionary/BasicTermsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="59" column="78" selection-start-line="59" selection-start-column="78" selection-end-line="59" selection-end-column="78" />
+              <folding>
+                <element signature="e#1127#1168#0" expanded="true" />
+                <element signature="e#1198#1243#0" expanded="true" />
+                <element signature="e#1273#1309#0" expanded="true" />
+                <element signature="e#1339#1389#0" expanded="true" />
+                <element signature="e#1419#1471#0" expanded="true" />
+                <element signature="e#1501#1546#0" expanded="true" />
+                <element signature="e#1576#1617#0" expanded="true" />
+                <element signature="e#1647#1687#0" expanded="true" />
+                <element signature="e#1717#1764#0" expanded="true" />
+                <element signature="e#1794#1841#0" expanded="true" />
+                <element signature="e#2365#2406#0" expanded="true" />
+                <element signature="e#2407#2441#0" expanded="true" />
+                <element signature="e#2547#2592#0" expanded="true" />
+                <element signature="e#2593#2632#0" expanded="true" />
+                <element signature="e#2738#2774#0" expanded="true" />
+                <element signature="e#2775#2804#0" expanded="true" />
+                <element signature="e#2910#2962#0" expanded="true" />
+                <element signature="e#2963#3006#0" expanded="true" />
+                <element signature="e#3112#3164#0" expanded="true" />
+                <element signature="e#3165#3210#0" expanded="true" />
+                <element signature="e#3316#3361#0" expanded="true" />
+                <element signature="e#3362#3400#0" expanded="true" />
+                <element signature="e#3506#3547#0" expanded="true" />
+                <element signature="e#3548#3582#0" expanded="true" />
+                <element signature="e#3688#3728#0" expanded="true" />
+                <element signature="e#3729#3762#0" expanded="true" />
+                <element signature="e#3868#3915#0" expanded="true" />
+                <element signature="e#3916#3956#0" expanded="true" />
+                <element signature="e#4062#4109#0" expanded="true" />
+                <element signature="e#4110#4151#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1985,7 +2028,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/ElectronicElementsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/BasicTermsActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Dictionary/BasicTermsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Dictionary/ChipsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Dictionary/ElectronicElementsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Dictionary/TheoryActivity.java" />
@@ -1993,6 +2035,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Dictionary/WorkshopActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/ListsAndAdapters/ListAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/test_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Dictionary/BasicTermsActivity.java" />
       </list>
     </option>
   </component>
@@ -2036,6 +2079,102 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="ElectronicBand" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ElectronicBand" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ElectronicBand" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ElectronicBand" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ElectronicBand" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="electronicband" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ElectronicBand" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="electronicband" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dictionary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ElectronicBand" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2544,7 +2683,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493069866079</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="//Damian nowy branch">
+      <created>1493154466705</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1493154466706</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2638,7 +2784,8 @@
     <MESSAGE value="//SUCHY Ulepszone łączenie elementów, dodano grafiki, podmienione grafiki, więcej elementów w switching elements, poprawiony algorytm połączeń" />
     <MESSAGE value="//SUCHY braki drawable" />
     <MESSAGE value="//Damian uzupelnienie listy" />
-    <option name="LAST_COMMIT_MESSAGE" value="//Damian uzupelnienie listy" />
+    <MESSAGE value="//Damian nowy branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="//Damian nowy branch" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -2759,6 +2906,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -2780,6 +2928,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -2823,24 +2972,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="298" column="24" selection-start-line="298" selection-start-column="24" selection-end-line="298" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Dictionary/BasicTermsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Dictionary/ChipsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2848,6 +2984,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2883,7 +3020,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/test_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
+        <state relative-caret-position="0">
           <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding />
         </state>
@@ -2897,6 +3034,53 @@
         <state relative-caret-position="119">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="236" column="24" selection-start-line="236" selection-start-column="18" selection-end-line="236" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Dictionary/BasicTermsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="59" column="78" selection-start-line="59" selection-start-column="78" selection-end-line="59" selection-end-column="78" />
+          <folding>
+            <element signature="e#1127#1168#0" expanded="true" />
+            <element signature="e#1198#1243#0" expanded="true" />
+            <element signature="e#1273#1309#0" expanded="true" />
+            <element signature="e#1339#1389#0" expanded="true" />
+            <element signature="e#1419#1471#0" expanded="true" />
+            <element signature="e#1501#1546#0" expanded="true" />
+            <element signature="e#1576#1617#0" expanded="true" />
+            <element signature="e#1647#1687#0" expanded="true" />
+            <element signature="e#1717#1764#0" expanded="true" />
+            <element signature="e#1794#1841#0" expanded="true" />
+            <element signature="e#2365#2406#0" expanded="true" />
+            <element signature="e#2407#2441#0" expanded="true" />
+            <element signature="e#2547#2592#0" expanded="true" />
+            <element signature="e#2593#2632#0" expanded="true" />
+            <element signature="e#2738#2774#0" expanded="true" />
+            <element signature="e#2775#2804#0" expanded="true" />
+            <element signature="e#2910#2962#0" expanded="true" />
+            <element signature="e#2963#3006#0" expanded="true" />
+            <element signature="e#3112#3164#0" expanded="true" />
+            <element signature="e#3165#3210#0" expanded="true" />
+            <element signature="e#3316#3361#0" expanded="true" />
+            <element signature="e#3362#3400#0" expanded="true" />
+            <element signature="e#3506#3547#0" expanded="true" />
+            <element signature="e#3548#3582#0" expanded="true" />
+            <element signature="e#3688#3728#0" expanded="true" />
+            <element signature="e#3729#3762#0" expanded="true" />
+            <element signature="e#3868#3915#0" expanded="true" />
+            <element signature="e#3916#3956#0" expanded="true" />
+            <element signature="e#4062#4109#0" expanded="true" />
+            <element signature="e#4110#4151#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
