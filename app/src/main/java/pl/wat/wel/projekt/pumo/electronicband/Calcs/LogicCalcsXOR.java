@@ -1,12 +1,14 @@
-package pl.wat.wel.projekt.pumo.electronicband;
+package pl.wat.wel.projekt.pumo.electronicband.Calcs;
 
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import pl.wat.wel.projekt.pumo.electronicband.R;
 
 public class LogicCalcsXOR extends AppCompatActivity {
 

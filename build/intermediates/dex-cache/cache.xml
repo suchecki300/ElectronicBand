@@ -3,57 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Damian-Ja\.android\build-cache\717454f0362eb4d958c4fda1fcc6495e2f29d731\output\jars\classes.jar"
+        jar="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
-        <dex dex="D:\Projekty\Android\ElectronicBand\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ef276d79b105443ae7b3c3473b51a7a7341a0fae\classes.dex" />
+        sha1="5ef5c5176ac3b8a58965aef1b3530c4b46f2ce40">
+        <dex dex="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d5a30dffbbe95ea318dffb230875a12c8e156691\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Damian-Ja\.android\build-cache\20c8162ef2e8d20a6cf18b0cdd020a86e52286fa\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7273fe94bdd55b69730884fe7bc2ce9dda203059">
-        <dex dex="D:\Projekty\Android\ElectronicBand\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e042764f69c2b37d7503a692e4404b9267759406\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Projekty\Android\ElectronicBand\ElectronicBand\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
-        <dex dex="D:\Projekty\Android\ElectronicBand\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_32f37caaf0ab580dc1329df9c61092b2bb028aba\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Damian-Ja\.android\build-cache\13275a2cbaba554c80313aea375800c28f0ae392\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
-        <dex dex="D:\Projekty\Android\ElectronicBand\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_43d7db98ebd161a46e0d80abfd9e7b4e6a6f4419\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Damian-Ja\.android\build-cache\ac5f85553f41fac0fa08ccf78477b40dc2153783\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
-        <dex dex="D:\Projekty\Android\ElectronicBand\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ddc59ab372df1dbbc2058e56e1867cd62dc740c2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Projekty\Android\ElectronicBand\ElectronicBand\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="645b8189428835755c05f8bbeca9726381cf7849">
-        <dex dex="D:\Projekty\Android\ElectronicBand\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b41d8c0374faaf3fb046c6e6e0e14dc9357e081c\classes.dex" />
+        <dex dex="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_71eaa06cf0176d5c9238ae10cc486d71ec814169\classes.dex" />
     </item>
 
 </items>

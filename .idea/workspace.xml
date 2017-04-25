@@ -39,20 +39,46 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_25_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_25_3_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_25_3_0.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/transition_25_3_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/transition_25_3_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+    </list>
+    <list id="83c83c98-3ceb-4f83-83fb-3191a3ecbe24" name="Failed commit: Default" comment="Added packages&#10;Code refactoring">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Courses.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Courses/Courses.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Kalkulatory.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/Kalkulatory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsAND.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsAND.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsNAND.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsNAND.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsNOR.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsNOR.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsNOT.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsNOT.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsOR.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsOR.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsXOR.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsXOR.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Prosty_Kalkulator.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/Prosty_Kalkulator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/BasicTermsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/BasicTermsActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/ChipsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/ChipsActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/ElectronicElementsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/ElectronicElementsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_courses.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_courses.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_logic_calcs_and.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_logic_calcs_and.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_prosty__kalkulator.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_prosty__kalkulator.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/test_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/test_layout.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
     </list>
     <ignored path="ElectronicBand.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsNOT.java" ignored="false" />
+    <file path="$PROJECT_DIR$/app/src/main/res/layout/activity_courses.xml" ignored="false" />
+    <file path="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Courses/Courses.java" ignored="false" />
+    <file path="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsNOR.java" ignored="false" />
+    <file path="$PROJECT_DIR$/app/src/main/res/layout/activity_prosty__kalkulator.xml" ignored="false" />
+    <file path="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsOR.java" ignored="false" />
+    <file path="$PROJECT_DIR$/app/src/main/res/layout/activity_logic_calcs_and.xml" ignored="false" />
+    <file path="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsAND.java" ignored="false" />
+    <file path="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsXOR.java" ignored="false" />
+    <file path="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsNAND.java" ignored="false" />
+    <file path="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/Prosty_Kalkulator.java" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,37 +111,115 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BasicTermsActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/BasicTermsActivity.java">
+      <file leaf-file-name="LogicCalcsAND.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsAND.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="78" column="33" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
+            <state relative-caret-position="-10">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
-                <element signature="e#1678#3294#0" expanded="true" />
-                <element signature="e#1904#1938#0" expanded="true" />
-                <element signature="e#2044#2083#0" expanded="true" />
-                <element signature="e#2189#2218#0" expanded="true" />
-                <element signature="e#2324#2367#0" expanded="true" />
-                <element signature="e#2473#2518#0" expanded="true" />
-                <element signature="e#2624#2662#0" expanded="true" />
-                <element signature="e#2768#2802#0" expanded="true" />
-                <element signature="e#2908#2941#0" expanded="true" />
-                <element signature="e#3047#3087#0" expanded="true" />
-                <element signature="e#3193#3234#0" expanded="true" />
-                <element signature="e#3293#3294#0" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_layout.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/test_layout.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
+      <file leaf-file-name="LogicCalcsNAND.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsNAND.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="-10">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogicCalcsNOR.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsNOR.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogicCalcsNOT.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsNOT.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogicCalcsOR.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsOR.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogicCalcsXOR.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsXOR.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Courses.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Courses/Courses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElectronicElementsActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/ElectronicElementsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2200">
+              <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Kalkulatory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/Kalkulatory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Prosty_Kalkulator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/Prosty_Kalkulator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -158,7 +262,7 @@
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
       <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\Damian-Ja\.gradle\wrapper\dists\gradle-3.3-all\55gk2rcmfc6p2dg9u9ohc3hw9\gradle-3.3" />
+        <entry key="$PROJECT_DIR$" value="C:\Users\Konrad\.gradle\wrapper\dists\gradle-3.3-all\55gk2rcmfc6p2dg9u9ohc3hw9\gradle-3.3" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -1675,10 +1779,10 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="4478981434664" />
         <entry key="C:\Users\Damian Bondaruk\Desktop\Projekty\Android Studio\ElectronicBand" value="4470359807775" />
         <entry key="C:\Users\Kldwld\Documents\GitHub\ElectronicBand" value="4472647198672" />
-        <entry key="C:\Users\Konrad\StudioProjects\ElectronicBand" value="4478875968284" />
-        <entry key="$PROJECT_DIR$" value="4478981434664" />
+        <entry key="C:\Users\Konrad\StudioProjects\ElectronicBand" value="4478978744851" />
         <entry key="D:\Projekty\Android\ElectronicBand\ElectronicBand" value="4479188761686" />
         <entry key="D:\Projekty\Android\git repo PUMO\ElectronicBand" value="4470359810000" />
       </map>
@@ -1984,10 +2088,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/list.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/More_Activity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_more_.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/More_Activity_moreee.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Prosty_Kalkulator.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_logic_calcs.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcs.java" />
@@ -2035,13 +2135,18 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/BasicTermsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/test_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcs/LogicCalcsXOR.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Courses/Courses.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/Kalkulatory.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/Prosty_Kalkulator.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1087" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -2068,12 +2173,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -2123,16 +2226,72 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ElectronicBand" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="electronicband" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ElectronicBand" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="electronicband" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ElectronicBand" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="settings.editor.selected.configurable" value="instant.run" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="device.picker.selection" value="BUC4C16C15002073" />
+    <property name="device.picker.selection" value="W3D7N16A20002296" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
   </component>
@@ -2630,8 +2789,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1087" extended-state="0" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.4980864" order="7" side_tool="false" content_ui="tabs" />
@@ -2640,14 +2799,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5019136" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769555" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32542747" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29704016" sideWeight="0.4980864" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34901533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15413533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968834" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2661,6 +2819,7 @@
       <window_info id="Find Sample Code" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32542747" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2711,7 +2870,8 @@
     <MESSAGE value="//SUCHY Ulepszone łączenie elementów, dodano grafiki, podmienione grafiki, więcej elementów w switching elements, poprawiony algorytm połączeń" />
     <MESSAGE value="//SUCHY braki drawable" />
     <MESSAGE value="//Damian uzupelnienie listy" />
-    <option name="LAST_COMMIT_MESSAGE" value="//Damian uzupelnienie listy" />
+    <MESSAGE value="Added packages&#10;Code refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added packages&#10;Code refactoring" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -2731,17 +2891,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_logic_calcs_not.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1930">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/appcompat-v7/25.3.0/appcompat-v7-25.3.0-sources.jar!/android/support/v7/app/AppCompatViewInflater.java" />
     <entry file="file://$USER_HOME$/Android/Sdk/sources/android-25/android/view/View.java" />
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
@@ -2761,14 +2910,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_kalkulatory.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/DictionaryActivity.java">
@@ -2778,21 +2927,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Courses.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Courses/Courses.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="155" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Courses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2700">
-          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsAND.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsAND.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
@@ -2801,79 +2943,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_logic_cals_and3.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_courses2.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsAND.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsAND.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsAND.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Kalkulatory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="64" column="60" selection-start-line="64" selection-start-column="60" selection-end-line="64" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_logic_calcs_xor2.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsXOR.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsXOR.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsXOR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_logic_calcs_not2.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsNOT.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsNOT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsNOT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_logic_calcs_or2.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsOR.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsOR.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="66" column="1" selection-start-line="15" selection-start-column="3" selection-end-line="66" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsOR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsNOR.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsNOR.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="784">
           <caret line="66" column="0" selection-start-line="14" selection-start-column="4" selection-end-line="66" selection-end-column="0" />
@@ -2881,14 +2982,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_logic_calcs_nor2.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsNOR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsNAND.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsNAND.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="766">
           <caret line="59" column="1" selection-start-line="12" selection-start-column="4" selection-end-line="59" selection-end-column="1" />
@@ -2896,50 +2990,39 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_logic_calcs_nand2.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/LogicCalcsNAND.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/WorkshopActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_schematics_editor.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_switching__elements.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_switching__elements.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/SchematicsEditor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2963,69 +3046,69 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_theory.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_more__moreee.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_logic_calcs_xor.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/MainActivity.java">
@@ -3033,8 +3116,8 @@
         <state relative-caret-position="697">
           <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
           <folding>
-            <element signature="e#1758#1997#0" expanded="true" />
-            <element signature="e#1996#1997#0" expanded="true" />
+            <element signature="e#1887#2126#0" expanded="true" />
+            <element signature="e#2125#2126#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3070,35 +3153,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/ElectronicElementsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="113" column="11" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
-          <folding>
-            <element signature="e#1931#4638#0" expanded="true" />
-            <element signature="e#2157#2185#0" expanded="true" />
-            <element signature="e#2291#2329#0" expanded="true" />
-            <element signature="e#2435#2472#0" expanded="true" />
-            <element signature="e#2578#2607#0" expanded="true" />
-            <element signature="e#2713#2737#0" expanded="true" />
-            <element signature="e#2843#2881#0" expanded="true" />
-            <element signature="e#2987#3026#0" expanded="true" />
-            <element signature="e#3132#3175#0" expanded="true" />
-            <element signature="e#3281#3320#0" expanded="true" />
-            <element signature="e#3426#3455#0" expanded="true" />
-            <element signature="e#3562#3596#0" expanded="true" />
-            <element signature="e#3703#3737#0" expanded="true" />
-            <element signature="e#3844#3878#0" expanded="true" />
-            <element signature="e#3985#4017#0" expanded="true" />
-            <element signature="e#4124#4161#0" expanded="true" />
-            <element signature="e#4268#4301#0" expanded="true" />
-            <element signature="e#4408#4439#0" expanded="true" />
-            <element signature="e#4546#4578#0" expanded="true" />
-            <element signature="e#4637#4638#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="695">
@@ -3108,34 +3162,115 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/test_layout.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="220">
           <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/BasicTermsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
+        <state relative-caret-position="1430">
           <caret line="78" column="33" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsAND.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
-            <element signature="e#1678#3294#0" expanded="true" />
-            <element signature="e#1904#1938#0" expanded="true" />
-            <element signature="e#2044#2083#0" expanded="true" />
-            <element signature="e#2189#2218#0" expanded="true" />
-            <element signature="e#2324#2367#0" expanded="true" />
-            <element signature="e#2473#2518#0" expanded="true" />
-            <element signature="e#2624#2662#0" expanded="true" />
-            <element signature="e#2768#2802#0" expanded="true" />
-            <element signature="e#2908#2941#0" expanded="true" />
-            <element signature="e#3047#3087#0" expanded="true" />
-            <element signature="e#3193#3234#0" expanded="true" />
-            <element signature="e#3293#3294#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsNAND.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsNOR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsNOT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsOR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/LogicCalcsXOR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Courses/Courses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/ElectronicElementsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/Kalkulatory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/pl/wat/wel/projekt/pumo/electronicband/Calcs/Prosty_Kalkulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
