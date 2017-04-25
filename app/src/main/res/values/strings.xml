@@ -41,6 +41,13 @@
     <string name="warsztat">Warsztat</string>
     <string name="edytor_schemat_w">Edytor schematów</string>
 
+
+    <string name="AND"><u>Bramka AND</u></string>
+    <string name="OR"><u>Bramka OR</u></string>
+    <string name="NOR"><u>Bramka NOR</u></string>
+    <string name="XOR"><u>Bramka XOR</u></string>
+    <string name="NOT"><u>Bramka NOT</u></string>
+    <string name="NAND"><u>Bramka NAND</u></string>
     <string-array name="more_array">
         <item>sinus</item>
         <item>cosinus</item>
@@ -52,4 +59,244 @@
 
     </string-array>
     <string name="title_activity_main2">Main2Activity</string>
+    <string name="courses">courses</string>
+    <string name="kurs_arduino1">http://forbot.pl/blog/artykuly/programowanie/kurs-arduino-0-zapowiedz-cyklu-id5290</string>
+    <string name="kurs_arduino2">http://forbot.pl/blog/artykuly/programowanie/kurs-arduino-ii-1-wstep-spis-tresci-id15494</string>
+    <string name="kurs_robotow">http://forbot.pl/blog/artykuly/roboty/kurs-budowy-robotow-1-wstep-spis-tresci-id18935</string>
+    <string name="kurs_edison">http://forbot.pl/blog/artykuly/programowanie/kurs-intel-edison-1-spis-tresci-id11185</string>
+    <string name="kurs_elektroniki1">http://forbot.pl/blog/artykuly/podstawy/podstawy-elektroniki-1-napiecie-prad-opor-zasilanie-id3947</string>
+    <string name="kurs_elektroniki2">http://forbot.pl/blog/artykuly/elektronika/kurs-elektroniki-ii-1-spis-tresci-id10746</string>
+    <string name="kurs_stmf4">http://forbot.pl/blog/artykuly/programowanie/kurs-stm32-f4-1-czas-poznac-hal-spis-tresci-kursu-id14114</string>
+    <string name="kurs_stm32">http://forbot.pl/blog/artykuly/programowanie/stm32-praktyce-1-platforma-srodowisko-id2733</string>
+    <string name="kurs_lutowania">http://forbot.pl/blog/artykuly/podstawy/kurs-lutowania-1-wstep-spis-tresci-id12556</string>
+    <string name="kurs_eagle">http://forbot.pl/blog/artykuly/podstawy/cadsoft-eagle-czesc-1-schematy-id1468</string>
+    <string name="kurs_cyfrowki">http://forbot.pl/blog/artykuly/elektronika/technika-cyfrowa-1-wstep-spis-tresci-id18070</string>
+
+
+    <string name="resistor">Rezystancję w obwodzie elektronicznym oznacza się symbolem R. Czasami obok
+        symbolu może znajdować się dodatkowy napis w indeksie dolnym, określający, o którego
+        elementu rezystancję chodzi, np. Rż może oznaczać rezystancję żarówki w obwodzie.
+        Jednostką rezystancji jest om, a jej symbolem jest grecka litera omega (Ω). Im większa
+wartość omegi, tym wyższa rezystancja.
+Om jest bardzo małą jednostką oporu elektrycznego i dlatego w większości przypadków
+do określania rezystancji używa się bardzo dużych wartości, np. kiloomów (połączenie
+wyrazów „kilo” i „om”), czyli tysiąc omów (symbol kΩ), i megaomów (połączenie
+wyrazów „mega” i „om”), czyli milion omów (symbol MΩ). Podsumowując, 1 kΩ = 1000 Ω,
+a 1MΩ = 1 000 000 Ω
+Ze względu na swoją prostotę i wszechstronność rezystory należą do najpopularniejszych
+elementów elektronicznych. Najczęściej używa się ich do ograniczania ilości prądu
+przepływającego przez obwód, ale za ich pomocą można także kontrolować napięcie
+dostarczane do wybranej części obwodu.
+    </string>
+    <string name="capacitor">
+Kondensatory to bierne elementy służące do przechowywania energii elektrycznej
+pochodzącej ze źródła napięcia prądu. Jeśli usunie się źródło napięcia
+i odizoluje kondensator w taki sposób, aby nie znajdował się w zamkniętym obwodzie,
+to będzie on przechowywał zgromadzoną energię elektryczną. Jeśli połączy się go z innymi
+elementami elektronicznymi w zamkniętym obwodzie, to uwolni część lub całość swojej
+energii. Kondensator jest zbudowany z dwóch metalowych płytek rozdzielonych izolatorem
+(dielektrykiem).
+    </string>
+    <string name="coil">
+        Cewka indukcyjna to bierny element elektroniczny zbudowany ze zwoju drutu nawiniętego na rdzeń, który może być powietrzny, żelazny albo ferrytowy (ferryt to kruchy materiał wytwarzany z żelaza). Rdzenie wykonane z materiałów żelaznych mogą zwiększać siłę pola magnetycznego
+    indukowanego przez przepływający prąd nawet do kilkuset razy. Cewkom indukcyjnym
+    nadaje się różne nazwy, w zależności od tego, w jakim celu są wykorzystywane, dlatego
+    można spotkać takie określenia, jak: zwój, dławik, elektromagnes czy solenoid.
+    </string>
+    <string name="potentiometer_spin">
+    Potencjometr obrotowy ma obrotową ścieżkę oporową i specjalną gałkę służącą
+do nastawiania wartości rezystancji. Ten rodzaj potencjometru jest często
+wykorzystywany do budowy urządzeń elektronicznych. W obudowie urządzenia wycina się otwór, w który wkłada się potencjometr w taki sposób, aby jego złącza
+można było połączyć z obwodami wewnętrznymi, a gałka regulacyjna wystawała
+na zewnątrz. Używa się ich powszechnie do regulacji głośności.
+    </string>
+    <string name="potentiometer_slide">
+Potencjometr suwakowy ma podłużną ścieżkę oporową, po której porusza się
+suwak ruchem prostoliniowym. Używane są w sprzęcie audio i niektórych
+ściemniaczach światła.
+    </string>
+    <string name="potentiometer_tune_into">
+        Potencjometr dostrojczy (nazywany też potencjometrem nastawnym) jest
+mniejszy od poprzednio opisanych. Montuje się go na płytkach drukowanych
+układów, a do nastawiania wartości oporu służy specjalny wkręt. Najczęściej używa
+się go do dostrajania obwodów, np. aby ustawić poziom wrażliwości czujnika
+światła, a nie do dowolnego ustawiania jakichś wartości (np. poziomu dźwięku)
+w czasie działania obwodu.
+    </string>
+    <string name="resistor_permament">
+        Rezystor stały stawia niezmienny, z góry ustalony opór elektryczny (nie ma w tym
+nic zaskakującego, bo co innego mogłoby znaczyć słowo „stały”). Rzeczywista
+rezystancja rezystora może się różnić (być wyższa lub niższa) od wartości znamionowej
+o pewną wartość procentową, zwaną tolerancją rezystora. Jeśli więc kupisz rezystor
+o rezystancji znamionowej 1000 Ω i tolerancji 5 procent, to jego rezystancja
+rzeczywista może mieć dowolną wartość z przedziału od 950 do 1050 omów
+(ponieważ 5 procent z 1000 wynosi 50). Taki rezystor należy traktować jako rezystor
+1000 Ω z dokładnością do 5 procent.
+    </string>
+    <string name="resistor_floating">
+        Rezystor zmienny często nazywany potencjometrem lub reostatem, pozwala
+nastawiać siłę rezystancji od zera omów do fabrycznie określonej wartości
+maksymalnej. Potencjometrów używa się wówczas, gdy trzeba zmieniać wartość
+prądu lub napięcia dostarczanego do danej części lub danego obwodu. Wśród
+urządzeń, w których użyty jest potencjometr, można wymienić ściemniacze
+światła, układy zmiany natężenia dźwięku w sprzęcie grającym i drążki sterowe
+w samolotach.
+    </string>
+    <string name="diode_semiconductor">
+        Dioda półprzewodnikowa to urządzenie elektroniczne z dwoma wyprowadzeniami, które
+w swojej budowie ma jedno złącze p-n. Symbol, jakim oznaczamy diody na schematach,
+pokazany jest po lewej stronie. Działanie diod przypomina działanie zaworów zwrotnych,
+tzn. po przyłożeniu napięcia pozwalają na przepływ prądu tylko w jednym kierunku.
+Czasami właściwość tę nazywa się prostowaniem elektrycznym.
+    </string>
+    <string name="diode_LED">
+        Diody elektroluminescencyjne (czyli w skrócie LED) są zaprojektowane tak,
+aby emitowały duże ilości światła widzialnego. Poprzez odpowiedni dobór materiałów
+półprzewodnikowych uzyskuje się diody świecące na czerwono, żółto i zielono. Są też
+specjalne diody świecące na niebiesko, a nawet biało. Dwu- i trzykolorowe diody LED
+składają się odpowiednio z dwóch lub trzech diod jednokolorowych.
+    </string>
+    <string name="transistor_npn">
+        Tranzystory npn cienka warstwa półprzewodnika typu p jest umieszczona
+między dwiema grubszymi warstwami półprzewodnika typu n. Każda z tych
+trzech warstw ma własne wyprowadzenie. Symbol, jakim oznaczamy tranzystory
+npn, pokazano po lewej stronie.
+    </string>
+    <string name="transistor_pnp">
+        Tranzystory pnp cienka warstwa półprzewodnika typu n jest umieszczona
+między dwiema grubszymi warstwami półprzewodnika typu p. Każda z tych
+trzech warstw ma własne wyprowadzenie. Symbol, jakim oznaczamy tranzystory
+pnp, pokazano po lewej stronie.
+    </string>
+    <string name="transistor_FET">
+        Tranzystor polowy (FET — ang. field-effect transistor) składa się z kanału z półprzewodnika
+typu n lub p, przez który może płynąć prąd; wzdłuż tego kanału (tylko na części jego
+długości) umieszczona jest sterująca jego przewodzeniem elektroda wykonana z innego
+materiału. Jedna strona kanału zwana jest źródłem, a druga drenem, natomiast elektroda
+sterująca to tzw. bramka. Przykładając napięcie do bramki, można sterować przepływem
+prądu od źródła do drenu. Źródło, bramka i dren mają własne wyprowadzenia. Niektóre
+tranzystory polowe mają dodatkowe, czwarte wyprowadzenie, służące do podłączania
+tranzystora do masy w podstawie montażowej obwodu (nie należy ich mylić
+z dwubramkowymi tranzystorami MOSFET, które również mają cztery
+wyprowadzenia).
+    </string>
+    <string name="switch_slide">
+        Zamykanie i otwieranie obwodu odbywa się poprzez
+przesuwanie specjalnego suwaka. Tego rodzaju przełączniki są często używane
+np. w latarkach.
+    </string>
+    <string name="switch_twostabile">
+Zamykanie i otwieranie obwodu odbywa się poprzez
+ustawienie pozycji dźwigni. Czasami dodawane są oznaczenia Wł. (On) i Wył. (Off)
+dla położeń odpowiednio włączającego i wyłączającego dźwigni.
+    </string>
+    <string name="switch_leaf">
+        Zamknięcie obwodu odbywa się poprzez naciśnięcie
+dźwigni lub przycisku, a jej zwolnienie powoduje powrót do stanu otwartego.
+Tego typu przełączniki są używane np. w dzwonkach do drzwi.
+    </string>
+    <string name="switch_click">
+        Aby zmienić stan, należy nacisnąć jeden z przycisków.
+Sposób zmiany stanu zależy od rodzaju przycisku.
+    </string>
+    <string name="gate_AND">
+        Bramka AND („i”) daje w wyniku sygnał wysoki (1) tylko wtedy, gdy oba
+sygnały wejściowe są wysokie (jeden sygnał i drugi sygnał). Jeśli którykolwiek
+z sygnałów jest niski (0), wynik również jest sygnałem niskim. Typowa bramka
+AND ma dwa wejścia, ale można spotkać też bramki z trzema, czterema i ośmioma
+wejściami. Wynik tych bramek jest wysoki tylko wtedy, gdy wszystkie sygnały
+wejściowe są wysokie.
+    </string>
+    <string name="gate_NAND">
+        Bramka NAND („nie i”) ta bramka działa jak bramka AND, za którą znajduje
+się inwerter (stąd nazwa NAND — NOT AND, czyli „nie i”). Zwraca sygnał niski,
+gdy wszystkie sygnały wejściowe są wysokie. Jeśli którykolwiek sygnał wejściowy
+jest niski, wynik jest wysoki.
+    </string>
+    <string name="gate_OR">
+        Bramka OR („lub”) zwraca sygnał wysoki, jeśli jeden LUB drugi, LUB oba
+sygnały wejściowe są wysokie. Sygnał niski zwraca tylko wtedy, gdy oba sygnały
+wejściowe są niskie. Typowa bramka OR ma dwa wejścia, ale można spotkać też
+bramki z trzema i czterema wejściami. Wynik tych bramek jest niski tylko wtedy,
+gdy wszystkie sygnały wejściowe są niskie. Jeśli którykolwiek z sygnałów wejściowych
+jest wysoki, to wynik jest wysoki.
+    </string>
+    <string name="ne555">
+        Jednym z najpopularniejszych i najłatwiejszych w użyciu układów scalonych jest
+wszechstronny układ czasowy 555. Ten wynaleziony w 1971 roku układ do dziś cieszy
+się wielką popularnością, o czym świadczy liczba ponad miliarda produkowanych rocznie
+sztuk. Ten mały układ może być używany w wielu miejscach, zarówno w obwodach
+cyfrowych, jak i analogowych. Najczęściej jest wykorzystywany do precyzyjnego odmierzania
+czasu (w zakresie od mikrosekund do godzin) i stanowi podstawę wielu projektów.
+    </string>
+    <string name="switch_cradle">
+        Przełącznik kołyskowy naciśnięcie z jednej strony powoduje otwarcie
+    obwodu, a z drugiej strony zamknięcie. Tego typu przełączniki są montowane
+    np. w listwach zasilających
+    </string>
+    <string name="direct_current">
+        Prąd stały (DC, ang. direct current) przepływ elektronów w jednym kierunku
+charakteryzujący się bardzo małymi wahaniami natężenia. Tego typu prąd
+wytwarzają ogniwa (powszechnie nazywane bateriami), najczęściej zasilające
+układy elektroniczne.
+    </string>
+    <string name="alternating_current">
+        Prąd zmienny (AC, ang. alternating current) przepływ elektronów, którego
+kierunek podlega okresowym zmianom. Tego typu prąd dostarczają elektrownie
+do naszych domów.
+    </string>
+    <string name="impedance">
+        Impedancja to całkowita wartość oporu, jaki dany obwód stawia prądowi zmiennemu
+o określonej częstotliwości (jest to wielkość analogiczna do rezystancji zastępczej obwodu
+zawierającego tylko rezystory, o czym była mowa w rozdziale 3.). W obliczeniach wartości
+impedancji, którą oznaczamy symbolem Z, korzystamy z wartości rezystancji zastępczej
+i reaktancji zastępczej obwodu.
+    </string>
+    <string name="prostowanie_półokresowe">
+        Prostowanie półokresowe użycie pojedynczej diody prostowniczej do obcięcia
+sygnału zmiennego nazywa się prostowaniem półokresowym, ponieważ polega
+na zamianie połowy sygnału zmiennego w stały.
+    </string>
+    <string name="prostowanie_pełnookresowe">
+        Prostowanie pełnookresowe dzięki odpowiedniemu połączeniu czterech diod
+w obwód zwany mostkiem prostowniczym można zamienić wszystkie „doły”
+i „górki” napięcia zmiennego w „górki” (rysunek 6.7). Prostownik pełnookresowy
+jest pierwszym obwodem w zasilaczu liniowym, który zamienia prąd zmienny w prąd
+stały
+    </string>
+    <string name="napiecie_przebicia">
+        Napięcie przebicia (czasami nazywane napięciem Zenera) to napięcie wsteczne,
+które powoduje przezwyciężenie oporu diody i przewodzenie przez nią prądu.
+O wartości napięcia przebicia diody decyduje sposób domieszkowania półprzewodnika,
+z którego dioda jest wykonana; wartość ta może się wahać w przedziale od 2,4
+do kilkuset woltów.
+    </string>
+    <string name="moc_znamionowa">
+       Moc znamionowa maksymalna wartość mocy (napięcie prądu × natężenie
+prądu), jaką dioda jest w stanie wytrzymać (nawet diody zaprojektowane po to, aby
+„być przebijane”, mogą całkiem pęknąć, jeśli przekroczy się ich moc znamionową).
+    </string>
+    <string name="uklad_scalony">
+        Układ scalony to kawałek płytki o rozmiarach tak małych, że bez trudu zmieści się
+w dłoni. Może zawierać od kilkudziesięciu do wielu milionów elementów. Każdy taki
+układ to misternie utkana siatka maleńkich urządzeń tranzystorowych, które ze światem
+zewnętrznym kontaktują się poprzez pewną liczbę wejść i wyjść.
+    </string>
+    <string name="liniowy_ukladScalony">
+        Układy tego rodzaju przetwarzają
+sygnały analogowe, które mają postać ciągle zmieniającej się fali napięcia i natężenia
+prądu (stąd czasami używana nazwa obwody analogowe). Wśród przykładów
+wykorzystania układów analogowych można wymienić urządzenia do przetwarzania
+mocy, czujniki, wzmacniacze i filtry.
+    </string>
+    <string name="cyfrowe_ukladyScalone">
+        Cyfrowe układy scalone przetwarzają sygnały cyfrowe, które przyjmują
+tylko dwa poziomy napięcia lub natężenia (np. wysoki/niski, włączony/wyłączony,
+0/1) reprezentujące informacje binarne. Cyfrowe dane binarne szczegółowo
+opisaliśmy w następnym podrozdziale. Tego rodzaju układy nazywamy układami
+cyfrowymi. Niektóre z nich, np. mikroprocesory, składają się z wielu milionów
+maleńkich obwodów upakowanych gęsto na powierzchni zaledwie kilku
+milimetrów kwadratowych.
+    </string>
+
 </resources>

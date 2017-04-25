@@ -6,7 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import static pl.wat.wel.projekt.pumo.electronicband.R.id.button4;
+import pl.wat.wel.projekt.pumo.electronicband.Calcs.Kalkulatory;
+import pl.wat.wel.projekt.pumo.electronicband.Courses.Courses;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     Button button2;
     Button button3;
     Button button4;
+    Button button5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         button2= (Button) findViewById(R.id.button2);
         button3= (Button) findViewById(R.id.button3);
         button4= (Button) findViewById(R.id.button4);
-
+        button5= (Button) findViewById(R.id.button5);
         //Przyciski do menu glownego, kalkulatory, słownik i opisy
 
         button.setOnClickListener(new View.OnClickListener() {
@@ -57,6 +59,15 @@ public class MainActivity extends AppCompatActivity {
 
 
         button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Courses.class);
+                startActivity(intent);
+            }
+        });
+
+
+        button5.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), SchematicsEditor.class);

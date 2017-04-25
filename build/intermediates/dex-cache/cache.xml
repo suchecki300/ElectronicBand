@@ -2,166 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/home/suchecki300/.android/build-cache/362f5a15924b452a59725045e1a6b653ed279326/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/pre-dexed/debug/classes_bf22e3e0f4585a4fb33df20b3022849561eec50f.jar" />
-    </item>
-    <item
         is-multidex="true"
-        jar="/home/suchecki300/.android/build-cache/8e1f25541972186bb1e22800dd3dd3f958de664a/output/jars/classes.jar"
+        jar="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="7273fe94bdd55b69730884fe7bc2ce9dda203059">
-        <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b731bc10cb2e024cb5ddce2034e77f29b7dc9bd6/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/suchecki300/.android/build-cache/78db4138f68abe4d1f190c46c9528a30dd7fb2be/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
-        <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/pre-dexed/debug/classes_b0b7366817e1fad195d4f29378fb9722b8151019.jar" />
+        sha1="50cccb8987e268e6666afc8d84f71d30994fc42e">
+        <dex dex="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d5a30dffbbe95ea318dffb230875a12c8e156691\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/suchecki300/.android/build-cache/c139aa24116587a3876f8e707d2cbd4cec328718/output/jars/classes.jar"
+        jar="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
-        <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_545370b0c4d5dfca8657986ee45b224000ae9476/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/suchecki300/.android/build-cache/ca58449668627ca52e4a339716395b0bf9b5263f/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
-        <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/pre-dexed/debug/classes_d8b034e5d88880bdcb9792fa2d08a4fd0a311f6a.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/suchecki300/.android/build-cache/3327084a5b8b4071ee18964c13868eb970ecd3ff/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
-        <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f115ef2d2b9766bcfb4e2b988d36f4527e63a1ac/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/suchecki300/.android/build-cache/90c8722a8580755346ed2bcf483c27c7e8dcd9d8/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
-        <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/pre-dexed/debug/classes_1ea1969a1c2ee07c647e9722c633f90aa2841362.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/suchecki300/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha7/constraint-layout-solver-1.0.0-alpha7.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="439eeb5ffd54cbd18db0a6aea471e8356f19fc36">
-        <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha7_05b49cb9ef16c73a866f1728a4c9eb5ba15693f0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/suchecki300/.android/build-cache/a497b10faff5efc02cd8dc03a6c6868b2e02bb16/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
-        <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/pre-dexed/debug/classes_64ead6520d5a6316401e1c468a4d19668208a988.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/suchecki300/.android/build-cache/0629304660ddc08733bf29e1bd4d76e7a716797e/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
-        <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/pre-dexed/debug/classes_7445caf34f8c7e24a5956b7cdf26b9c1b2dcb417.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/suchecki300/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
-        <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.0_8f7eccb6ae6b9aaeeb53e5bcba0a9a4bd4c1fdbd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/suchecki300/.android/build-cache/cbe5ec3a3bee7e3ffed571f650dce36094359b96/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
-        <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/pre-dexed/debug/classes_63ce12d129569454319c36458cee61b4fcec6cf9.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_66335046e6f8770bcee8a561f0e4c50c0415763e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5c071d9f6b275cf8b20d21f67560422ddce95b5b">
-        <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_dec4dfbdf2a0aadade65fdc4b7296ca19106b58e/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/suchecki300/.android/build-cache/89225bf1e21df744e27e75c4ad1417509e5f27b1/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="541a2ad68dc68aa49795821f8280b7624e6a0c9b">
-        <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/pre-dexed/debug/classes_1fc8ce3d2b990f5a3c3885a96e8c7e7559a360b3.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/suchecki300/.android/build-cache/96d6db00e80223abd75b468f0717d295baac1f8a/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
-        <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_69610f1c1696972051907cdc2a4a11defd503a80/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/suchecki300/.android/build-cache/24f89f443c5f7471b0d02fc6a8411ba21d7cc880/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
-        <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/pre-dexed/debug/classes_76d97a4d6b3d92f91978d9783828993dee1c84e2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/suchecki300/.android/build-cache/72cde55f30e31bcaec9ae891f52ffb99d136e4bc/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="518768f3200963fbfec652f498da2c9d39245234">
-        <dex dex="/home/suchecki300/Pulpit/Android/PUMO/ElectronicBand/ElectronicBand/app/build/intermediates/pre-dexed/debug/classes_9c678e06260af1ea4d937845c824db7f590a687d.jar" />
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_71eaa06cf0176d5c9238ae10cc486d71ec814169\classes.dex" />
     </item>
 
 </items>

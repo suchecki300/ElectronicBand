@@ -38,6 +38,17 @@
         <item name="android:shadowRadius">2</item>
     </style>
 
+    <style name="button_course" >
+        <item name="android:width">200dp</item>
+        <item name="android:layout_height" >match_parent</item>
+        <item name="android:layout_marginLeft" >0dp</item>
+        <item name="android:gravity" >center</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:padding" >0dp</item>
+        <item name="android:background">#FFFFFF</item>
+
+    </style>
+
 
     <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="windowActionBar">false</item>

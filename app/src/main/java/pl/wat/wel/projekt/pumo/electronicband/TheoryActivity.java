@@ -6,6 +6,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import pl.wat.wel.projekt.pumo.electronicband.Dictionary.BasicTermsActivity;
+import pl.wat.wel.projekt.pumo.electronicband.Dictionary.ChipsActivity;
+import pl.wat.wel.projekt.pumo.electronicband.Dictionary.ElectronicElementsActivity;
+import pl.wat.wel.projekt.pumo.electronicband.Dictionary.WorkshopActivity;
+
 public class TheoryActivity extends AppCompatActivity {
 
     Button buttonElectronicElements;

@@ -20,23 +20,23 @@
             android:name=".TheoryActivity"
             android:label="Teoria" />
         <activity
-            android:name=".Kalkulatory"
+            android:name=".Calcs.Kalkulatory"
             android:label="@string/kalk" />
         <activity
-            android:name=".Prosty_Kalkulator"
+            android:name=".Calcs.Prosty_Kalkulator"
             android:label="@string/prosty" />
         <activity android:name=".DictionaryActivity" />
         <activity
-            android:name=".ChipsActivity"
+            android:name=".Dictionary.ChipsActivity"
             android:label="Układy scalone" />
         <activity
-            android:name=".ElectronicElementsActivity"
+            android:name=".Dictionary.ElectronicElementsActivity"
             android:label="Elementy elektroniczne" />
         <activity
-            android:name=".BasicTermsActivity"
+            android:name=".Dictionary.BasicTermsActivity"
             android:label="Ogólne pojęcia" />
         <activity
-            android:name=".WorkshopActivity"
+            android:name=".Dictionary.WorkshopActivity"
             android:label="Warsztat" />
         <activity android:name=".More_Activity_moreee" />
         <activity
@@ -50,11 +50,17 @@
             android:name=".Switching_Elements"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".DesignMenu"
+        <activity
+            android:name=".DesignMenu"
             android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Courses.Courses" />
+        <activity android:name=".Calcs.LogicCalcsAND" />
+        <activity android:name=".Calcs.LogicCalcsXOR" />
+        <activity android:name=".Calcs.LogicCalcsNOT" />
+        <activity android:name=".Calcs.LogicCalcsOR" />
+        <activity android:name=".Calcs.LogicCalcsNOR" />
+        <activity android:name=".Calcs.LogicCalcsNAND"></activity>
     </application>
 
 </manifest>
