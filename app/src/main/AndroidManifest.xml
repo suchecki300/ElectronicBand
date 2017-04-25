@@ -27,16 +27,16 @@
             android:label="@string/prosty" />
         <activity android:name=".DictionaryActivity" />
         <activity
-            android:name=".ChipsActivity"
+            android:name=".Dictionary.ChipsActivity"
             android:label="Układy scalone" />
         <activity
-            android:name=".ElectronicElementsActivity"
+            android:name=".Dictionary.ElectronicElementsActivity"
             android:label="Elementy elektroniczne" />
         <activity
-            android:name=".BasicTermsActivity"
+            android:name=".Dictionary.BasicTermsActivity"
             android:label="Ogólne pojęcia" />
         <activity
-            android:name=".WorkshopActivity"
+            android:name=".Dictionary.WorkshopActivity"
             android:label="Warsztat" />
         <activity android:name=".More_Activity_moreee" />
         <activity

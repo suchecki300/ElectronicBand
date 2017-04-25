@@ -1,4 +1,4 @@
-package pl.wat.wel.projekt.pumo.electronicband;
+package pl.wat.wel.projekt.pumo.electronicband.Dictionary;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -6,6 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+
+import pl.wat.wel.projekt.pumo.electronicband.ListsAndAdapters.List;
+import pl.wat.wel.projekt.pumo.electronicband.ListsAndAdapters.ListAdapter;
+import pl.wat.wel.projekt.pumo.electronicband.R;
 
 /**
  * Created by Damian-Ja on 2017-03-29.

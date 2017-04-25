@@ -1,4 +1,4 @@
-package pl.wat.wel.projekt.pumo.electronicband;
+package pl.wat.wel.projekt.pumo.electronicband.Dictionary;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,6 +12,10 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import pl.wat.wel.projekt.pumo.electronicband.ListsAndAdapters.List;
+import pl.wat.wel.projekt.pumo.electronicband.ListsAndAdapters.ListAdapter;
+import pl.wat.wel.projekt.pumo.electronicband.R;
 
 /**
  * Created by Damian-Ja on 2017-03-29.
