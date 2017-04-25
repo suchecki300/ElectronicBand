@@ -20,10 +20,10 @@
             android:name=".TheoryActivity"
             android:label="Teoria" />
         <activity
-            android:name=".Kalkulatory"
+            android:name=".Calcs.Kalkulatory"
             android:label="@string/kalk" />
         <activity
-            android:name=".Prosty_Kalkulator"
+            android:name=".Calcs.Prosty_Kalkulator"
             android:label="@string/prosty" />
         <activity android:name=".DictionaryActivity" />
         <activity
@@ -54,13 +54,13 @@
             android:name=".DesignMenu"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Courses" />
-        <activity android:name=".LogicCalcsAND" />
-        <activity android:name=".LogicCalcsXOR" />
-        <activity android:name=".LogicCalcsNOT" />
-        <activity android:name=".LogicCalcsOR" />
-        <activity android:name=".LogicCalcsNOR" />
-        <activity android:name=".LogicCalcsNAND"></activity>
+        <activity android:name=".Courses.Courses" />
+        <activity android:name=".Calcs.LogicCalcsAND" />
+        <activity android:name=".Calcs.LogicCalcsXOR" />
+        <activity android:name=".Calcs.LogicCalcsNOT" />
+        <activity android:name=".Calcs.LogicCalcsOR" />
+        <activity android:name=".Calcs.LogicCalcsNOR" />
+        <activity android:name=".Calcs.LogicCalcsNAND"></activity>
     </application>
 
 </manifest>

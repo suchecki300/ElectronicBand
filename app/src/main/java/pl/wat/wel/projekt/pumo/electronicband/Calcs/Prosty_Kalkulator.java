@@ -1,4 +1,4 @@
-package pl.wat.wel.projekt.pumo.electronicband;
+package pl.wat.wel.projekt.pumo.electronicband.Calcs;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,17 +7,20 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import pl.wat.wel.projekt.pumo.electronicband.More_Activity_moreee;
+import pl.wat.wel.projekt.pumo.electronicband.R;
+
 public class Prosty_Kalkulator extends AppCompatActivity {
 
-    private String liczba1="";
-    private String liczba2;
-    double d;
     private static final String TAG = "MyActivity";
+    double d;
     TextView editText;
     TextView textView1;
     TextView textView2;
     int i=0;
     float wynik;
+    private String liczba1 = "";
+    private String liczba2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

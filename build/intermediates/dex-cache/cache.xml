@@ -7,44 +7,8 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="fd0aec1b0a8bf811158eb7d6fbad14f2113a2ad7">
+        sha1="5ef5c5176ac3b8a58965aef1b3530c4b46f2ce40">
         <dex dex="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d5a30dffbbe95ea318dffb230875a12c8e156691\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Konrad\.android\build-cache\887b073034e6dc11f339baaff29283211d28c36a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
-        <dex dex="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f3582db94cfe99c8548b414aab1f9a52d3b29087\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Konrad\.android\build-cache\f3ea2f0ee9a0dd1def636db1cfd448eb877a629a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
-        <dex dex="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f3e09bd3961d44e2b596b54738153a90fe52741f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Konrad\.android\build-cache\b0b9ec8825f83c3e3253eed120b4f20a4883e3cb\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
-        <dex dex="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_708ebba0bd69e8256fd9b747e165f5cd5caa1a8a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Konrad\.android\build-cache\166e3ff94904bf02fb86750b0a0634513e515af9\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7273fe94bdd55b69730884fe7bc2ce9dda203059">
-        <dex dex="C:\Users\Konrad\StudioProjects\ElectronicBand\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c9aad2eff6df243518d3a0c184c606da23d8dda2\classes.dex" />
     </item>
     <item
         is-multidex="true"

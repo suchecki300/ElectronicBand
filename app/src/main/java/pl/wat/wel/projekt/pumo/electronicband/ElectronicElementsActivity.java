@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -29,25 +28,23 @@ public class ElectronicElementsActivity extends AppCompatActivity {
 
         //Dodwanie przykładowych danych
         list.add(new List("Rezystor"));
+        list.add(new List("Rezystor stały"));
+        list.add(new List("Rezystor zmienny"));
         list.add(new List("Kondensator"));
         list.add(new List("Cewka"));
-        list.add(new List("Potencjometr"));
-        list.add(new List("Trymer"));
-        list.add(new List("Transformmator"));
-        list.add(new List("TEST TEST TEST TEST"));
-        list.add(new List("TEST TEST TEST TEST"));
-        list.add(new List("TEST TEST TEST TEST"));
-        list.add(new List("TEST TEST TEST TEST"));
-        list.add(new List("TEST TEST TEST TEST"));
-        list.add(new List("TEST TEST TEST TEST"));
-        list.add(new List("TEST TEST TEST TEST"));
-        list.add(new List("TEST TEST TEST TEST"));
-        list.add(new List("TEST TEST TEST TEST"));
-        list.add(new List("TEST TEST TEST TEST"));
-        list.add(new List("TEST TEST TEST TEST"));
-        list.add(new List("TEST TEST TEST TEST"));
-        list.add(new List("TEST TEST TEST TEST"));
-
+        list.add(new List("Potencjometr obrotowy"));
+        list.add(new List("Potencjometr suwakowy"));
+        list.add(new List("Potencjometr dostrojczy"));
+        list.add(new List("Dioda półprzewodnikowa"));
+        list.add(new List("Dioda elektroluminescencyjna"));
+        list.add(new List("Tranzystor npn"));
+        list.add(new List("Tranzystor pnp"));
+        list.add(new List("Tranzystor polowy"));
+        list.add(new List("Przełącznik suwakowy"));
+        list.add(new List("Przełącznik dwustabilny"));
+        list.add(new List("Przełącznik kołyskowy"));
+        list.add(new List("Przełącznik listkowy"));
+        list.add(new List("Przełącznik przyciskowy"));
 
 
         adapter = new ListAdapter(this, list);
@@ -59,13 +56,58 @@ public class ElectronicElementsActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position == 0) {
-                    alertDialog("hehe hehe hehe hehe hahe  ").create().show();
+                    alertDialog(getString(R.string.resistor)).create().show();
                 }
                 if (position == 1) {
-                    alertDialog("addsdsd sssd dds ddds ds ddd ").create().show();
+                    alertDialog(getString(R.string.resistor_permament)).create().show();
                 }
                 if (position == 2) {
-                    alertDialog("blabla bla bal bal blabla bla bal bal blabla bla bal bal ").create().show();
+                    alertDialog(getString(R.string.resistor_floating)).create().show();
+                }
+                if (position == 3) {
+                    alertDialog(getString(R.string.capacitor)).create().show();
+                }
+                if (position == 4) {
+                    alertDialog(getString(R.string.coil)).create().show();
+                }
+                if (position == 5) {
+                    alertDialog(getString(R.string.potentiometer_spin)).create().show();
+                }
+                if (position == 6) {
+                    alertDialog(getString(R.string.potentiometer_slide)).create().show();
+                }
+                if (position == 7) {
+                    alertDialog(getString(R.string.potentiometer_tune_into)).create().show();
+                }
+                if (position == 8) {
+                    alertDialog(getString(R.string.diode_semiconductor)).create().show();
+                }
+                if (position == 9) {
+                    alertDialog(getString(R.string.diode_LED)).create().show();
+                }
+                if (position == 10) {
+                    alertDialog(getString(R.string.transistor_npn)).create().show();
+                }
+                if (position == 11) {
+                    alertDialog(getString(R.string.transistor_pnp)).create().show();
+                }
+                if (position == 12) {
+                    alertDialog(getString(R.string.transistor_FET)).create().show();
+                }
+                if (position == 13) {
+                    alertDialog(getString(R.string.switch_slide)).create().show();
+                }
+                if (position == 14) {
+                    alertDialog(getString(R.string.switch_twostabile)).create().show();
+                }
+                if (position == 15) {
+                    alertDialog(getString(R.string.switch_cradle)).create().show();
+                }
+                if (position == 16) {
+                    alertDialog(getString(R.string.switch_leaf)).create().show();
+                }
+                if (position == 17) {
+                    alertDialog(getString(R.string.switch_click)).create().show();
                 }
             }
         });
