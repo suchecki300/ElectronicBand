@@ -93,7 +93,7 @@ public class BasicTermsActivity extends AppCompatActivity {
         View dialogView = layoutInflater.inflate(R.layout.test_layout, null);
         builder.setView(dialogView);
 
-        TextView textView1 = (TextView) dialogView.findViewById(R.id.test_textView1);
+        TextView textView1 = (TextView) dialogView.findViewById(R.id.dialog_allText);
 
         textView1.setText(text);
 
