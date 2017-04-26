@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="pl.wat.wel.projekt.pumo.electronicband.More_Activity_moreee">
+    tools:context="pl.wat.wel.projekt.pumo.electronicband.Calcs.More_Activity_moreee">
 
 </android.support.constraint.ConstraintLayout>

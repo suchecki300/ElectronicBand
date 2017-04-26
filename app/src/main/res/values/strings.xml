@@ -3,7 +3,7 @@
     <string name="theory">Teoria</string>
     <string name="calculators">Kalkulatory</string>
     <string name="descriptions">Opisy</string>
-    <string name="logic_bram">Bramki logiczne</string>
+    <string name="logic_bram">Bramki \nlogiczne</string>
     <string name="prosty">Prosty</string>
     <string name="asin">asin</string>
     <string name="acos">acos</string>
@@ -36,7 +36,7 @@
     <string name="dictionaryy">Słowniczek</string>
     <color name="buttons_color_calc">#8f9491</color>
     <string name="elementy_elektroniczne">Elementy elektroniczne</string>
-    <string name="uklady_scalone">układy scalone</string>
+    <string name="uklady_scalone">Układy scalone</string>
     <string name="ogolne_pojecia">Ogólne pojęcia</string>
     <string name="warsztat">Warsztat</string>
     <string name="edytor_schemat_w">Edytor schematów</string>
@@ -308,5 +308,28 @@ milimetrów kwadratowych.
     <string name="uklad_scalony_tittle">Układ scalony</string>
     <string name="liniowy_ukladScalony_tittle">Liniowe układy scalone</string>
     <string name="cyfrowy_ukladScalony_tittle">Cyfrowe układy scalone</string>
+    <string name="gate_AND_tittle">Bramka AND</string>
+    <string name="gate_NAND_tittle">Bramka NAND</string>
+    <string name="gate_OR_tittle">Bramka OR</string>
+    <string name="ne555_tittle">NE555</string>
+    <string name="resistor_tittle">Rezystor</string>
+    <string name="resistror_constant_tittle">Rezystor stały</string>
+    <string name="resistor_changing_tittle">Rezystor zmienny</string>
+    <string name="capacitor_tittle">Kondensator</string>
+    <string name="coil_tittle">Cewka</string>
+    <string name="potentiometer_spin_tittle">Potencjometr obrotowy</string>
+    <string name="potentiometer_slide_tittle">Potencjometr suwakowy</string>
+    <string name="potentiometer_tuneInTo_tittle">Potencjometr dostrojczy</string>
+    <string name="diode_semiconductor_tittle">Dioda półprzewodnikowa</string>
+    <string name="diode_led_tittle">Dioda elektroluminescencyjna</string>
+    <string name="transistor_npn_tittle">Tranzystor npn</string>
+    <string name="transistor_pnp_tittle">Tranzystor pnp</string>
+    <string name="transistor_jfet_tittle">Tranzystor polowy</string>
+    <string name="switch_slide_tittle">Przełącznik suwakowy</string>
+    <string name="switch_twostabile_tittle">Przełącznik dwustabilny</string>
+    <string name="switch_cradle_tittle">Przełącznik kołyskowy</string>
+    <string name="switch_leaf_tittle">Przełącznik listkowy</string>
+    <string name="switch_button_tittle">Przełącznik przyciskowy</string>
+    <string name="kursy">Kursy</string>
 
 </resources>

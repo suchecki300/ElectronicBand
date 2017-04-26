@@ -6,20 +6,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import pl.wat.wel.projekt.pumo.electronicband.R;
 
 public class Kalkulatory extends AppCompatActivity {
-    Button prosty;
-    Button logiczne;
+    TextView prosty;
+    TextView logiczne;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kalkulatory);
 
-        prosty = (Button) findViewById(R.id.prosty_k);
-        logiczne = (Button) findViewById(R.id.bramki_k);
+        prosty = (TextView) findViewById(R.id.prosty_k);
+        logiczne = (TextView) findViewById(R.id.bramki_k);
 
 
 

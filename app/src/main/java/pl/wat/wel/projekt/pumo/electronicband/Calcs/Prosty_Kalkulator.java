@@ -7,7 +7,6 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import pl.wat.wel.projekt.pumo.electronicband.More_Activity_moreee;
 import pl.wat.wel.projekt.pumo.electronicband.R;
 
 public class Prosty_Kalkulator extends AppCompatActivity {

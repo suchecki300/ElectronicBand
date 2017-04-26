@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".TheoryActivity"
+            android:name=".DictionarysActivity"
             android:label="Teoria" />
         <activity
             android:name=".Calcs.Kalkulatory"
@@ -25,7 +25,7 @@
         <activity
             android:name=".Calcs.Prosty_Kalkulator"
             android:label="@string/prosty" />
-        <activity android:name=".DictionaryActivity" />
+        <activity android:name=".TheoryActivity" />
         <activity
             android:name=".Dictionary.ChipsActivity"
             android:label="Układy scalone" />
@@ -38,20 +38,20 @@
         <activity
             android:name=".Dictionary.WorkshopActivity"
             android:label="Warsztat" />
-        <activity android:name=".More_Activity_moreee" />
+        <activity android:name=".Calcs.More_Activity_moreee" />
         <activity
-            android:name=".SchematicsEditor"
+            android:name=".SchematEditor.SchematicsEditor"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar">
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
         </activity>
         <activity
-            android:name=".Switching_Elements"
+            android:name=".SchematEditor.Switching_Elements"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".DesignMenu"
+            android:name=".SchematEditor.DesignMenu"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Courses.Courses" />

@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context="pl.wat.wel.projekt.pumo.electronicband.Courses.Courses">
 
     <TableLayout
+        android:background="#ac61f7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <TableRow
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:background="#FFFFFF">
+            android:layout_height="match_parent">
 
             <ImageButton
                 android:id="@+id/imageButton10"
@@ -25,15 +26,17 @@
             <Button
                 android:id="@+id/button14"
                 style="@style/button_course"
-                android:background="#FFFFFF"
                 android:onClick="ard1OnClick2"
-                android:text="Kurs arduino Poziom&#10; I" />
+                android:text="Kurs arduino\n Poziom I" />
         </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#878787"/>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#FFFFFF">
+            android:layout_height="match_parent">
 
             <ImageButton
                 android:id="@+id/imageButton11"
@@ -49,11 +52,14 @@
                 android:text="Kurs arduino &#10; poziom II" />
 
         </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#878787"/>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#FFFFFF">
+            android:layout_height="match_parent">
 
             <ImageButton
                 android:id="@+id/imageButton12"
@@ -68,11 +74,14 @@
                 android:onClick="robOnClick2"
                 android:text="Kurs budowy &#10;robotow" />
         </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#878787"/>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#FFFFFF">
+            android:layout_height="match_parent">
 
             <ImageButton
                 android:id="@+id/imageButton13"
@@ -87,11 +96,14 @@
                 android:onClick="ediOnClick2"
                 android:text="Kurs Intel&#10; Edisona" />
         </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#878787"/>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#FFFFFF">
+            android:layout_height="match_parent">
 
             <ImageButton
                 android:id="@+id/imageButton14"
@@ -106,11 +118,14 @@
                 android:onClick="elek1OnClick2"
                 android:text="Kurs podstaw&#10; elektroniki" />
         </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#878787"/>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#FFFFFF">
+            android:layout_height="match_parent">
 
             <ImageButton
 
@@ -126,11 +141,14 @@
                 android:onClick="elek2OnClick2"
                 android:text="Kurs podstaw&#10; elektroniki II" />
         </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#878787"/>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#FFFFFF">
+            android:layout_height="match_parent">
 
             <ImageButton
                 android:id="@+id/imageButton16"
@@ -145,11 +163,14 @@
                 android:onClick="stmf4OnClick2"
                 android:text="Kurs stm32&#10; f4 cube i hal" />
         </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#878787"/>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#FFFFFF">
+            android:layout_height="match_parent">
 
             <ImageButton
                 android:id="@+id/imageButton17"
@@ -164,11 +185,14 @@
                 android:onClick="stmf32OnClick2"
                 android:text="Kurs stm32" />
         </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#878787"/>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#FFFFFF">
+            android:layout_height="match_parent">
 
             <ImageButton
                 android:id="@+id/imageButton9"
@@ -183,10 +207,14 @@
                 android:onClick="lutOnClick2"
                 android:text="Kurs lutowania" />
         </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#878787"/>
+
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#FFFFFF">
+            android:layout_height="match_parent">
 
             <ImageButton
                 android:id="@+id/imageButton19"
@@ -202,11 +230,14 @@
                 android:text="Kurs Eagle" />
 
         </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#878787"/>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="#FFFFFF">
+            android:layout_height="match_parent">
 
             <ImageButton
                 android:id="@+id/imageButton20"

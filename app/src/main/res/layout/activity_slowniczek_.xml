@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="pl.wat.wel.projekt.pumo.electronicband.DictionaryActivity">
+    tools:context="pl.wat.wel.projekt.pumo.electronicband.TheoryActivity">
 
 </android.support.constraint.ConstraintLayout>

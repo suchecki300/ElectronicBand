@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -55,10 +56,11 @@ public class ListAdapter extends ArrayAdapter<List> {
         List currentList = getItem(position);
 
         TextView tekst = (TextView) listItemView.findViewById(R.id.text_view_1);
+        ImageView image = (ImageView) listItemView.findViewById(R.id.image);
         tekst.setText(currentList.getWordText());
-
-        LinearLayout linearLayout = (LinearLayout) listItemView.findViewById(R.id.text_container);
-        linearLayout.setBackgroundColor(mContext.getResources().getColor(R.color.listColor));
+        image.setImageResource(currentList.getPictureID());
+        //LinearLayout linearLayout = (LinearLayout) listItemView.findViewById(R.id.text_container);
+        //linearLayout.setBackgroundColor(mContext.getResources().getColor(R.color.white));
 
         return listItemView;
     }

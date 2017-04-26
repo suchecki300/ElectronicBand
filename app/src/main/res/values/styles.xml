@@ -8,19 +8,22 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="LittleButtons">
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">#101673</item>
+    </style>
 
     <style name="button_text">
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">#4551ff</item>
         <item name="android:gravity">center</item>
-        <item name="android:layout_margin">3dp</item>
-        <item name="android:textSize">30dp</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">30sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:shadowColor">#000000</item>
-        <item name="android:shadowDx">1</item>
-        <item name="android:shadowDy">1</item>
-        <item name="android:shadowRadius">2</item>
     </style>
 
 
@@ -40,12 +43,14 @@
 
     <style name="button_course" >
         <item name="android:width">200dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
         <item name="android:layout_height" >match_parent</item>
         <item name="android:layout_marginLeft" >0dp</item>
         <item name="android:gravity" >center</item>
         <item name="android:layout_gravity">left</item>
         <item name="android:padding" >0dp</item>
-        <item name="android:background">#FFFFFF</item>
+        <item name="android:background">#ac61f7</item>
 
     </style>
 

@@ -30,10 +30,10 @@ public class ChipsActivity extends AppCompatActivity {
         final ArrayList<List> list = new ArrayList<>();
 
         //Dodanie przykładowych zmiennych do listy.
-        list.add(new List("Bramka AND"));
-        list.add(new List("Bramka NAND"));
-        list.add(new List("Bramka OR"));
-        list.add(new List("NE555"));
+        list.add(new List(getString(R.string.gate_AND_tittle)));
+        list.add(new List(getString(R.string.gate_NAND_tittle)));
+        list.add(new List(getString(R.string.gate_OR_tittle)));
+        list.add(new List(getString(R.string.ne555_tittle)));
 
 
         //Tworzenie obiektu klasy ListAdapter.
@@ -48,30 +48,33 @@ public class ChipsActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position == 0) {
-                    alertDialog(getString(R.string.gate_AND)).create().show();
+                    alertDialog(getString(R.string.gate_AND_tittle),getString(R.string.gate_AND)).create().show();
                 }
                 if (position == 1) {
-                    alertDialog(getString(R.string.gate_NAND)).create().show();
+                    alertDialog(getString(R.string.gate_NAND_tittle),getString(R.string.gate_NAND)).create().show();
                 }
                 if (position == 2) {
-                    alertDialog(getString(R.string.gate_OR)).create().show();
+                    alertDialog(getString(R.string.gate_OR_tittle),getString(R.string.gate_OR)).create().show();
                 }
                 if (position == 3) {
-                    alertDialog(getString(R.string.ne555)).create().show();
+                    alertDialog(getString(R.string.ne555_tittle),getString(R.string.ne555)).create().show();
                 }
             }
         });
     }
 
-    private AlertDialog.Builder alertDialog(String text) {
+    private AlertDialog.Builder alertDialog(String tittle, String text) {
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         LayoutInflater layoutInflater = ChipsActivity.this.getLayoutInflater();
+
         View dialogView = layoutInflater.inflate(R.layout.test_layout, null);
         builder.setView(dialogView);
 
         TextView textView1 = (TextView) dialogView.findViewById(R.id.dialog_allText);
+        TextView textView2 = (TextView) dialogView.findViewById(R.id.dialog_tittle);
 
         textView1.setText(text);
+        textView2.setText(tittle);
 
         return builder;
     }

@@ -11,53 +11,75 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Button
+        <TextView
             android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/dictionaryy"
-            android:drawableStart="@mipmap/ic_launcher"
-            android:textAlignment="textStart"
-            android:background="@drawable/button_main_activity"
-            style="@style/button_text"/>
-        <Button
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#636037"
+            android:drawableStart="@drawable/icon_theory"
+            android:gravity="center"
+            android:paddingStart="20dp"
+            android:text="@string/theory"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
             android:id="@+id/button2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#4551ff"
+            android:drawableStart="@drawable/calculator"
             android:text="@string/calculators"
-            android:drawableStart="@mipmap/ic_launcher"
-            android:textAlignment="textStart"
-            android:background="@drawable/button_main_activity"
-            style="@style/button_text"/>
-        <Button
+            android:gravity="center"
+            android:paddingStart="20dp"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
             android:id="@+id/button3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/theory"
-            android:drawableStart="@mipmap/ic_launcher"
-            android:textAlignment="textStart"
-            android:background="@drawable/button_main_activity"
-            style="@style/button_text"/>
-        <Button
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#f25355"
+            android:drawableStart="@drawable/dictionary_icon"
+            android:gravity="center"
+            android:paddingStart="20dp"
+            android:text="@string/dictionaryy"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
             android:id="@+id/button4"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="kursy"
-            android:drawableStart="@mipmap/ic_launcher"
-            android:textAlignment="textStart"
-            android:background="@drawable/button_main_activity"
-            style="@style/button_text"/>
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ac61f7"
+            android:drawableStart="@drawable/courses_icon"
+            android:gravity="center"
+            android:paddingStart="20dp"
+            android:text="@string/kursy"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
-        <Button
+        <TextView
             android:id="@+id/button5"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#e29521"
+            android:drawableStart="@drawable/schematic_icon"
+            android:gravity="center"
+            android:paddingStart="20dp"
             android:text="@string/edytor_schemat_w"
-            android:textSize="25sp"
-            android:drawableStart="@mipmap/ic_launcher"
-            android:textAlignment="textStart"
-            android:background="@drawable/button_main_activity"
-            style="@style/button_text"/>
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 

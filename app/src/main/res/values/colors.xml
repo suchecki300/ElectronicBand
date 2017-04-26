@@ -6,7 +6,7 @@
     <color name="schematic_backg">#405138</color>
     <color name="black">#000000</color>
     <color name="listColor">#29691b</color>
-
+    <color name="white">#FFF</color>
 
     //kolory do designa
     <color name="dis_usun">#87d6d0</color>
