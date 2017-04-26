@@ -298,5 +298,15 @@ cyfrowymi. Niektóre z nich, np. mikroprocesory, składają się z wielu milion�
 maleńkich obwodów upakowanych gęsto na powierzchni zaledwie kilku
 milimetrów kwadratowych.
     </string>
+    <string name="direct_current_tittle">Prąd stały</string>
+    <string name="alternating_current_title">Prąd zmienny</string>
+    <string name="impedance_tittle">Impedancja</string>
+    <string name="prostowanie_polokresowe_tittle">Prostowanie półokresowe</string>
+    <string name="prostowanie_pelnookresowe_tittle">Prostowanie pełnookresowe</string>
+    <string name="napiecie_przebicia_tittle">Napięcie przebicia</string>
+    <string name="moc_znamionowa_tittle">Moc znamionowa</string>
+    <string name="uklad_scalony_tittle">Układ scalony</string>
+    <string name="liniowy_ukladScalony_tittle">Liniowe układy scalone</string>
+    <string name="cyfrowy_ukladScalony_tittle">Cyfrowe układy scalone</string>
 
 </resources>
