@@ -10,6 +10,7 @@ import com.hitomi.cmlibrary.CircleMenu;
 import com.hitomi.cmlibrary.OnMenuSelectedListener;
 
 import pl.wat.wel.projekt.pumo.electronicband.R;
+import pl.wat.wel.projekt.pumo.electronicband.SchematEditor.SchematicsEditor;
 
 public class DesignMenu extends AppCompatActivity {
 
@@ -53,6 +54,12 @@ public class DesignMenu extends AppCompatActivity {
                             intent.putExtra("tryb", 0);
                             setResult(RESULT_FIRST_USER, intent);
                             finish();
+                        }
+
+                        if(index==0)
+                        {
+                            Intent intent = new Intent(getApplicationContext(), SchematicsEditor.class);
+                            startActivity(intent);
                         }
 
                     }

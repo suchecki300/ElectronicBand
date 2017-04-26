@@ -60,7 +60,18 @@
         <activity android:name=".Calcs.LogicCalcsNOT" />
         <activity android:name=".Calcs.LogicCalcsOR" />
         <activity android:name=".Calcs.LogicCalcsNOR" />
-        <activity android:name=".Calcs.LogicCalcsNAND"></activity>
+        <activity android:name=".Calcs.LogicCalcsNAND" />
+
+        <activity
+            android:name=".ListsAndAdapters.Adding_Paramets"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
+
+
+
+
+        </activity>
     </application>
 
 </manifest>

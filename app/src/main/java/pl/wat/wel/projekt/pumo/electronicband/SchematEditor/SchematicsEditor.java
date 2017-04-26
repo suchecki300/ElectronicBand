@@ -30,6 +30,7 @@ public class SchematicsEditor extends AppCompatActivity {
     private ImageView[] connections = new ImageView[30];
     private ImageView[] connectionspion = new ImageView[30];
     private ImageView setting;
+    private ImageView instruction;
     private int i=1;
     private int j=1;
     private int tryb =0;
@@ -47,6 +48,12 @@ public class SchematicsEditor extends AppCompatActivity {
 
         setting = (ImageView) findViewById(R.id.settings);
 
+        instruction = (ImageView) findViewById(R.id.instruction);
+
+
+        instruction.postDelayed(new Runnable(){
+            public void run(){ instruction.setVisibility(View.GONE);}
+        },3000);
 
         gestureDetectorCompat = new GestureDetectorCompat(this, new MyGestureListener());
 
@@ -57,6 +64,8 @@ public class SchematicsEditor extends AppCompatActivity {
                 startActivityForResult(settin, 1);
             }
         });
+
+
 
 
 
@@ -73,7 +82,7 @@ public class SchematicsEditor extends AppCompatActivity {
 
             int receive = data.getIntExtra("pozycja",1);
 
-            Toast.makeText(getApplicationContext(), String.valueOf(receive), Toast.LENGTH_SHORT).show();
+            //Toast.makeText(getApplicationContext(), String.valueOf(receive), Toast.LENGTH_SHORT).show();
             i++;
             tworz(i, receive);
         }
@@ -82,7 +91,7 @@ public class SchematicsEditor extends AppCompatActivity {
         {
 
             int receive2 = data.getIntExtra("tryb",1);
-            Toast.makeText(getApplicationContext(), "działa_result", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(getApplicationContext(), "działa_result", Toast.LENGTH_SHORT).show();
             tryb = receive2;  //przesuwanie
         }
 
@@ -108,11 +117,12 @@ public class SchematicsEditor extends AppCompatActivity {
         else if(position==0)
             imgs[general_id].setImageResource(R.drawable.rezystor2);
         else if(position==3)
-            imgs[general_id].setImageResource(R.drawable.diode2);
+            imgs[general_id].setImageResource(R.drawable.diode3);
         else if(position==4)
             imgs[general_id].setImageResource(R.drawable.diode_led);
 
 
+        imgs[general_id].getBackground();
         imgs[general_id].getLayoutParams().width=400;
         rootLayout = (ViewGroup) findViewById(R.id.view_root);
         RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(150,150);
@@ -191,11 +201,12 @@ public class SchematicsEditor extends AppCompatActivity {
         }
         if(y_first < y_position)
         {
+            connectionspion[general_id].setRotation((float) 90.0);
             connectionspion[general_id].setX(start+(scale*fin_scale)-68-(y_position-(y_first))*(float)0.5);    //-300
             connectionspion[general_id].setY(y_first+68+( y_position-(y_first))*(float)0.5);
             connectionspion[general_id].getLayoutParams().width = (int) y_position-(y_first);
 
-            connectionspion[general_id].setRotation((float) 90.0);
+
 
         }
         else if(y_first > y_position)
@@ -265,6 +276,9 @@ public class SchematicsEditor extends AppCompatActivity {
             final int X = (int) event.getRawX();
             final int Y = (int) event.getRawY();
 
+
+
+
             if (tryb == 0) {
 
                 switch (event.getAction() & MotionEvent.ACTION_MASK) {
@@ -296,13 +310,15 @@ public class SchematicsEditor extends AppCompatActivity {
                 switch (event.getAction() & MotionEvent.ACTION_MASK) {
 
                     case MotionEvent.ACTION_BUTTON_PRESS:
-                        Toast.makeText(getApplicationContext(), "działa_click1", Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(getApplicationContext(), "działa_click1", Toast.LENGTH_SHORT).show();
                         break;
 
                     case MotionEvent.ACTION_DOWN:
                         RelativeLayout.LayoutParams lParams = (RelativeLayout.LayoutParams) view.getLayoutParams();
                         _xDelta = X - lParams.leftMargin;
                         _yDelta = Y - lParams.topMargin;
+
+
                         if(second_click==0)
                         {
                             first_x= (int)view.getX();
@@ -311,7 +327,7 @@ public class SchematicsEditor extends AppCompatActivity {
                             second_click=1;
                         }
                         else if(second_click==1) {
-                            Toast.makeText(getApplicationContext(), "działa_click2", Toast.LENGTH_SHORT).show();
+                            //Toast.makeText(getApplicationContext(), "działa_click2", Toast.LENGTH_SHORT).show();
                             tworz_connect2(j, (int)view.getX(), (int)view.getY(), first_x, first_y);
                             second_click=0;
                             j++;

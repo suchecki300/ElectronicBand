@@ -4,12 +4,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
 import pl.wat.wel.projekt.pumo.electronicband.Calcs.Kalkulatory;
 import pl.wat.wel.projekt.pumo.electronicband.Courses.Courses;
 import pl.wat.wel.projekt.pumo.electronicband.SchematEditor.SchematicsEditor;
+
+
 
 public class MainActivity extends AppCompatActivity {
 
