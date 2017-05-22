@@ -61,17 +61,11 @@
         <activity android:name=".Calcs.LogicCalcsOR" />
         <activity android:name=".Calcs.LogicCalcsNOR" />
         <activity android:name=".Calcs.LogicCalcsNAND" />
-
         <activity
             android:name=".ListsAndAdapters.Adding_Paramets"
             android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBar"
-            >
-
-
-
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Calcs.Potega"></activity>
     </application>
 
 </manifest>
