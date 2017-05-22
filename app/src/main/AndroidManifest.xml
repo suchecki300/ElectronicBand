@@ -26,18 +26,6 @@
             android:name=".Calcs.Prosty_Kalkulator"
             android:label="@string/prosty" />
         <activity android:name=".TheoryActivity" />
-        <activity
-            android:name=".Dictionary.ChipsActivity"
-            android:label="Układy scalone" />
-        <activity
-            android:name=".Dictionary.ElectronicElementsActivity"
-            android:label="Elementy elektroniczne" />
-        <activity
-            android:name=".Dictionary.BasicTermsActivity"
-            android:label="Ogólne pojęcia" />
-        <activity
-            android:name=".Dictionary.WorkshopActivity"
-            android:label="Warsztat" />
         <activity android:name=".Calcs.More_Activity_moreee" />
         <activity
             android:name=".SchematEditor.SchematicsEditor"
