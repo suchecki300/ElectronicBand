@@ -42,7 +42,7 @@ public class SchematicsEditor extends AppCompatActivity {
     private int second_click=0;
     ImageButton left_adding;         //połączenie z lewej
     ImageButton right_adding;        //połączenie z prawej
-    private int side_of_line=1;      // 1 -- lewa    2 --- prawa
+    private int side_of_line=0;      // 1 -- lewa    0 --- prawa
 
 
     int first_x;
@@ -70,13 +70,30 @@ public class SchematicsEditor extends AppCompatActivity {
 
 
 
-            setting.setOnClickListener(new View.OnClickListener() {
+        setting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent settin = new Intent(SchematicsEditor.this, DesignMenu.class);
                 startActivityForResult(settin, 1);
             }
         });
+
+        left_adding.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                side_of_line=1;
+            }
+        });
+
+        right_adding.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                side_of_line=0;
+            }
+        });
+
 
 
         //Przyciski decydujące czy połączenie ma być z lewej czy prawej
@@ -211,67 +228,180 @@ public class SchematicsEditor extends AppCompatActivity {
     float scale=1;
     float start=1;
     float fin_scale =1;
+                                                // PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA
+        if(side_of_line==0) {                   //PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA PRAWA
 
-        if(x_first < x_position) {
-      //      connections[general_id].setMaxWidth(x_position - x_first);
+            // POZIOMO POZIOMO POZIOMO POZIOMO POZIOMO POZIOMO POZIOMO POZIOMO
+            if (x_first < x_position) {
+                //      connections[general_id].setMaxWidth(x_position - x_first);
 
-            fin_scale = 600;
-            scale = (x_position-68 - x_first)/fin_scale;
-            //(fin_scale-(scale*fin_scale)
-            start= x_first+143;
-           // connections[general_id].setScaleX(scale);
-            connections[general_id].getLayoutParams().width = (int) (scale*fin_scale)-68;
-            //connections[general_id].getLayoutParams().height = 8;
-            //connections[general_id].setScaleX((x_position- x_first)/scale);
-            connections[general_id].setX(start);
-            connections[general_id].setY(y_first+68);
+                fin_scale = 600;
+                scale = (x_position - 68 - x_first) / fin_scale;
+                //(fin_scale-(scale*fin_scale)
+                start = x_first + 140;
+                connections[general_id].getLayoutParams().width = (int) (scale * fin_scale) - 68;
+                connections[general_id].setX(start);
+                connections[general_id].setY(y_first + 68);
+                // connections[general_id].setScaleX(scale);
+                //connections[general_id].getLayoutParams().height = 8;
+                //connections[general_id].setScaleX((x_position- x_first)/scale);
+
+                if (y_first < y_position) {
+
+                    connectionspion[general_id].setRotation((float) 90.0);
+                    connectionspion[general_id].setX(start -70 + (scale * fin_scale) - (y_position - (y_first)) * (float) 0.5);    //-300
+                    connectionspion[general_id].setY(y_first + 68 + (y_position - (y_first)) * (float) 0.5);
+                    connectionspion[general_id].getLayoutParams().width = (int) y_position - (y_first);
+                }
+                else if (y_first > y_position) {
+                    int tempx, tempy;
+                    tempx = x_first;
+                    tempy = y_first;
+
+                    x_first = x_position;
+                    y_first = y_position;
+                    x_position = tempx;
+                    y_position = tempy;
+
+
+                    connectionspion[general_id].setX(start + (scale * fin_scale) - 70 - (y_position - (y_first)) * (float) 0.5);    //-300
+                    connectionspion[general_id].setY(y_first + 68 + (y_position - (y_first)) * (float) 0.5);
+                    connectionspion[general_id].getLayoutParams().width = (int) y_position - (y_first);
+
+                    connectionspion[general_id].setRotation((float) 90.0);
+
+                }
+
+
+            } else if (x_first > x_position) {
+                int tempx, tempy;
+                tempx = x_first;
+                tempy = y_first;
+
+                x_first = x_position;
+                y_first = y_position;
+                x_position = tempx;
+                y_position = tempy;
+
+                fin_scale = 600;
+                scale = (x_position - 68 - x_first) / fin_scale;
+                start = x_first + 143;
+                connections[general_id].getLayoutParams().width = (int) (scale * fin_scale) +70;
+                connections[general_id].setX(start);
+                connections[general_id].setY(y_first + 68);
+
+                tempx = x_first;
+                tempy = y_first;
+
+                x_first = x_position;
+                y_first = y_position;
+                x_position = tempx;
+                y_position = tempy;
+
+                if (y_first < y_position) {
+
+                    connectionspion[general_id].setRotation((float) 90.0);
+                    connectionspion[general_id].setX(start + 70 + (scale * fin_scale) - (y_position - (y_first)) * (float) 0.5);    //-300
+                    connectionspion[general_id].setY(y_first + 68 + (y_position - (y_first)) * (float) 0.5);
+                    connectionspion[general_id].getLayoutParams().width = (int) y_position - (y_first);
+                }
+                else if (y_first > y_position) {
+                    tempx = x_first;
+                    tempy = y_first;
+
+                    x_first = x_position;
+                    y_first = y_position;
+                    x_position = tempx;
+                    y_position = tempy;
+
+                    start = x_first + 140;
+                    connectionspion[general_id].setX(start +68 + (scale * fin_scale) - (y_position - (y_first)) * (float) 0.5);    //-300
+                    connectionspion[general_id].setY(y_first + 68 + (y_position - (y_first)) * (float) 0.5);
+                    connectionspion[general_id].getLayoutParams().width = (int) y_position - (y_first);
+
+                    connectionspion[general_id].setRotation((float) 90.0);
+
+                }
+
+            }
+
 
         }
-        else if(x_first > x_position) {
-            int tempx,tempy;
-            tempx= x_first;
-            tempy= y_first;
-
-            x_first=x_position;
-            y_first=y_position;
-            x_position=tempx;
-            y_position=tempy;
-
-            fin_scale = 600;
-            scale = (x_position-68 - x_first)/fin_scale;
-            start= x_first+143;
-            connections[general_id].getLayoutParams().width = (int) (scale*fin_scale)-68;
-            connections[general_id].setX(start);
-            connections[general_id].setY(y_first+68);
-
-        }
-        if(y_first < y_position)
-        {
-            connectionspion[general_id].setRotation((float) 90.0);
-            connectionspion[general_id].setX(start+(scale*fin_scale)-68-(y_position-(y_first))*(float)0.5);    //-300
-            connectionspion[general_id].setY(y_first+68+( y_position-(y_first))*(float)0.5);
-            connectionspion[general_id].getLayoutParams().width = (int) y_position-(y_first);
+        else                                // LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA
+        {                                   // LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA LEWA
+            if (y_first < y_position) {
+                connectionspion[general_id].setRotation((float) 90.0);
+                start = x_first + 68;
+                connectionspion[general_id].setX(start + (scale * fin_scale) - 68 - (y_position - (y_first)) * (float) 0.5);    //-300
+                connectionspion[general_id].setY(y_first + 68 + (y_position - (y_first)) * (float) 0.5);
+                connectionspion[general_id].getLayoutParams().width = (int) y_position - (y_first);
 
 
-
-        }
-        else if(y_first > y_position)
-        {
-            int tempx,tempy;
-            tempx= x_first;
-            tempy= y_first;
-
-            x_first=x_position;
-            y_first=y_position;
-            x_position=tempx;
-            y_position=tempy;
+                if (x_first < x_position) {
+                    fin_scale = 600;
+                    scale = (x_position - 70 - x_first) / fin_scale;
+                    //(fin_scale-(scale*fin_scale)
+                    start = x_first;
+                    connections[general_id].getLayoutParams().width = (int) (scale * fin_scale + 70);
+                    connections[general_id].setX(start);
+                    connections[general_id].setY(y_position + 70);
 
 
-            connectionspion[general_id].setX(start+(scale*fin_scale)-68-(y_position-(y_first))*(float)0.5);    //-300
-            connectionspion[general_id].setY(y_first+68+( y_position-(y_first))*(float)0.5);
-            connectionspion[general_id].getLayoutParams().width = (int) y_position-(y_first);
+                } else if (x_first > x_position) {
 
-            connectionspion[general_id].setRotation((float) 90.0);
+                    fin_scale = 600;
+                    scale = (x_first - 70- x_position) / fin_scale;
+                    start = x_position+140 ;
+                    connections[general_id].getLayoutParams().width = (int) (scale * fin_scale - 70);
+                    connections[general_id].setX(start);
+                    connections[general_id].setY(y_position + 70);
+
+                }
+
+
+            } else if (y_first > y_position) {
+                start = x_first +68;
+                int tempx, tempy;
+                tempx = x_first;
+                tempy = y_first;
+
+                x_first = x_position;
+                y_first = y_position;
+                x_position = tempx;
+                y_position = tempy;
+
+
+                connectionspion[general_id].setX(start + (scale * fin_scale) - 68 - (y_position - (y_first)) * (float) 0.5);    //-300
+                connectionspion[general_id].setY(y_first + 68 + (y_position - (y_first)) * (float) 0.5);
+                connectionspion[general_id].getLayoutParams().width = (int) y_position - (y_first);
+
+                connectionspion[general_id].setRotation((float) 90.0);
+
+                if (x_first < x_position) {
+                    fin_scale = 600;
+                    scale = (x_position - 70 - x_first) / fin_scale;
+                    //(fin_scale-(scale*fin_scale)
+                    start = x_first+140;
+                    connections[general_id].getLayoutParams().width = (int) (scale * fin_scale - 70);
+                    connections[general_id].setX(start);
+                    connections[general_id].setY(y_first + 70);
+
+
+                } else if (x_first > x_position) {
+
+                    fin_scale = 600;
+                    scale = (x_first - 70- x_position) / fin_scale;
+                    start = x_position;
+                    connections[general_id].getLayoutParams().width = (int) (scale * fin_scale + 70);
+                    connections[general_id].setX(start);
+                    connections[general_id].setY(y_first + 70);
+
+                }
+
+
+            }
+
+
 
         }
 
@@ -287,6 +417,8 @@ public class SchematicsEditor extends AppCompatActivity {
         int x_locationpio = location2[0];
         int y_locationpio = location2[1];
 
+        Log.d("x_first", String.valueOf(side_of_line));
+        /*
         Log.d("x_first", String.valueOf(x_first));
         Log.d("y_first", String.valueOf(y_first));
         Log.d("x_position", String.valueOf(x_position));
@@ -298,6 +430,7 @@ public class SchematicsEditor extends AppCompatActivity {
         Log.d("x kreski2", String.valueOf(x_locationpio));
         Log.d("y kreski2", String.valueOf(y_locationpio));
         Log.d("-----------", "---------");
+        */
 
   //      Toast.makeText(getApplicationContext(), String.valueOf(x_location), Toast.LENGTH_SHORT).show();
   //      Toast.makeText(getApplicationContext(), String.valueOf(y_location), Toast.LENGTH_SHORT).show();
