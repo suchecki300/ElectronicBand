@@ -74,7 +74,8 @@ public class Switching_Elements extends AppCompatActivity {
                 R.drawable.induction,
                 R.drawable.diodee,
 
-                R.drawable.diode_leed
+                R.drawable.diode_leed,
+                R.drawable.battery
 
         };
 

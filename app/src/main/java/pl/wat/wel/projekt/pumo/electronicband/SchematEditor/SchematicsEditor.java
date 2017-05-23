@@ -183,7 +183,8 @@ public class SchematicsEditor extends AppCompatActivity {
             imgs[general_id].setImageResource(R.drawable.diode3);
         else if(position==4)
             imgs[general_id].setImageResource(R.drawable.diode_led);
-
+        else if(position==5)
+            imgs[general_id].setImageResource(R.drawable.battery);
 
         imgs[general_id].getBackground();
         imgs[general_id].getLayoutParams().width=400;

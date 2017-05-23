@@ -188,13 +188,17 @@ public class Prosty_Kalkulator extends AppCompatActivity {
 
             case R.id.bin:
                 liczba1 = editText.getText().toString();
-
+                if(editText.getText().toString().equals(""))
+                    Toast.makeText(getApplicationContext(), "Podaj liczbę!", Toast.LENGTH_SHORT).show();
+                else
                 Toast.makeText(getApplicationContext(), "BIN(" + Integer.toBinaryString(Integer.valueOf(liczba1)).toString() + ")", Toast.LENGTH_SHORT).show();
 
                 break;
             case R.id.hexx:
                 liczba1 = editText.getText().toString();
-
+                if(editText.getText().toString().equals(""))
+                    Toast.makeText(getApplicationContext(), "Podaj liczbę!", Toast.LENGTH_SHORT).show();
+                else
                 Toast.makeText(getApplicationContext(), "Hex(" + Integer.toHexString(Integer.valueOf(liczba1)).toString() + ")", Toast.LENGTH_SHORT).show();
 
                 break;
