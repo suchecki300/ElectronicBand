@@ -5,11 +5,10 @@ package pl.wat.wel.projekt.pumo.electronicband.ListsAndAdapters;
  */
 
 public class List {
-
+    private final int NO_IMAGE_PROVIDED = -1;
     //========     Zmienne do przechowywania danych o konkretnym elemencie z listy.    =============
-
     private String wordText;
-    private int pictureID;
+    private int pictureID = NO_IMAGE_PROVIDED;
 
     //==============================================================================================
 
@@ -51,5 +50,12 @@ public class List {
      */
     public int getPictureID() {
         return pictureID;
+    }
+
+    /**
+     * Method checking if there is a picture.
+     */
+    public boolean hasImage() {
+        return pictureID != NO_IMAGE_PROVIDED;
     }
 }
