@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -44,59 +43,58 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:visibility="gone"
+                android:background="#828aff"
                 android:orientation="vertical"
-                android:background="#828aff">
+                android:visibility="gone">
 
                 <Button
                     android:id="@+id/gate_not"
+                    style="@style/LittleButtons"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    style="@style/LittleButtons"
                     android:onClick="onClickNOT"
                     android:text="NOT" />
 
                 <Button
                     android:id="@+id/gate_and"
+                    style="@style/LittleButtons"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    style="@style/LittleButtons"
                     android:onClick="onClickAND"
                     android:text="AND" />
 
                 <Button
                     android:id="@+id/gate_nand"
+                    style="@style/LittleButtons"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    style="@style/LittleButtons"
                     android:onClick="onClickNAND"
                     android:text="NAND" />
 
                 <Button
                     android:id="@+id/gate_or"
+                    style="@style/LittleButtons"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    style="@style/LittleButtons"
                     android:onClick="onClickOR"
                     android:text="OR" />
 
                 <Button
                     android:id="@+id/gate_nor"
+                    style="@style/LittleButtons"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    style="@style/LittleButtons"
                     android:onClick="onClickNOR"
                     android:text="NOR" />
 
                 <Button
                     android:id="@+id/gate_xor"
+                    style="@style/LittleButtons"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    style="@style/LittleButtons"
                     android:layout_marginBottom="5dp"
                     android:onClick="onClickXOR"
                     android:text="XOR" />
-
 
             </LinearLayout>
         </ScrollView>

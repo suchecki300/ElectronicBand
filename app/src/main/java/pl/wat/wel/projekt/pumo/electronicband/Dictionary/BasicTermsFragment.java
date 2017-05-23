@@ -94,7 +94,7 @@ public class BasicTermsFragment extends Fragment {
     private AlertDialog.Builder alertDialog(String tittle, String text) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         LayoutInflater layoutInflater = getActivity().getLayoutInflater();
-        View dialogView = layoutInflater.inflate(R.layout.custom_dialog_alert, null);
+        View dialogView = layoutInflater.inflate(R.layout.theory_info_dialog_alert, null);
         builder.setView(dialogView);
 
         TextView textView1 = (TextView) dialogView.findViewById(R.id.dialog_allText);

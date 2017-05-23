@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#636037"
+            android:background="@color/colorTheory"
             android:drawableStart="@drawable/icon_theory"
             android:gravity="center"
             android:paddingStart="20dp"
@@ -32,23 +32,9 @@
             android:layout_weight="1"
             android:background="#4551ff"
             android:drawableStart="@drawable/calculator"
+            android:gravity="center"
+            android:paddingStart="20dp"
             android:text="@string/calculators"
-            android:gravity="center"
-            android:paddingStart="20dp"
-            android:textColor="@color/white"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/button3"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="#f25355"
-            android:drawableStart="@drawable/dictionary_icon"
-            android:gravity="center"
-            android:paddingStart="20dp"
-            android:text="@string/dictionaryy"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold" />
@@ -77,6 +63,20 @@
             android:gravity="center"
             android:paddingStart="20dp"
             android:text="@string/edytor_schemat_w"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#f25355"
+            android:drawableStart="@drawable/dictionary_icon"
+            android:gravity="center"
+            android:paddingStart="20dp"
+            android:text="@string/about_us"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold" />

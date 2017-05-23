@@ -33,7 +33,7 @@
     <string name="dziele">/</string>
     <string name="ce">CE</string>
     <string name="kalk">Kalkulatory</string>
-    <string name="dictionaryy">Słowniczek</string>
+    <string name="about_us">O aplikacji</string>
     <color name="buttons_color_calc">#8f9491</color>
     <string name="elementy_elektroniczne">Elementy elektroniczne</string>
     <string name="uklady_scalone">Układy scalone</string>
@@ -417,4 +417,5 @@ milimetrów kwadratowych.
         Zamiast kleju do łączenia używa się niewielkich ilości roztopionego metalu określanych lutami,
         które nanosi się za pomocą urządzenia zwanego lutownicą. Metal tworzy fizyczne połączenie przewodzące prąd — złącze lutowane.
     </string>
+    <string name="back_button_clicked_twice">Naciśnij jeszcze raz, by wyjść!</string>
 </resources>

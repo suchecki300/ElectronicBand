@@ -45,7 +45,7 @@ public class ListAdapter extends ArrayAdapter<List> {
         }
         List currentList = getItem(position);
 
-        TextView tekst = (TextView) listItemView.findViewById(R.id.text_view_1);
+        TextView tekst = (TextView) listItemView.findViewById(R.id.tittle_text_view);
 
 
         ImageView image = (ImageView) listItemView.findViewById(R.id.image);

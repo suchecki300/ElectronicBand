@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import pl.wat.wel.projekt.pumo.electronicband.Calcs.Kalkulatory;
 import pl.wat.wel.projekt.pumo.electronicband.Courses.Courses;
@@ -13,12 +14,12 @@ import pl.wat.wel.projekt.pumo.electronicband.SchematEditor.SchematicsEditor;
 
 
 public class MainActivity extends AppCompatActivity {
-
     TextView button;
     TextView button2;
     TextView button3;
     TextView button4;
     TextView button5;
+    private long back_pressed;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               Intent intent = new Intent(getApplicationContext(), DictionarysActivity.class);
+                Intent intent = new Intent(getApplicationContext(), TheoryActivity.class);
                startActivity(intent);
             }
         });
@@ -54,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), TheoryActivity.class);
+                Intent intent = new Intent(getApplicationContext(), AboutUsActivity.class);
                 startActivity(intent);
             }
         });
@@ -79,5 +80,13 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-
+    @Override
+    public void onBackPressed() {
+        if (back_pressed + 1000 > System.currentTimeMillis()) {
+            super.onBackPressed();
+        } else {
+            Toast.makeText(getBaseContext(), R.string.back_button_clicked_twice, Toast.LENGTH_SHORT).show();
+        }
+        back_pressed = System.currentTimeMillis();
+    }
 }

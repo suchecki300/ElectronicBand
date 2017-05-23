@@ -7,11 +7,11 @@ import android.support.v4.app.FragmentManager;
  * Created by Damian Bondaruk on 2017-05-22.
  */
 
-public class FragmentPagerAdapter extends android.support.v4.app.FragmentPagerAdapter {
+public class DictionaryFragmentPagerAdapter extends android.support.v4.app.FragmentPagerAdapter {
     final int PAGE_COUNT = 4;
-    private String tabTittles[] = new String[]{"Elementy", "Układy scalone", "Ogólne pojęcia", "Warsztat"};
+    private String tabTittles[] = new String[]{"Elementy", "Ogólne pojęcia", "Układy scalone", "Warsztat"};
 
-    public FragmentPagerAdapter(FragmentManager fm) {
+    public DictionaryFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
     }
 
@@ -24,11 +24,11 @@ public class FragmentPagerAdapter extends android.support.v4.app.FragmentPagerAd
                 break;
             }
             case 1: {
-                fragment = new BasicTermsFragment();
+                fragment = new ChipsFragment();
                 break;
             }
             case 2: {
-                fragment = new ChipsFragment();
+                fragment = new BasicTermsFragment();
                 break;
             }
             case 3: {

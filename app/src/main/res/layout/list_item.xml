@@ -4,25 +4,25 @@
     android:id="@+id/list_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:minHeight="88dp"
+    android:minHeight="@dimen/image_hight_value"
     android:orientation="horizontal">
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="88dp"
-        android:layout_height="88dp"
+        android:layout_width="@dimen/image_width_value"
+        android:layout_height="@dimen/image_hight_value"
         android:src="@mipmap/ic_launcher" />
 
     <LinearLayout
         android:id="@+id/text_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#636037"
+        android:background="@color/colorTheory"
         android:orientation="vertical"
-        android:paddingLeft="16dp">
+        android:paddingLeft="@dimen/padding_left_text_conteiner_item_list">
 
         <TextView
-            android:id="@+id/text_view_1"
+            android:id="@+id/tittle_text_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"

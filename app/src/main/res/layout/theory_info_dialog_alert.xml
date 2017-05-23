@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/customDialogBackground"
+    android:background="@color/colorTheory"
     android:orientation="vertical">
 
     <TextView
@@ -11,7 +11,8 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Dziala"
-        android:textSize="32sp"
+        android:textColor="@color/white"
+        android:textSize="34sp"
         android:textStyle="bold" />
 
     <ScrollView
@@ -30,7 +31,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Dziala"
-                android:textSize="18sp" />
+                android:textColor="@color/white"
+                android:textSize="16sp" />
         </LinearLayout>
 
     </ScrollView>

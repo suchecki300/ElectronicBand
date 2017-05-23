@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#70b169</color>
-    <color name="colorPrimaryDark">#438116</color>
+    <color name="colorPrimary">#00796B</color>
+    <color name="colorPrimaryDark">#004D40</color>
     <color name="colorAccent">#FF4081</color>
     <color name="schematic_backg">#405138</color>
     <color name="black">#000000</color>
@@ -16,4 +16,5 @@
     <color name="dis_przesuwaj">#e7e79a</color>
 
     <color name="customDialogBackground">#817d48</color>
+    <color name="colorTheory">#9C27B0</color>
 </resources>
