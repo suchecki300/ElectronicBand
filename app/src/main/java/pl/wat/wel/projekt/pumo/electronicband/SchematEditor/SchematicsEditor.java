@@ -10,6 +10,8 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
@@ -17,6 +19,8 @@ import android.widget.Toast;
 import pl.wat.wel.projekt.pumo.electronicband.R;
 
 import static android.widget.Toast.makeText;
+import static pl.wat.wel.projekt.pumo.electronicband.R.id.left_adding;
+import static pl.wat.wel.projekt.pumo.electronicband.R.id.right_adding;
 
 
 public class SchematicsEditor extends AppCompatActivity {
@@ -29,12 +33,16 @@ public class SchematicsEditor extends AppCompatActivity {
     private ImageView[] imgs = new ImageView[50];
     private ImageView[] connections = new ImageView[30];
     private ImageView[] connectionspion = new ImageView[30];
+
     private ImageView setting;
     private ImageView instruction;
     private int i=1;
     private int j=1;
-    private int tryb =0;
+    private int tryb =0;             //określa tryb w jakim pracujemy 1 - łączenie
     private int second_click=0;
+    ImageButton left_adding;         //połączenie z lewej
+    ImageButton right_adding;        //połączenie z prawej
+    private int side_of_line=1;      // 1 -- lewa    2 --- prawa
 
 
     int first_x;
@@ -46,9 +54,12 @@ public class SchematicsEditor extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_schematics_editor);
 
-        setting = (ImageView) findViewById(R.id.settings);
+        //określa z której strony wykonać połączenie
+        left_adding = (ImageButton) findViewById(R.id.left_adding);
+        right_adding = (ImageButton) findViewById(R.id.right_adding);
 
-        instruction = (ImageView) findViewById(R.id.instruction);
+        setting = (ImageView) findViewById(R.id.settings);
+        instruction = (ImageView) findViewById(R.id.instruction);       //podpowiedź
 
 
         instruction.postDelayed(new Runnable(){
@@ -57,7 +68,9 @@ public class SchematicsEditor extends AppCompatActivity {
 
         gestureDetectorCompat = new GestureDetectorCompat(this, new MyGestureListener());
 
-        setting.setOnClickListener(new View.OnClickListener() {
+
+
+            setting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent settin = new Intent(SchematicsEditor.this, DesignMenu.class);
@@ -65,6 +78,18 @@ public class SchematicsEditor extends AppCompatActivity {
             }
         });
 
+
+        //Przyciski decydujące czy połączenie ma być z lewej czy prawej
+        if(tryb ==1)
+        {
+            left_adding.setVisibility(View.VISIBLE);
+            right_adding.setVisibility(View.VISIBLE);
+        }
+        else
+        {
+            left_adding.setVisibility(View.INVISIBLE);
+            right_adding.setVisibility(View.INVISIBLE);
+        }
 
 
 
@@ -76,6 +101,7 @@ public class SchematicsEditor extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+
 
         if(requestCode==1 && resultCode==RESULT_OK)
         {
@@ -91,9 +117,29 @@ public class SchematicsEditor extends AppCompatActivity {
         {
 
             int receive2 = data.getIntExtra("tryb",1);
+
+
+
             //Toast.makeText(getApplicationContext(), "działa_result", Toast.LENGTH_SHORT).show();
             tryb = receive2;  //przesuwanie
         }
+
+
+
+        //Przyciski decydujące czy połączenie ma być z lewej czy prawej
+        left_adding = (ImageButton) findViewById(R.id.left_adding);
+        right_adding = (ImageButton) findViewById(R.id.right_adding);
+        if(tryb ==1)
+        {
+            left_adding.setVisibility(View.VISIBLE);
+            right_adding.setVisibility(View.VISIBLE);
+        }
+        else
+        {
+            left_adding.setVisibility(View.INVISIBLE);
+            right_adding.setVisibility(View.INVISIBLE);
+        }
+        /////////////////koniec konfiguracji przycisków/////////////////////////////
 
     }
 
@@ -278,7 +324,7 @@ public class SchematicsEditor extends AppCompatActivity {
 
 
 
-
+        ////////////////////PRZESUWANIE ELEMENTÓW//////////////////////////////////////
             if (tryb == 0) {
 
                 switch (event.getAction() & MotionEvent.ACTION_MASK) {
@@ -305,6 +351,7 @@ public class SchematicsEditor extends AppCompatActivity {
 
                 }
             }
+            /////////////////////ŁĄCZENIE ELEMENTÓW////////////////////////////////////////////////
             if(tryb ==1)                        //2  5dluuugo  3                          2   5   3
             {
                 switch (event.getAction() & MotionEvent.ACTION_MASK) {
