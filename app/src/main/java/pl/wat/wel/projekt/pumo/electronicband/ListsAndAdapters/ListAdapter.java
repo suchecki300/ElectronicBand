@@ -3,12 +3,12 @@ package pl.wat.wel.projekt.pumo.electronicband.ListsAndAdapters;
 import android.app.Activity;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -21,13 +21,7 @@ import pl.wat.wel.projekt.pumo.electronicband.R;
 
 
 public class ListAdapter extends ArrayAdapter<List> {
-    //===========================  Zmienne wykorzystywane w danej klasie. ==========================
-
-    // Zmienna przetrzymuje wartość kontekstu przekazaną przez konstruktor, potrzebna do kolejnego ficzera.
     private Activity mContext;
-
-
-    //==============================================================================================
 
     /**
      * Główny konstruktor klasy.
@@ -40,10 +34,6 @@ public class ListAdapter extends ArrayAdapter<List> {
         this.mContext = context;
     }
 
-    /**
-     * Metoda nadpisana z klasy ArrayAdapetr.
-     * Przy pomocy tej metody zostają wyświetlone poszczególne dane ze zbioru.
-     */
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
@@ -55,12 +45,20 @@ public class ListAdapter extends ArrayAdapter<List> {
         }
         List currentList = getItem(position);
 
-        TextView tekst = (TextView) listItemView.findViewById(R.id.text_view_1);
+        TextView tekst = (TextView) listItemView.findViewById(R.id.tittle_text_view);
+
+
         ImageView image = (ImageView) listItemView.findViewById(R.id.image);
         tekst.setText(currentList.getWordText());
-        image.setImageResource(currentList.getPictureID());
-        //LinearLayout linearLayout = (LinearLayout) listItemView.findViewById(R.id.text_container);
-        //linearLayout.setBackgroundColor(mContext.getResources().getColor(R.color.white));
+
+        if (currentList.hasImage()) {
+            image.setImageResource(currentList.getPictureID());
+            image.setVisibility(View.VISIBLE);
+            image.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.white));
+
+        } else {
+            image.setVisibility(View.GONE);
+        }
 
         return listItemView;
     }

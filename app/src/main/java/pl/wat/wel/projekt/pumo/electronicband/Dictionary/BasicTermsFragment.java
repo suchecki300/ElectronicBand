@@ -1,12 +1,12 @@
 package pl.wat.wel.projekt.pumo.electronicband.Dictionary;
 
-import android.content.Context;
+
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -18,37 +18,39 @@ import pl.wat.wel.projekt.pumo.electronicband.ListsAndAdapters.ListAdapter;
 import pl.wat.wel.projekt.pumo.electronicband.R;
 
 /**
- * Created by Damian-Ja on 2017-03-29.
+ * A simple {@link Fragment} subclass.
  */
+public class BasicTermsFragment extends Fragment {
+    public BasicTermsFragment() {
+        // Required empty public constructor
+    }
 
-public class BasicTermsActivity extends AppCompatActivity {
-    Context context = BasicTermsActivity.this;
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.list);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+
+        View rootView = inflater.inflate(R.layout.list, container, false);
 
         //Tworzenie listy słów.
         final ArrayList<List> list = new ArrayList<>();
 
         //Dodanie przykładowych zmiennych do listy.
-        list.add(new List(getString(R.string.direct_current_tittle),R.raw.dc));
-        list.add(new List(getString(R.string.alternating_current_title),R.raw.ac));
-        list.add(new List(getString(R.string.impedance_tittle),R.raw.impedance));
-        list.add(new List(getString(R.string.prostowanie_polokresowe_tittle),R.raw.jednopolowkowy));
-        list.add(new List(getString(R.string.prostowanie_pelnookresowe_tittle),R.raw.dwupolowkowy));
-        list.add(new List(getString(R.string.napiecie_przebicia_tittle),R.raw.napiecie_przebicia));
-        list.add(new List(getString(R.string.moc_znamionowa_tittle),R.raw.moc_znamionowa));
-        list.add(new List(getString(R.string.uklad_scalony_tittle),R.raw.chip));
-        list.add(new List(getString(R.string.liniowy_ukladScalony_tittle),R.raw.liniowy_uklad_scalony));
-        list.add(new List(getString(R.string.cyfrowy_ukladScalony_tittle),R.raw.cyfrowy_uklad_scalony));
-
+        list.add(new List(getString(R.string.direct_current_tittle), R.raw.dc));
+        list.add(new List(getString(R.string.alternating_current_title), R.raw.ac));
+        list.add(new List(getString(R.string.impedance_tittle), R.raw.impedance));
+        list.add(new List(getString(R.string.prostowanie_polokresowe_tittle), R.raw.jednopolowkowy));
+        list.add(new List(getString(R.string.prostowanie_pelnookresowe_tittle), R.raw.dwupolowkowy));
+        list.add(new List(getString(R.string.napiecie_przebicia_tittle), R.raw.napiecie_przebicia));
+        list.add(new List(getString(R.string.moc_znamionowa_tittle), R.raw.moc_znamionowa));
+        list.add(new List(getString(R.string.uklad_scalony_tittle), R.raw.chip));
+        list.add(new List(getString(R.string.liniowy_ukladScalony_tittle), R.raw.liniowy_uklad_scalony));
+        list.add(new List(getString(R.string.cyfrowy_ukladScalony_tittle), R.raw.cyfrowy_uklad_scalony));
 
         //Tworzenie obiektu klasy ListAdapter.
-        ListAdapter adapter = new ListAdapter(this, list);
+        ListAdapter adapter = new ListAdapter(getActivity(), list);
 
         //Ustawianie na listView adaptera.
-        ListView listView = (ListView) findViewById(R.id.list);
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -86,12 +88,13 @@ public class BasicTermsActivity extends AppCompatActivity {
                 }
             }
         });
+        return rootView;
     }
 
     private AlertDialog.Builder alertDialog(String tittle, String text) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        LayoutInflater layoutInflater = BasicTermsActivity.this.getLayoutInflater();
-        View dialogView = layoutInflater.inflate(R.layout.test_layout, null);
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        LayoutInflater layoutInflater = getActivity().getLayoutInflater();
+        View dialogView = layoutInflater.inflate(R.layout.theory_info_dialog_alert, null);
         builder.setView(dialogView);
 
         TextView textView1 = (TextView) dialogView.findViewById(R.id.dialog_allText);

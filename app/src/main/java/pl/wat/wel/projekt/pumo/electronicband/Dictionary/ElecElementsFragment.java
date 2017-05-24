@@ -1,11 +1,12 @@
 package pl.wat.wel.projekt.pumo.electronicband.Dictionary;
 
-import android.content.Context;
+
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -16,16 +17,22 @@ import pl.wat.wel.projekt.pumo.electronicband.ListsAndAdapters.List;
 import pl.wat.wel.projekt.pumo.electronicband.ListsAndAdapters.ListAdapter;
 import pl.wat.wel.projekt.pumo.electronicband.R;
 
-public class ElectronicElementsActivity extends AppCompatActivity {
-
+/**
+ * A simple {@link Fragment} subclass.
+ */
+public class ElecElementsFragment extends Fragment {
     ArrayList<List> list;
     ListView listView;
     ListAdapter adapter;
-    Context context = ElectronicElementsActivity.this;
+
+    public ElecElementsFragment() {
+        // Required empty public constructor
+    }
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.list);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.list, container, false);
 
         //Tworzenie nowej listy
         list = new ArrayList<>();
@@ -50,10 +57,9 @@ public class ElectronicElementsActivity extends AppCompatActivity {
         list.add(new List(getString(R.string.switch_leaf_tittle),R.raw.switch_leaf));
         list.add(new List(getString(R.string.switch_button_tittle),R.raw.switch_click));
 
+        adapter = new ListAdapter(getActivity(), list);
 
-        adapter = new ListAdapter(this, list);
-
-        listView = (ListView) findViewById(R.id.list);
+        listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -115,12 +121,13 @@ public class ElectronicElementsActivity extends AppCompatActivity {
                 }
             }
         });
+        return rootView;
     }
 
     private AlertDialog.Builder alertDialog(String tittle, String text) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        LayoutInflater layoutInflater = ElectronicElementsActivity.this.getLayoutInflater();
-        View dialogView = layoutInflater.inflate(R.layout.test_layout, null);
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        LayoutInflater layoutInflater = getActivity().getLayoutInflater();
+        View dialogView = layoutInflater.inflate(R.layout.theory_info_dialog_alert, null);
         builder.setView(dialogView);
 
         TextView textView1 = (TextView) dialogView.findViewById(R.id.dialog_allText);

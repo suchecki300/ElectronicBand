@@ -23,7 +23,6 @@ public class Kalkulatory extends AppCompatActivity {
         logiczne = (TextView) findViewById(R.id.bramki_k);
 
 
-
         prosty.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -31,7 +30,6 @@ public class Kalkulatory extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
 
         logiczne.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,7 +44,6 @@ public class Kalkulatory extends AppCompatActivity {
                     logic_sub.setVisibility(View.GONE);
                 }
         }});
-
     }
 
     public void onClickNOR(View view) {

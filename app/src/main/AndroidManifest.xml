@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DictionarysActivity"
+            android:name=".TheoryActivity"
             android:label="Teoria" />
         <activity
             android:name=".Calcs.Kalkulatory"
@@ -25,19 +25,7 @@
         <activity
             android:name=".Calcs.Prosty_Kalkulator"
             android:label="@string/prosty" />
-        <activity android:name=".TheoryActivity" />
-        <activity
-            android:name=".Dictionary.ChipsActivity"
-            android:label="Układy scalone" />
-        <activity
-            android:name=".Dictionary.ElectronicElementsActivity"
-            android:label="Elementy elektroniczne" />
-        <activity
-            android:name=".Dictionary.BasicTermsActivity"
-            android:label="Ogólne pojęcia" />
-        <activity
-            android:name=".Dictionary.WorkshopActivity"
-            android:label="Warsztat" />
+        <activity android:name=".AboutUsActivity" />
         <activity android:name=".Calcs.More_Activity_moreee" />
         <activity
             android:name=".SchematEditor.SchematicsEditor"
@@ -61,17 +49,11 @@
         <activity android:name=".Calcs.LogicCalcsOR" />
         <activity android:name=".Calcs.LogicCalcsNOR" />
         <activity android:name=".Calcs.LogicCalcsNAND" />
-
         <activity
             android:name=".ListsAndAdapters.Adding_Paramets"
             android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBar"
-            >
-
-
-
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".Calcs.Potega"></activity>
     </application>
 
 </manifest>

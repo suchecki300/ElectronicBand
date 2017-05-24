@@ -9,6 +9,8 @@ import android.widget.Toast;
 
 import pl.wat.wel.projekt.pumo.electronicband.R;
 
+import static pl.wat.wel.projekt.pumo.electronicband.R.id.edittext;
+
 public class Prosty_Kalkulator extends AppCompatActivity {
 
     private static final String TAG = "MyActivity";
@@ -25,6 +27,13 @@ public class Prosty_Kalkulator extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prosty__kalkulator);
+
+        textView2 = (TextView) findViewById(R.id.textView2);
+
+        Intent intent = getIntent();
+        String message = intent.getStringExtra("funkcja");
+        textView2.setText(message);
+
     }
 
 
@@ -32,7 +41,7 @@ public class Prosty_Kalkulator extends AppCompatActivity {
 
     public void onClick(View v){
 
-        editText = (TextView) findViewById(R.id.edittext);
+        editText = (TextView) findViewById(edittext);
         textView1 = (TextView) findViewById(R.id.textView1);
         textView2 = (TextView) findViewById(R.id.textView2);
         switch(v.getId()) {
@@ -46,11 +55,16 @@ public class Prosty_Kalkulator extends AppCompatActivity {
                 editText.setText(liczba1);
                 break;
             case R.id.more:
-               Intent more_functions = new Intent (getApplicationContext(), More_Activity_moreee.class);
-                String sending_mes= editText.getText().toString();
-                more_functions.putExtra("name", sending_mes);
+                if(editText.getText().toString().equals(""))
+                    Toast.makeText(getApplicationContext(), "Wprowadź jakąś wartość!", Toast.LENGTH_SHORT).show();
+                else
+            {
+                Intent more_functions = new Intent(getApplicationContext(), More_Activity_moreee.class);
+                String sending_mes = editText.getText().toString();
+                more_functions.putExtra("number", sending_mes);
 
                 startActivity(more_functions);
+            }
                 break;
             //////wpisywanie cyfer//////////////////////////////
             case R.id.button1:
@@ -169,6 +183,23 @@ public class Prosty_Kalkulator extends AppCompatActivity {
                Math.sqrt(Float.valueOf(liczba1));
                editText.setText(String.valueOf(Math.sqrt(Float.valueOf(liczba1))));
                Toast.makeText(getApplicationContext(), "sqrt(" + liczba1 + ") =" + editText.getText().toString(), Toast.LENGTH_SHORT).show();
+
+                break;
+
+            case R.id.bin:
+                liczba1 = editText.getText().toString();
+                if(editText.getText().toString().equals(""))
+                    Toast.makeText(getApplicationContext(), "Podaj liczbę!", Toast.LENGTH_SHORT).show();
+                else
+                Toast.makeText(getApplicationContext(), "BIN(" + Integer.toBinaryString(Integer.valueOf(liczba1)).toString() + ")", Toast.LENGTH_SHORT).show();
+
+                break;
+            case R.id.hexx:
+                liczba1 = editText.getText().toString();
+                if(editText.getText().toString().equals(""))
+                    Toast.makeText(getApplicationContext(), "Podaj liczbę!", Toast.LENGTH_SHORT).show();
+                else
+                Toast.makeText(getApplicationContext(), "Hex(" + Integer.toHexString(Integer.valueOf(liczba1)).toString() + ")", Toast.LENGTH_SHORT).show();
 
                 break;
 

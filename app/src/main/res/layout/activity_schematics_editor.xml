@@ -23,11 +23,28 @@
         android:id="@+id/instruction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="14dp"
-        android:layout_marginStart="22dp"
         android:src="@drawable/transition"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp" />
+
+    <ImageButton
+        android:id="@+id/left_adding"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@android:drawable/ic_media_rew"
+        android:layout_alignTop="@+id/right_adding"
+        android:layout_toStartOf="@+id/right_adding" />
+
+    <ImageButton
+        android:id="@+id/right_adding"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:cropToPadding="false"
+        app:srcCompat="@android:drawable/ic_media_ff"
+        android:layout_alignBottom="@+id/settings"
+        android:layout_toStartOf="@+id/settings"
+        android:layout_marginEnd="17dp" />
 
 
 </RelativeLayout>

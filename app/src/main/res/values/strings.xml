@@ -33,7 +33,7 @@
     <string name="dziele">/</string>
     <string name="ce">CE</string>
     <string name="kalk">Kalkulatory</string>
-    <string name="dictionaryy">Słowniczek</string>
+    <string name="about_us">O aplikacji</string>
     <color name="buttons_color_calc">#8f9491</color>
     <string name="elementy_elektroniczne">Elementy elektroniczne</string>
     <string name="uklady_scalone">Układy scalone</string>
@@ -52,7 +52,7 @@
         <item>sinus</item>
         <item>cosinus</item>
         <item>tangens</item>
-        <item>cotangens</item>
+        <item>do radianów</item>
         <item>potęga</item>
         <item>logarytm naturalny</item>
         <item>logarytm dziesiętny</item>
@@ -332,4 +332,90 @@ milimetrów kwadratowych.
     <string name="switch_button_tittle">Przełącznik przyciskowy</string>
     <string name="kursy">Kursy</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="soldering_tittle">Lutowanie</string>
+    <string name="solder_tittle">Lutownica</string>
+    <string name="base_solder_tittle">Podstawka lutownicy</string>
+    <string name="metalic_solder_tittle">Stop lutownicy</string>
+    <string name="sponge_tittle">Gąbka</string>
+    <string name="paste_tittle">Pasta</string>
+    <string name="hoover_cin_tittle">Odsysacz do cyny</string>
+    <string name="pincers_tittle">Szczypce do drutu</string>
+    <string name="crib_isolator_tittle">Sciągacz izolacji</string>
+    <string name="third_hand_tittle">Trzecia ręka</string>
+    <string name="heighten_glass_tittle">Szkło powiększające</string>
+    <string name="protection_glasses_tittle">Okulary ochronne</string>
+    <string name="antistatic_hand_belt_tittle">Antystatyczny pasek na rękę</string>
+    <string name="table_contact_tittle">Płytki stykowe</string>
+    <string name="solder_description">
+        Czasami nazywana też kolbą lutowniczą — to urządzenie o podłużnym kształcie, z izolowaną rękojeścią, elementem grzejnym i grotem z polerowanego metalu.
+        Najlepiej kupić urządzenie o mocy znamionowej 25 – 30 W z możliwością wymiany grotów oraz wtyczką z trzema bolcami, pozwalającą podłączyć uziemienie.
+        W niektórych modelach można mocować groty o różnych rozmiarach przeznaczone do różnych celów oraz zmieniać moc (obie możliwości są przydatne, ale można się obejść bez nich).
+    </string>
+    <string name="base_solder_description">
+        Czasami nazywana też kolbą lutowniczą — to urządzenie o podłużnym kształcie, z izolowaną rękojeścią, elementem grzejnym i grotem z polerowanego metalu.
+        Najlepiej kupić urządzenie o mocy znamionowej 25 – 30 W z możliwością wymiany grotów oraz wtyczką z trzema bolcami, pozwalającą podłączyć uziemienie.
+        W niektórych modelach można mocować groty o różnych rozmiarach przeznaczone do różnych celów oraz zmieniać moc (obie możliwości są przydatne, ale można się obejść bez nich).
+    </string>
+    <string name="metalic_solder_description">
+        Trzyma lutownicę i zapobiega zetknięciu gorącego grotu z powierzchnią stołu.
+        Niektóre lutownice są standardowo wyposażone w podstawkę i wówczas nazywa się je stacjami lutowniczymi.
+        Podstawka powinna być ciężka, a jeśli nie jest, to należy ją przymocować do stołu, aby się nie przewróciła.
+        Bez podstawki ani rusz, chyba że chcesz się poparzyć albo spalić sobie jakieś części.
+    </string>
+    <string name="sponge_description">
+        Jest to miękki metal, który ogrzewa się za pomocą lutownicy w celu stopienia go i naniesienia na łączone elementy, aby utworzyć przewodzące połączenie między nimi.
+        Najczęściej używany jest stop kalafoniowy (w sklepach zwykle występujący po prostu pod nazwą cyna), który zawiera około 60 procent cyny,
+        40 procent ołowiu i ma rdzeń z kalafonii (nie używaj stopów przeznaczonych do hydrauliki, ponieważ niszczą części elektroniczne i płytki obwodów drukowanych).
+        Kalafonia to woskowata substancja, która oczyszcza łączone metale i ułatwia rozprowadzanie i przyczepianie stopu do powierzchni. Stopy lutownicze sprzedawane są w szpulach.
+        Do zastosowań w projektach amatorskich zalecamy druty o średnicy 0,8 i 1,5 milimetra.
+    </string>
+    <string name="paste_description">
+        Służy do ścierania pozostałości metalu i kalafonii z gorącego grotu lutownicy. N
+        Niektóre stojaki mają specjalne miejsce z gąbką, ale równie dobrze można posłużyć się zwykłą, czystą gąbką domową.
+    </string>
+    <string name="hoover_cin_description">
+        Pozwala dobrze oczyścić grot z pozostałości materiału po lutowaniu.
+    </string>
+    <string name="pincers_description">
+        Najprostsze i najtańsze szczypce można nabyć w każdym sklepie z narzędziami dla majsterkowiczów,
+        ale warto zapłacić te parę złotych więcej za profesjonalne obcinaczki.
+        Przy ich użyciu łatwiej jest wykonywać cięcia tam, gdzie jest mało miejsca, np. nad lutami.
+    </string>
+    <string name="crib_isolator_description">
+        Elektronik często musi zdjąć kawałek izolacji z przewodu,
+        aby przylutować go gdzieś albo włożyć w otwór na płytce stykowej (opisanej w następnym podrozdziale).
+        Dobre ściągacze mają specjalne rowki pozwalające na bezproblemowe ściąganie plastikowej otoczki z przewodów o różnej średnicy,
+        nie uszkadzając przy tym znajdującego się wewnątrz drutu.
+        Można też kupić narzędzia będące połączeniem obcinaczki i ściągacza, ale wówczas trzeba samodzielnie kontrolować prześwit.
+    </string>
+    <string name="third_hand_description">
+        Narzędzie to przymocowuje się do stołu i używa się go do podtrzymywania drobnych części albo szkła powiększającego w czasie pracy.
+        Bardzo ułatwia wiele zadań, takich jak lutowanie.
+    </string>
+    <string name="heighten_glass_description">
+        Powiększająca trzykrotnie lupa pomoże Ci dokładnie sprawdzić połączenia lutowe i odczytać maleńkie oznaczenia na częściach.
+    </string>
+    <string name="protection_glasses_description">
+        Stylowe plastikowe okulary ochronne zawsze są modne.
+        Stanowią niezbędną ochronę oczu przed latającymi kawałkami drutu, pryskającym lutowiem, odłamkami eksplodujących elementów elektronicznych i wieloma innymi drobnymi cząstkami.
+        Jeśli nosisz zwykłe okulary, to załóż okulary ochronne na nie, aby mieć osłonę oczu ze wszystkich stron.
+    </string>
+    <string name="antistatic_hand_belt_description">
+        Niedrogi pasek zapobiegający rozładowaniom elektrostatycznym, które mogłyby uszkodzić delikatne elementy elektroniczne.
+    </string>
+    <string name="table_contact_description">
+        Są pod pewnym względem podobne do stołu z klockami lego. Pozwalają w bardzo łatwy sposób wykonać prototyp układu poprzez wetknięcie w otwory wtyków elementów elektronicznych.
+        Istniejący obwód można bez trudu rozmontować i na tej samej powierzchni zbudować całkiem nowy układ. Otwory w płytce stykowej to nie zwykłe dziury, lecz otwory mocujące końcówek stykowych.
+        Pod spodem mają specjalne połączenia z drutu miedzianego, dzięki którym elementy wpięte w tym samym rzędzie są ze sobą połączone.
+        Wystarczy tylko powtykać wszystkie elementy dyskretne (rezystory, kondensatory, diody i tranzystory) oraz układy scalone w odpowiednie miejsca — i gotowe!
+        Do zbudowania takiego układu nie jest w ogóle potrzebna lutownica. Kiedy znudzi Ci się dany obwód, to możesz go rozmontować i stworzyć coś nowego na tej samej płytce.
+    </string>
+    <string name="soldering_description">
+        To metoda wykonywania półtrwałych połączeń elementów elektronicznych.
+        Zamiast kleju do łączenia używa się niewielkich ilości roztopionego metalu określanych lutami,
+        które nanosi się za pomocą urządzenia zwanego lutownicą. Metal tworzy fizyczne połączenie przewodzące prąd — złącze lutowane.
+    </string>
+    <string name="back_button_clicked_twice">Naciśnij jeszcze raz, by wyjść!</string>
 </resources>
