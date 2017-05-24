@@ -56,13 +56,17 @@
 
                     <TextView
                         android:id="@+id/contact"
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_below="@id/text_info"
+                        android:layout_centerInParent="true"
                         android:layout_marginTop="10dp"
-                        android:gravity="center"
+                        android:background="#72FF0000"
+                        android:onClick="clickEmail"
+                        android:padding="3dp"
                         android:text="@string/kontakt_gmail"
-                        android:textSize="18sp" />
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
