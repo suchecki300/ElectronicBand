@@ -4,7 +4,7 @@
     <string name="calculators">Kalkulatory</string>
     <string name="descriptions">Opisy</string>
     <string name="logic_bram">Bramki \nlogiczne</string>
-    <string name="prosty">Prosty</string>
+    <string name="prosty">PROSTY</string>
     <string name="asin">asin</string>
     <string name="acos">acos</string>
     <string name="atang">atang</string>
@@ -418,6 +418,11 @@ milimetrów kwadratowych.
         które nanosi się za pomocą urządzenia zwanego lutownicą. Metal tworzy fizyczne połączenie przewodzące prąd — złącze lutowane.
     </string>
     <string name="back_button_clicked_twice">Naciśnij jeszcze raz, by wyjść!</string>
+    <string name="about_info">ElectronicBand jest prostą aplikacją dla początkujących elektroników,
+        którzy mogą w przyjazny sposób zdobywać wiedzę o podstawowych elementach elektronicznych przyrządach jakie powinny znajdować się w warsztacie,
+        jak i również wykorzystać wbudowany kalkulator do podstawowych obliczeń.</string>
+    <string name="kontakt_gmail">Kontakt: xyz@gmail.com</string>
+    <string name="wersja_testowa">Wersja testowa</string>
     <string name="podaj_nazw_elementu">Podaj nazwę elementu:</string>
     <string name="podaj_warto_elementu">Podaj wartość elementu:</string>
 </resources>

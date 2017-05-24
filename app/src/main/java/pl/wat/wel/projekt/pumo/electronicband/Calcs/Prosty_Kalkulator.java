@@ -3,6 +3,7 @@ package pl.wat.wel.projekt.pumo.electronicband.Calcs;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,22 +23,32 @@ public class Prosty_Kalkulator extends AppCompatActivity {
     float wynik;
     private String liczba1 = "";
     private String liczba2;
+    private long back_pressed;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prosty__kalkulator);
 
-        textView2 = (TextView) findViewById(R.id.textView2);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        textView2 = (TextView) findViewById(R.id.textView2);
         Intent intent = getIntent();
         String message = intent.getStringExtra("funkcja");
         textView2.setText(message);
 
     }
 
-
-
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                this.finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 
     public void onClick(View v){
 

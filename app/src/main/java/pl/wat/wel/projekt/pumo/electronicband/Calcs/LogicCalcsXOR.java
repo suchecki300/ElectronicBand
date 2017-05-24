@@ -3,6 +3,7 @@ package pl.wat.wel.projekt.pumo.electronicband.Calcs;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -16,6 +17,8 @@ public class LogicCalcsXOR extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_logic_calcs_xor);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         Button aXor = (Button) findViewById(R.id.butAxor);
         Button bXor = (Button) findViewById(R.id.butBxor);
         TextView out = (TextView) findViewById(R.id.outQxor);
@@ -26,6 +29,17 @@ public class LogicCalcsXOR extends AppCompatActivity {
         int duration = Toast.LENGTH_SHORT;
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                this.finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
     public void XorA(View view) {

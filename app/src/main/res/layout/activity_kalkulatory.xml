@@ -10,16 +10,33 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#828aff"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/prosty_k"
+
+        <LinearLayout
+            android:id="@+id/linear_calc_prosty"
             style="@style/button_text"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
-            android:drawableStart="@drawable/calculator_icon"
-            android:text="@string/prosty" />
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/calc_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/calculator_icon" />
+
+            <TextView
+                android:id="@+id/prosty_k"
+                style="@style/button_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/prosty" />
+        </LinearLayout>
+
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"

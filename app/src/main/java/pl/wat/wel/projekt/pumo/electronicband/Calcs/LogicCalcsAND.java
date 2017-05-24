@@ -3,6 +3,7 @@ package pl.wat.wel.projekt.pumo.electronicband.Calcs;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -18,6 +19,8 @@ public class LogicCalcsAND extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_logic_calcs_and);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         Button aAnd = (Button) findViewById(R.id.butAand);
         Button bAnd = (Button) findViewById(R.id.butBand);
         TextView out = (TextView) findViewById(R.id.outQand);
@@ -30,7 +33,16 @@ public class LogicCalcsAND extends AppCompatActivity {
         toast.show();
     }
 
-
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                this.finish();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 
     public void AndA(View view) {
         Button aAnd = (Button) findViewById(R.id.butAand);
