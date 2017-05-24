@@ -59,11 +59,7 @@ public class Prosty_Kalkulator extends AppCompatActivity {
             case R.id.kasujc:
                 if(!editText.getText().toString().equals(""))
                     liczba1=editText.getText().toString().substring(0, liczba1.length()-1);
-                editText.setText(liczba1);
-                break;
-            case R.id.kasujce:
-                liczba1="";
-                editText.setText(liczba1);
+
                 break;
             case R.id.more:
                 if(editText.getText().toString().equals(""))
