@@ -55,12 +55,13 @@ public class Kalkulatory extends AppCompatActivity implements Animation.Animatio
                 if ( logic_sub.getVisibility() == View.GONE ){
                     logic_sub.setVisibility(View.VISIBLE);
                     logic_sub.startAnimation(animZoomInFromZero);
-                    //findViewById(R.id.calc_pic).startAnimation(animZoomOut);
-
+                    findViewById(R.id.calc_pic).startAnimation(animZoomOut);
+                    findViewById(R.id.calc_pic_res).startAnimation(animZoomOut);
                 }
                 else {
                     logic_sub.setVisibility(View.GONE);
-                    //findViewById(R.id.calc_pic).startAnimation(animZoomIn);
+                    findViewById(R.id.calc_pic).startAnimation(animZoomIn);
+                    findViewById(R.id.calc_pic_res).startAnimation(animZoomIn);
                 }
         }});
 
