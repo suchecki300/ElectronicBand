@@ -108,8 +108,12 @@ public class Prosty_Kalkulator extends AppCompatActivity {
                 editText.setText(liczba1);
                 break;
             case R.id.kropka:
-                liczba1 = editText.getText().toString() + ".";
-                editText.setText(liczba1);
+                if(editText.getText().toString().equals(""))
+                editText.setText("0.");
+                else {
+                    liczba1 = editText.getText().toString() + ".";
+                    editText.setText(liczba1);
+                }
                 break;
 ////////////////////////////////////////////////////////
             case R.id.button10:

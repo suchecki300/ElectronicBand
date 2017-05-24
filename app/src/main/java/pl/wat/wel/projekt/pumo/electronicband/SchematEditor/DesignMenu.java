@@ -9,8 +9,11 @@ import android.widget.Toast;
 import com.hitomi.cmlibrary.CircleMenu;
 import com.hitomi.cmlibrary.OnMenuSelectedListener;
 
+import pl.wat.wel.projekt.pumo.electronicband.Calcs.More_Activity_moreee;
 import pl.wat.wel.projekt.pumo.electronicband.R;
 import pl.wat.wel.projekt.pumo.electronicband.SchematEditor.SchematicsEditor;
+
+import static pl.wat.wel.projekt.pumo.electronicband.R.id.editText;
 
 public class DesignMenu extends AppCompatActivity {
 
@@ -47,6 +50,9 @@ public class DesignMenu extends AppCompatActivity {
                             setResult(RESULT_FIRST_USER, intent);
                             finish();
                         }
+
+
+
 
                         if(index==3)
                         {

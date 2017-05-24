@@ -16,9 +16,12 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import pl.wat.wel.projekt.pumo.electronicband.Calcs.More_Activity_moreee;
 import pl.wat.wel.projekt.pumo.electronicband.R;
 
+import static android.R.attr.data;
 import static android.widget.Toast.makeText;
+import static pl.wat.wel.projekt.pumo.electronicband.R.id.editText;
 import static pl.wat.wel.projekt.pumo.electronicband.R.id.left_adding;
 import static pl.wat.wel.projekt.pumo.electronicband.R.id.right_adding;
 
@@ -33,6 +36,7 @@ public class SchematicsEditor extends AppCompatActivity {
     private ImageView[] imgs = new ImageView[50];
     private ImageView[] connections = new ImageView[30];
     private ImageView[] connectionspion = new ImageView[30];
+    public String connection_names=" ";
 
     private ImageView setting;
     private ImageView instruction;
@@ -68,7 +72,7 @@ public class SchematicsEditor extends AppCompatActivity {
 
         gestureDetectorCompat = new GestureDetectorCompat(this, new MyGestureListener());
 
-
+        ImageButton button = (ImageButton) findViewById( R.id.button13);
 
         setting.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -108,6 +112,17 @@ public class SchematicsEditor extends AppCompatActivity {
             right_adding.setVisibility(View.INVISIBLE);
         }
 
+        button.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                Intent more_functions = new Intent(getApplicationContext(), Saving_netlist.class);
+                String sending_mes = connection_names;
+                more_functions.putExtra("names", sending_mes);
+
+                startActivity(more_functions);
+            }}
+        );
 
 
 
@@ -476,8 +491,8 @@ public class SchematicsEditor extends AppCompatActivity {
         ////////////////////PRZESUWANIE ELEMENTÓW//////////////////////////////////////
             if(tryb==2)
             {
-                Toast.makeText(getApplicationContext(), "Edycja elementu" + view.getTag(), Toast.LENGTH_SHORT).show();
-                
+                Toast.makeText(getApplicationContext(), "Edycja elementu " + view.getTag(), Toast.LENGTH_SHORT).show();
+
                 Intent edition = new Intent(SchematicsEditor.this, Edit_elements.class);
                 startActivityForResult(edition, 1);
             }
@@ -524,12 +539,14 @@ public class SchematicsEditor extends AppCompatActivity {
 
                         if(second_click==0)
                         {
+                            connection_names+=view.getTag();
                             first_x= (int)view.getX();
 
                             first_y=(int)view.getY();
                             second_click=1;
                         }
                         else if(second_click==1) {
+                            connection_names+=view.getTag() + " \n";
                             //Toast.makeText(getApplicationContext(), "działa_click2", Toast.LENGTH_SHORT).show();
                             tworz_connect2(j, (int)view.getX(), (int)view.getY(), first_x, first_y);
                             second_click=0;

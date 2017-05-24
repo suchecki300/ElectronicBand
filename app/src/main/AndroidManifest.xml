@@ -54,7 +54,8 @@
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Calcs.Potega" />
-        <activity android:name=".SchematEditor.Edit_elements"></activity>
+        <activity android:name=".SchematEditor.Edit_elements" />
+        <activity android:name=".SchematEditor.Saving_netlist"></activity>
     </application>
 
 </manifest>
