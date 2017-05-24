@@ -13,6 +13,7 @@ import pl.wat.wel.projekt.pumo.electronicband.R;
 public class Kalkulatory extends AppCompatActivity {
     TextView prosty;
     TextView logiczne;
+    TextView rez;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +22,16 @@ public class Kalkulatory extends AppCompatActivity {
 
         prosty = (TextView) findViewById(R.id.prosty_k);
         logiczne = (TextView) findViewById(R.id.bramki_k);
+        rez = (TextView) findViewById(R.id.resistiors);
 
+
+        rez.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent (getApplicationContext(), ResistorCalcs.class);
+                startActivity(intent);
+            }
+        });
 
         prosty.setOnClickListener(new View.OnClickListener() {
             @Override

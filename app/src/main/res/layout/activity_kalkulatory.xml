@@ -24,6 +24,18 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="#878787"/>
+        <TextView
+            android:id="@+id/resistiors"
+            style="@style/button_text"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/calculator_icon"
+            android:text="@string/rez" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#878787"/>
         <Button
             android:id="@+id/bramki_k"
             style="@style/button_text"

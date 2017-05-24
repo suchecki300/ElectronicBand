@@ -418,4 +418,10 @@ milimetrów kwadratowych.
         które nanosi się za pomocą urządzenia zwanego lutownicą. Metal tworzy fizyczne połączenie przewodzące prąd — złącze lutowane.
     </string>
     <string name="back_button_clicked_twice">Naciśnij jeszcze raz, by wyjść!</string>
+    <string name="paski">Kalkulator pasków rezystorowych</string>
+    <string name="cyfr1">Pierwszy kolor</string>
+    <string name="rez">Rezystancja</string>
+    <string name="cyfr2">Drugi kolor</string>
+    <string name="cyfr3">Trzeci kolor</string>
+    <string name="cyfr4">Czwarty kolor</string>
 </resources>

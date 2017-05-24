@@ -52,8 +52,9 @@
         <activity
             android:name=".ListsAndAdapters.Adding_Paramets"
             android:screenOrientation="landscape"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Calcs.Potega"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Calcs.Potega" />
+        <activity android:name=".Calcs.ResistorCalcs"></activity>
     </application>
 
 </manifest>
