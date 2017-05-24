@@ -8,9 +8,9 @@
     tools:context="pl.wat.wel.projekt.pumo.electronicband.Courses.Courses">
 
     <TableLayout
-        android:background="#ac61f7"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#ac61f7">
 
         <TableRow
             android:layout_width="wrap_content"
@@ -27,7 +27,7 @@
                 android:id="@+id/button14"
                 style="@style/button_course"
                 android:onClick="ard1OnClick2"
-                android:text="Kurs arduino\n Poziom I" />
+                android:text="@string/kurs_arduino_poziom1" />
         </TableRow>
         <View
             android:layout_width="match_parent"
@@ -49,7 +49,7 @@
                 android:id="@+id/button15"
                 style="@style/button_course"
                 android:onClick="ard2OnClick2"
-                android:text="Kurs arduino &#10; poziom II" />
+                android:text="@string/kurs_arduino_10_poziom_2" />
 
         </TableRow>
         <View
@@ -72,7 +72,7 @@
                 android:id="@+id/button16"
                 style="@style/button_course"
                 android:onClick="robOnClick2"
-                android:text="Kurs budowy &#10;robotow" />
+                android:text="@string/kurs_budowy_10_robotow" />
         </TableRow>
         <View
             android:layout_width="match_parent"
@@ -94,7 +94,7 @@
                 android:id="@+id/button22"
                 style="@style/button_course"
                 android:onClick="ediOnClick2"
-                android:text="Kurs Intel&#10; Edisona" />
+                android:text="@string/kurs_intel_10_edisona" />
         </TableRow>
         <View
             android:layout_width="match_parent"
@@ -116,7 +116,7 @@
                 android:id="@+id/button21"
                 style="@style/button_course"
                 android:onClick="elek1OnClick2"
-                android:text="Kurs podstaw&#10; elektroniki" />
+                android:text="@string/kurs_podstaw_10_elektroniki" />
         </TableRow>
         <View
             android:layout_width="match_parent"
@@ -139,7 +139,7 @@
                 android:id="@+id/button20"
                 style="@style/button_course"
                 android:onClick="elek2OnClick2"
-                android:text="Kurs podstaw&#10; elektroniki II" />
+                android:text="@string/kurs_podstaw_10_elektroniki_ii" />
         </TableRow>
         <View
             android:layout_width="match_parent"
@@ -161,7 +161,7 @@
                 android:id="@+id/button19"
                 style="@style/button_course"
                 android:onClick="stmf4OnClick2"
-                android:text="Kurs stm32&#10; f4 cube i hal" />
+                android:text="@string/kurs_stm32_10_f4_cube_i_hal" />
         </TableRow>
         <View
             android:layout_width="match_parent"
@@ -183,7 +183,7 @@
                 android:id="@+id/button18"
                 style="@style/button_course"
                 android:onClick="stmf32OnClick2"
-                android:text="Kurs stm32" />
+                android:text="@string/kurs_stm32_1" />
         </TableRow>
         <View
             android:layout_width="match_parent"
@@ -205,7 +205,7 @@
                 android:id="@+id/button17"
                 style="@style/button_course"
                 android:onClick="lutOnClick2"
-                android:text="Kurs lutowania" />
+                android:text="@string/kurs_lutowania_1" />
         </TableRow>
         <View
             android:layout_width="match_parent"
@@ -227,7 +227,7 @@
                 android:id="@+id/button24"
                 style="@style/button_course"
                 android:onClick="eagOnClick2"
-                android:text="Kurs Eagle" />
+                android:text="@string/kurs_eagle_1" />
 
         </TableRow>
         <View
@@ -250,7 +250,7 @@
                 android:id="@+id/button25"
                 style="@style/button_course"
                 android:onClick="cyfrOnClick2"
-                android:text="Kurs techniki&#10; cyfrowej" />
+                android:text="@string/kurs_techniki_10_cyfrowej" />
 
         </TableRow>
     </TableLayout>

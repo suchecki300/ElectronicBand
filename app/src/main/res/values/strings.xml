@@ -425,4 +425,15 @@ milimetrów kwadratowych.
     <string name="wersja_testowa">Wersja testowa</string>
     <string name="podaj_nazw_elementu">Podaj nazwę elementu:</string>
     <string name="podaj_warto_elementu">Podaj wartość elementu:</string>
+    <string name="kurs_arduino_poziom1">Kurs arduino  Poziom I</string>
+    <string name="kurs_arduino_10_poziom_2">Kurs arduino   poziom II</string>
+    <string name="kurs_budowy_10_robotow">Kurs budowy  robotow</string>
+    <string name="kurs_intel_10_edisona">Kurs Intel  Edisona</string>
+    <string name="kurs_podstaw_10_elektroniki">Kurs podstaw  elektroniki</string>
+    <string name="kurs_podstaw_10_elektroniki_ii">Kurs podstaw  elektroniki II</string>
+    <string name="kurs_stm32_10_f4_cube_i_hal">Kurs stm32  f4 cube i hal</string>
+    <string name="kurs_stm32_1">Kurs stm32</string>
+    <string name="kurs_lutowania_1">Kurs lutowania</string>
+    <string name="kurs_eagle_1">Kurs Eagle</string>
+    <string name="kurs_techniki_10_cyfrowej">Kurs techniki  cyfrowej</string>
 </resources>

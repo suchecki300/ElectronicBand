@@ -17,4 +17,6 @@
 
     <color name="customDialogBackground">#817d48</color>
     <color name="colorTheory">#9C27B0</color>
+    <color name="colorCoursesActivity">#ac61f7</color>
+    <color name="cardBackgroundCourses">#CE93D8</color>
 </resources>

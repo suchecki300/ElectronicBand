@@ -8,7 +8,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import pl.wat.wel.projekt.pumo.electronicband.Calcs.Kalkulatory;
-import pl.wat.wel.projekt.pumo.electronicband.Courses.Courses;
+import pl.wat.wel.projekt.pumo.electronicband.Courses.CourseRelativeActivity;
 import pl.wat.wel.projekt.pumo.electronicband.SchematEditor.SchematicsEditor;
 
 
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), Courses.class);
+                Intent intent = new Intent(getApplicationContext(), CourseRelativeActivity.class);
                 startActivity(intent);
             }
         });
