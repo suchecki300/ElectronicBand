@@ -1,8 +1,15 @@
 <resources>
+    <string name="paski">Kalkulator pasków rezystorowych</string>
+    <string name="cyfr1">Pierwszy kolor</string>
+    <string name="rez">Rezystancja</string>
+    <string name="cyfr2">Drugi kolor</string>
+    <string name="cyfr3">Trzeci kolor</string>
+    <string name="cyfr4">Czwarty kolor</string>
+
     <string name="app_name">ElectronicBand</string>
     <string name="theory">Teoria</string>
     <string name="calculators">Kalkulatory</string>
-    <string name="descriptions">Opisy</string>
+    <string name="descriptions">Rezystory</string>
     <string name="logic_bram">Bramki \nlogiczne</string>
     <string name="prosty">PROSTY</string>
     <string name="asin">asin</string>

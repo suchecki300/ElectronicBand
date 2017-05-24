@@ -12,10 +12,12 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import pl.wat.wel.projekt.pumo.electronicband.R;
+import pl.wat.wel.projekt.pumo.electronicband.ResistorCalcs;
 
 public class Kalkulatory extends AppCompatActivity implements Animation.AnimationListener {
     TextView prosty;
     TextView logiczne;
+    TextView resistors;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +28,7 @@ public class Kalkulatory extends AppCompatActivity implements Animation.Animatio
 
         prosty = (TextView) findViewById(R.id.prosty_k);
         logiczne = (TextView) findViewById(R.id.bramki_k);
+        resistors = (TextView) findViewById(R.id.opisy_k);
 
 
         final Animation animZoomOut = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.zoom_out);
@@ -52,14 +55,22 @@ public class Kalkulatory extends AppCompatActivity implements Animation.Animatio
                 if ( logic_sub.getVisibility() == View.GONE ){
                     logic_sub.setVisibility(View.VISIBLE);
                     logic_sub.startAnimation(animZoomInFromZero);
-                    findViewById(R.id.calc_pic).startAnimation(animZoomOut);
+                    //findViewById(R.id.calc_pic).startAnimation(animZoomOut);
 
                 }
                 else {
                     logic_sub.setVisibility(View.GONE);
-                    findViewById(R.id.calc_pic).startAnimation(animZoomIn);
+                    //findViewById(R.id.calc_pic).startAnimation(animZoomIn);
                 }
         }});
+
+        resistors.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), ResistorCalcs.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
