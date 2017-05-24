@@ -190,29 +190,29 @@ public class SchematicsEditor extends AppCompatActivity {
 
         if(position==1) {
             imgs[general_id].setImageResource(R.drawable.kondens);
-            imgs[general_id].setTag("kondensator " + Integer.toString(general_id));
+            imgs[general_id].setTag("kondensator" + Integer.toString(general_id));
         }
         else if(position==2) {
             imgs[general_id].setImageResource(R.drawable.cewka2);
-            imgs[general_id].setTag("cewka " + Integer.toString(general_id));
+            imgs[general_id].setTag("cewka" + Integer.toString(general_id));
         }
         else if(position==0) {
             imgs[general_id].setImageResource(R.drawable.rezystor2);
-            imgs[general_id].setTag("rezystor " + Integer.toString(general_id));
+            imgs[general_id].setTag("rezystor" + Integer.toString(general_id));
         }
         else if(position==3){
             imgs[general_id].setImageResource(R.drawable.diode3);
-            imgs[general_id].setTag("dioda " + Integer.toString(general_id));
+            imgs[general_id].setTag("dioda" + Integer.toString(general_id));
         }
 
         else if(position==4) {
             imgs[general_id].setImageResource(R.drawable.diode_led);
-            imgs[general_id].setTag("diodaled " + Integer.toString(general_id));
+            imgs[general_id].setTag("diodaled" + Integer.toString(general_id));
         }
         else if(position==5)
         {
             imgs[general_id].setImageResource(R.drawable.napiecie2);
-            imgs[general_id].setTag("napiecie " + Integer.toString(general_id));
+            imgs[general_id].setTag("napiecie" + Integer.toString(general_id));
         }
 
 
@@ -539,7 +539,7 @@ public class SchematicsEditor extends AppCompatActivity {
 
                         if(second_click==0)
                         {
-                            connection_names+=view.getTag();
+                            connection_names+=view.getTag()+ "-----";
                             first_x= (int)view.getX();
 
                             first_y=(int)view.getY();
