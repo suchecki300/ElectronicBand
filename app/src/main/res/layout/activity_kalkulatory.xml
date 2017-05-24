@@ -40,7 +40,8 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#878787"/>
+            android:background="#878787" />
+
         <Button
             android:id="@+id/bramki_k"
             style="@style/button_text"
@@ -115,20 +116,19 @@
 
             </LinearLayout>
         </ScrollView>
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#878787"/>
-        <Button
-            android:id="@+id/opisy_k"
-            style="@style/button_text"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:drawableStart="@drawable/test_icon"
-            android:text="@string/descriptions" />
-
+        <!-- <View
+             android:layout_width="match_parent"
+             android:layout_height="1dp"
+             android:background="#878787"/>
+         <Button
+             android:id="@+id/opisy_k"
+             style="@style/button_text"
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:layout_weight="1"
+             android:drawableStart="@drawable/test_icon"
+             android:text="@string/descriptions" />
+         -->
     </LinearLayout>
-
 
 </LinearLayout>
