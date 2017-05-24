@@ -48,6 +48,14 @@ public class DesignMenu extends AppCompatActivity {
                             finish();
                         }
 
+                        if(index==3)
+                        {
+                            Intent intent = new Intent();
+                            intent.putExtra("tryb", 2);
+                            setResult(RESULT_FIRST_USER, intent);
+                            finish();
+                        }
+
                         if(index==4)
                         {
                             Intent intent = new Intent();
@@ -61,6 +69,8 @@ public class DesignMenu extends AppCompatActivity {
                             Intent intent = new Intent(getApplicationContext(), SchematicsEditor.class);
                             startActivity(intent);
                         }
+
+
 
                     }
                 });

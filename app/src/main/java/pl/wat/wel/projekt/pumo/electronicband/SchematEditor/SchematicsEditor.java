@@ -173,18 +173,33 @@ public class SchematicsEditor extends AppCompatActivity {
 
         imgs[general_id].setVisibility(View.VISIBLE);
 
-        if(position==1)
+        if(position==1) {
             imgs[general_id].setImageResource(R.drawable.kondens);
-        else if(position==2)
+            imgs[general_id].setTag("kondensator " + Integer.toString(general_id));
+        }
+        else if(position==2) {
             imgs[general_id].setImageResource(R.drawable.cewka2);
-        else if(position==0)
+            imgs[general_id].setTag("cewka " + Integer.toString(general_id));
+        }
+        else if(position==0) {
             imgs[general_id].setImageResource(R.drawable.rezystor2);
-        else if(position==3)
+            imgs[general_id].setTag("rezystor " + Integer.toString(general_id));
+        }
+        else if(position==3){
             imgs[general_id].setImageResource(R.drawable.diode3);
-        else if(position==4)
+            imgs[general_id].setTag("dioda " + Integer.toString(general_id));
+        }
+
+        else if(position==4) {
             imgs[general_id].setImageResource(R.drawable.diode_led);
+            imgs[general_id].setTag("diodaled " + Integer.toString(general_id));
+        }
         else if(position==5)
-            imgs[general_id].setImageResource(R.drawable.battery);
+        {
+            imgs[general_id].setImageResource(R.drawable.napiecie2);
+            imgs[general_id].setTag("napiecie " + Integer.toString(general_id));
+        }
+
 
         imgs[general_id].getBackground();
         imgs[general_id].getLayoutParams().width=400;
@@ -459,6 +474,13 @@ public class SchematicsEditor extends AppCompatActivity {
 
 
         ////////////////////PRZESUWANIE ELEMENTÓW//////////////////////////////////////
+            if(tryb==2)
+            {
+                Toast.makeText(getApplicationContext(), "Edycja elementu" + view.getTag(), Toast.LENGTH_SHORT).show();
+                
+                Intent edition = new Intent(SchematicsEditor.this, Edit_elements.class);
+                startActivityForResult(edition, 1);
+            }
             if (tryb == 0) {
 
                 switch (event.getAction() & MotionEvent.ACTION_MASK) {
