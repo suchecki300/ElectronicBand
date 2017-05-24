@@ -19,4 +19,6 @@
     <color name="colorTheory">#9C27B0</color>
     <color name="colorCoursesActivity">#ac61f7</color>
     <color name="cardBackgroundCourses">#CE93D8</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorBackgroundEditor">#0097A7</color>
 </resources>

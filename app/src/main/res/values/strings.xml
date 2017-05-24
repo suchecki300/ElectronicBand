@@ -298,6 +298,21 @@ cyfrowymi. Niektóre z nich, np. mikroprocesory, składają się z wielu milion�
 maleńkich obwodów upakowanych gęsto na powierzchni zaledwie kilku
 milimetrów kwadratowych.
     </string>
+    <string name="gate_NOR">
+         Jeden z funktorów zdaniowych rachunku zdań; dwuargumentowa funkcja boolowska (funktor logiczny) realizująca zaprzeczoną sumę logiczną (NOT OR) –
+        jest prawdziwa wtedy i tylko wtedy, gdy oba składniki są fałszywe. Odpowiada wyrażeniu „ani … ani”.
+    </string>
+    <string name="gate_XOR">
+        Logiczny funktor zdaniotwórczy (dwuargumentowa funkcja boolowska).
+        Różnica symetryczna wartości q i q jest prawdziwa wtedy, gdy jedno i tylko jedno ze zdań jest prawdziwe. Odpowiada wyrażeniu „albo…, albo…".
+    </string>
+    <string name="gate_XNOR">
+        Bramka logiczna realizująca funkcję negacji alternatywy wykluczającej (tzw. Bramka Równoważności).
+        Bramka ta neguje wynik bramki XOR czyli zwraca fałsz (0), jeśli dokładnie jedno z wejść: A lub B jest prawdą (1),
+        a w przeciwnym wypadku zwraca prawdę. Innymi słowy bramka XNOR zwraca prawdę w przypadku pojawienia się dwóch takich samych sygnałów na wejściach.
+    </string>
+
+
     <string name="direct_current_tittle">Prąd stały</string>
     <string name="alternating_current_title">Prąd zmienny</string>
     <string name="impedance_tittle">Impedancja</string>
@@ -436,4 +451,7 @@ milimetrów kwadratowych.
     <string name="kurs_lutowania_1">Kurs lutowania</string>
     <string name="kurs_eagle_1">Kurs Eagle</string>
     <string name="kurs_techniki_10_cyfrowej">Kurs techniki  cyfrowej</string>
+    <string name="gate_NOR_tittle">Bramka NOR</string>
+    <string name="gate_XOR_tittle">Bramka XOR</string>
+    <string name="gate_XNOR_tittle">Bramka XNOR</string>
 </resources>

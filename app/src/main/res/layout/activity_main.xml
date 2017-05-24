@@ -53,19 +53,35 @@
             android:textSize="30sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/button5"
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#e29521"
-            android:drawableStart="@drawable/schematic_icon"
-            android:gravity="center"
-            android:paddingStart="20dp"
-            android:text="@string/edytor_schemat_w"
-            android:textColor="@color/white"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+            android:background="@color/colorBackgroundEditor">
+
+            <TextView
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableStart="@drawable/schematic_icon"
+                android:gravity="center"
+                android:paddingStart="20dp"
+                android:text="@string/edytor_schemat_w"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:text="BETA"
+                android:textColor="#FF0000"
+                android:textStyle="italic|bold" />
+        </RelativeLayout>
 
         <TextView
             android:id="@+id/button3"

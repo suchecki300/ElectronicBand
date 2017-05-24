@@ -41,7 +41,9 @@ public class ChipsFragment extends Fragment {
         list.add(new List(getString(R.string.gate_AND_tittle)));
         list.add(new List(getString(R.string.gate_NAND_tittle)));
         list.add(new List(getString(R.string.gate_OR_tittle)));
-        list.add(new List(getString(R.string.ne555_tittle)));
+        list.add(new List(getString(R.string.gate_NOR_tittle)));
+        list.add(new List(getString(R.string.gate_XOR_tittle)));
+        list.add(new List(getString(R.string.gate_XNOR_tittle)));
 
 
         //Tworzenie obiektu klasy ListAdapter.
@@ -65,8 +67,15 @@ public class ChipsFragment extends Fragment {
                     alertDialog(getString(R.string.gate_OR_tittle), getString(R.string.gate_OR)).create().show();
                 }
                 if (position == 3) {
-                    alertDialog(getString(R.string.ne555_tittle), getString(R.string.ne555)).create().show();
+                    alertDialog(getString(R.string.gate_NOR_tittle), getString(R.string.gate_NOR)).create().show();
                 }
+                if (position == 4) {
+                    alertDialog(getString(R.string.gate_XOR_tittle), getString(R.string.gate_XOR)).create().show();
+                }
+                if (position == 5) {
+                    alertDialog(getString(R.string.gate_XNOR_tittle), getString(R.string.gate_XNOR)).create().show();
+                }
+
             }
         });
         return rootView;
