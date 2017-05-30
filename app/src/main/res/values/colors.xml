@@ -21,4 +21,8 @@
     <color name="cardBackgroundCourses">#CE93D8</color>
     <color name="colorRed">#FF0000</color>
     <color name="colorBackgroundEditor">#0097A7</color>
+    <color name="colorMainBackgroundAboutUs">#f25355</color>
+    <color name="colorBackgroundInternalCardView">#EF9A9A</color>
+    <color name="colorBackgroundExternalCardView">#FF8A80</color>
+    <color name="colorEmailTextViewAboutUs">#72FF0000</color>
 </resources>

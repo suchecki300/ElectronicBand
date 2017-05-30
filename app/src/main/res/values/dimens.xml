@@ -4,4 +4,18 @@
     <dimen name="image_width_value">88dp</dimen>
     <dimen name="image_hight_value">88dp</dimen>
     <dimen name="padding_left_text_conteiner_item_list">16dp</dimen>
+    <dimen name="marginCardViewAboutUs">15dp</dimen>
+    <dimen name="elevationCardViewAbouUs">8dp</dimen>
+    <dimen name="imageHightAboutUs">150dp</dimen>
+    <dimen name="imageMarginTopAboutUs">30dp</dimen>
+    <dimen name="textSize36AboutUs">36sp</dimen>
+    <dimen name="margin15AboutUs">15dp</dimen>
+    <dimen name="padding7AboutUs">7dp</dimen>
+    <dimen name="textSize16AboutUs">16sp</dimen>
+    <dimen name="padding3AboutUs">3dp</dimen>
+    <dimen name="textSize18AboutUs">18sp</dimen>
+    <dimen name="marginTop10AboutUs">10dp</dimen>
+    <dimen name="marginTop45AboutUs">45dp</dimen>
+    <dimen name="padding5AboutUs">5dp</dimen>
+    <dimen name="textSoze12AboutUs">12sp</dimen>
 </resources>
