@@ -468,4 +468,10 @@ milimetrów kwadratowych.
     <string name="nor">NOR</string>
     <string name="xor">XOR</string>
     <string name="add">Dodaj</string>
+    <string name="true_table">TABELA PRAWDY</string>
+    <string name="one_1">1</string>
+    <string name="zero_0">0</string>
+    <string name="field_Q">Q</string>
+    <string name="field_B">B</string>
+    <string name="field_A">A</string>
 </resources>
