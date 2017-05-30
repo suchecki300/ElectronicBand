@@ -62,7 +62,7 @@
                         android:layout_centerInParent="true"
                         android:layout_marginTop="10dp"
                         android:background="#72FF0000"
-                        android:onClick="clickEmail"
+                        android:onClick="sendEmailMessage"
                         android:padding="3dp"
                         android:text="@string/kontakt_gmail"
                         android:textSize="18sp"

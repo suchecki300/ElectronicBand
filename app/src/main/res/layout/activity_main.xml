@@ -12,7 +12,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/button"
+            android:id="@+id/theoryView"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -26,7 +26,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/button2"
+            android:id="@+id/calculatorsView"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -40,7 +40,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/button4"
+            android:id="@+id/coursesView"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -60,7 +60,7 @@
             android:background="@color/colorBackgroundEditor">
 
             <TextView
-                android:id="@+id/button5"
+                android:id="@+id/schemaEditorView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -84,7 +84,7 @@
         </RelativeLayout>
 
         <TextView
-            android:id="@+id/button3"
+            android:id="@+id/aboutUsView"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"

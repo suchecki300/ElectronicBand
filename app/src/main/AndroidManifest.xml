@@ -61,6 +61,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Calcs.Potega" />
         <activity android:name=".ResistorCalcs"></activity>
+        <activity android:name=".Courses.CourseRelativeActivity"></activity>
     </application>
 
 </manifest>

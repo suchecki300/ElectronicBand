@@ -6,7 +6,6 @@ package pl.wat.wel.projekt.pumo.electronicband.ListsAndAdapters;
 
 public class List {
     private final int NO_IMAGE_PROVIDED = -1;
-    //========     Zmienne do przechowywania danych o konkretnym elemencie z listy.    =============
     private String wordText;
     private int pictureID = NO_IMAGE_PROVIDED;
 
@@ -34,27 +33,16 @@ public class List {
         this.pictureID = id_zdjecia;
     }
 
-    /**
-     * Getter zwracający zawartość pola wordText
-     *
-     * @return Zwracana zmienna typu String
-     */
+    //====   Gettery   =====
     public String getWordText() {
         return wordText;
     }
 
-    /**
-     * Getter zwracający zawartość pola pictureID.
-     *
-     * @return Zwaracana zmienna typu int.
-     */
     public int getPictureID() {
         return pictureID;
     }
+    //======================
 
-    /**
-     * Method checking if there is a picture.
-     */
     public boolean hasImage() {
         return pictureID != NO_IMAGE_PROVIDED;
     }

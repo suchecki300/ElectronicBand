@@ -21,8 +21,6 @@ import pl.wat.wel.projekt.pumo.electronicband.R;
 
 
 public class ListAdapter extends ArrayAdapter<List> {
-    private Activity mContext;
-
     /**
      * Główny konstruktor klasy.
      *
@@ -31,7 +29,6 @@ public class ListAdapter extends ArrayAdapter<List> {
      */
     public ListAdapter(Activity context, ArrayList<List> words) {
         super(context, 0, words);
-        this.mContext = context;
     }
 
     @NonNull
@@ -43,23 +40,19 @@ public class ListAdapter extends ArrayAdapter<List> {
                     R.layout.list_item, parent, false
             );
         }
+        TextView text = (TextView) listItemView.findViewById(R.id.tittle_text_view);
+        ImageView image = (ImageView) listItemView.findViewById(R.id.image);
         List currentList = getItem(position);
 
-        TextView tekst = (TextView) listItemView.findViewById(R.id.tittle_text_view);
-
-
-        ImageView image = (ImageView) listItemView.findViewById(R.id.image);
-        tekst.setText(currentList.getWordText());
+        text.setText(currentList.getWordText());
 
         if (currentList.hasImage()) {
             image.setImageResource(currentList.getPictureID());
             image.setVisibility(View.VISIBLE);
             image.setBackgroundColor(ContextCompat.getColor(getContext(), R.color.white));
-
         } else {
             image.setVisibility(View.GONE);
         }
-
         return listItemView;
     }
 }

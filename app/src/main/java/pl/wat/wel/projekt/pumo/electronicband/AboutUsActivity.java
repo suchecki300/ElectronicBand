@@ -10,14 +10,12 @@ import android.widget.Toast;
 
 public class AboutUsActivity extends AppCompatActivity {
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_us);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
     }
 
     @Override
@@ -31,7 +29,7 @@ public class AboutUsActivity extends AppCompatActivity {
         }
     }
 
-    public void clickEmail(View view) {
+    public void sendEmailMessage(View view) {
         String contactEmail = getString(R.string.kontakt_gmail);
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse("mailto:" + contactEmail));

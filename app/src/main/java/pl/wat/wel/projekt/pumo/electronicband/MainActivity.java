@@ -12,81 +12,44 @@ import pl.wat.wel.projekt.pumo.electronicband.Courses.CourseRelativeActivity;
 import pl.wat.wel.projekt.pumo.electronicband.SchematEditor.SchematicsEditor;
 
 
-
 public class MainActivity extends AppCompatActivity {
-    TextView button;
-    TextView button2;
-    TextView button3;
-    TextView button4;
-    TextView button5;
-    private long back_pressed;
+    private long backButtonPressed;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        button= (TextView) findViewById(R.id.button);
-        button2= (TextView) findViewById(R.id.button2);
-        button3= (TextView) findViewById(R.id.button3);
-        button4= (TextView) findViewById(R.id.button4);
-        button5= (TextView) findViewById(R.id.button5);
-        //Przyciski do menu glownego, kalkulatory, słownik i opisy
+        TextView theoryView = (TextView) findViewById(R.id.theoryView);
+        TextView calculatorsView = (TextView) findViewById(R.id.calculatorsView);
+        TextView aboutUsView = (TextView) findViewById(R.id.aboutUsView);
+        TextView coursesView = (TextView) findViewById(R.id.coursesView);
+        TextView schemaEditorView = (TextView) findViewById(R.id.schemaEditorView);
 
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), TheoryActivity.class);
-               startActivity(intent);
-            }
-        });
-
-
-
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-               Intent intent = new Intent(getApplicationContext(), Kalkulatory.class);
-               startActivity(intent);
-            }
-        });
-
-
-        button3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), AboutUsActivity.class);
-                startActivity(intent);
-            }
-        });
-
-
-
-        button4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), CourseRelativeActivity.class);
-                startActivity(intent);
-            }
-        });
-
-
-        button5.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), SchematicsEditor.class);
-                startActivity(intent);
-            }
-        });
+        moveToAnotherActivity(theoryView, TheoryActivity.class);
+        moveToAnotherActivity(calculatorsView, Kalkulatory.class);
+        moveToAnotherActivity(aboutUsView, AboutUsActivity.class);
+        moveToAnotherActivity(coursesView, CourseRelativeActivity.class);
+        moveToAnotherActivity(schemaEditorView, SchematicsEditor.class);
     }
 
     @Override
     public void onBackPressed() {
-        if (back_pressed + 1000 > System.currentTimeMillis()) {
+        if (backButtonPressed + 1000 > System.currentTimeMillis()) {
             super.onBackPressed();
         } else {
             Toast.makeText(getBaseContext(), R.string.back_button_clicked_twice, Toast.LENGTH_SHORT).show();
         }
-        back_pressed = System.currentTimeMillis();
+        backButtonPressed = System.currentTimeMillis();
+    }
+
+    private void moveToAnotherActivity(TextView clickView, final Class classActivity) {
+        clickView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getBaseContext(), classActivity);
+                startActivity(intent);
+            }
+        });
     }
 }

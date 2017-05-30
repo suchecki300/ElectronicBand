@@ -58,22 +58,22 @@ public class ChipsFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 if (position == 0) {
-                    alertDialog(getString(R.string.gate_AND_tittle), getString(R.string.gate_AND)).create().show();
+                    displayInfoAboutGate(getString(R.string.gate_AND_tittle), getString(R.string.gate_AND)).create().show();
                 }
                 if (position == 1) {
-                    alertDialog(getString(R.string.gate_NAND_tittle), getString(R.string.gate_NAND)).create().show();
+                    displayInfoAboutGate(getString(R.string.gate_NAND_tittle), getString(R.string.gate_NAND)).create().show();
                 }
                 if (position == 2) {
-                    alertDialog(getString(R.string.gate_OR_tittle), getString(R.string.gate_OR)).create().show();
+                    displayInfoAboutGate(getString(R.string.gate_OR_tittle), getString(R.string.gate_OR)).create().show();
                 }
                 if (position == 3) {
-                    alertDialog(getString(R.string.gate_NOR_tittle), getString(R.string.gate_NOR)).create().show();
+                    displayInfoAboutGate(getString(R.string.gate_NOR_tittle), getString(R.string.gate_NOR)).create().show();
                 }
                 if (position == 4) {
-                    alertDialog(getString(R.string.gate_XOR_tittle), getString(R.string.gate_XOR)).create().show();
+                    displayInfoAboutGate(getString(R.string.gate_XOR_tittle), getString(R.string.gate_XOR)).create().show();
                 }
                 if (position == 5) {
-                    alertDialog(getString(R.string.gate_XNOR_tittle), getString(R.string.gate_XNOR)).create().show();
+                    displayInfoAboutGate(getString(R.string.gate_XNOR_tittle), getString(R.string.gate_XNOR)).create().show();
                 }
 
             }
@@ -81,16 +81,14 @@ public class ChipsFragment extends Fragment {
         return rootView;
     }
 
-    private AlertDialog.Builder alertDialog(String tittle, String text) {
+    private AlertDialog.Builder displayInfoAboutGate(String tittle, String text) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
         LayoutInflater layoutInflater = getActivity().getLayoutInflater();
-
         View dialogView = layoutInflater.inflate(R.layout.theory_info_dialog_alert, null);
         builder.setView(dialogView);
 
         TextView textView1 = (TextView) dialogView.findViewById(R.id.dialog_allText);
         TextView textView2 = (TextView) dialogView.findViewById(R.id.dialog_tittle);
-
         textView1.setText(text);
         textView2.setText(tittle);
 

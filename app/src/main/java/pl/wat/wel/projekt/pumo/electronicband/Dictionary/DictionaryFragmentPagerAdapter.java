@@ -9,7 +9,7 @@ import android.support.v4.app.FragmentManager;
 
 public class DictionaryFragmentPagerAdapter extends android.support.v4.app.FragmentPagerAdapter {
     final int PAGE_COUNT = 4;
-    private String tabTittles[] = new String[]{"Elementy", "Bramki logiczne", "Ogólne pojęcia", "Warsztat"};
+    private String tabViewPagerTittles[] = new String[]{"Elementy", "Bramki logiczne", "Ogólne pojęcia", "Warsztat"};
 
     public DictionaryFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
@@ -46,6 +46,6 @@ public class DictionaryFragmentPagerAdapter extends android.support.v4.app.Fragm
 
     @Override
     public CharSequence getPageTitle(int position) {
-        return tabTittles[position];
+        return tabViewPagerTittles[position];
     }
 }
