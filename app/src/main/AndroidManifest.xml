@@ -42,6 +42,12 @@
             android:name=".SchematEditor.DesignMenu"
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".SchematEditor.Saving_netlist"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+
         <activity android:name=".Courses.Courses" />
         <activity android:name=".Calcs.LogicCalcsAND" />
         <activity android:name=".Calcs.LogicCalcsXOR" />
