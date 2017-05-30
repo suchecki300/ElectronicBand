@@ -34,28 +34,26 @@ public class ElecElementsFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.list, container, false);
 
-        //Tworzenie nowej listy
         list = new ArrayList<>();
 
-        //Dodwanie przykładowych danych
-        list.add(new List(getString(R.string.resistor_tittle),R.raw.resistor));
-        list.add(new List(getString(R.string.resistror_constant_tittle),R.raw.resistor_constant));
-        list.add(new List(getString(R.string.resistor_changing_tittle),R.raw.rezystor_zmienny));
-        list.add(new List(getString(R.string.capacitor_tittle),R.raw.capacitor));
-        list.add(new List(getString(R.string.coil_tittle),R.raw.coil));
-        list.add(new List(getString(R.string.potentiometer_spin_tittle),R.raw.potencjometr_obrotowy));
-        list.add(new List(getString(R.string.potentiometer_slide_tittle),R.raw.potencjometr_suwakowy));
-        list.add(new List(getString(R.string.potentiometer_tuneInTo_tittle),R.raw.potencjometr_dostrojczy));
-        list.add(new List(getString(R.string.diode_semiconductor_tittle),R.raw.diode));
-        list.add(new List(getString(R.string.diode_led_tittle),R.raw.dioda_led));
-        list.add(new List(getString(R.string.transistor_npn_tittle),R.raw.tranzystor_npn));
-        list.add(new List(getString(R.string.transistor_pnp_tittle),R.raw.tranzystor_pnp));
-        list.add(new List(getString(R.string.transistor_jfet_tittle),R.raw.tranzystor_jfet));
-        list.add(new List(getString(R.string.switch_slide_tittle),R.raw.switch_slide));
-        list.add(new List(getString(R.string.switch_twostabile_tittle),R.raw.switch_twostabile));
-        list.add(new List(getString(R.string.switch_cradle_tittle),R.raw.switch_cradle));
-        list.add(new List(getString(R.string.switch_leaf_tittle),R.raw.switch_leaf));
-        list.add(new List(getString(R.string.switch_button_tittle),R.raw.switch_click));
+        list.add(new List(getString(R.string.resistor_tittle), R.raw.resistor));
+        list.add(new List(getString(R.string.resistror_constant_tittle), R.raw.resistor_constant));
+        list.add(new List(getString(R.string.resistor_changing_tittle), R.raw.rezystor_zmienny));
+        list.add(new List(getString(R.string.capacitor_tittle), R.raw.capacitor));
+        list.add(new List(getString(R.string.coil_tittle), R.raw.coil));
+        list.add(new List(getString(R.string.potentiometer_spin_tittle), R.raw.potencjometr_obrotowy));
+        list.add(new List(getString(R.string.potentiometer_slide_tittle), R.raw.potencjometr_suwakowy));
+        list.add(new List(getString(R.string.potentiometer_tuneInTo_tittle), R.raw.potencjometr_dostrojczy));
+        list.add(new List(getString(R.string.diode_semiconductor_tittle), R.raw.diode));
+        list.add(new List(getString(R.string.diode_led_tittle), R.raw.dioda_led));
+        list.add(new List(getString(R.string.transistor_npn_tittle), R.raw.tranzystor_npn));
+        list.add(new List(getString(R.string.transistor_pnp_tittle), R.raw.tranzystor_pnp));
+        list.add(new List(getString(R.string.transistor_jfet_tittle), R.raw.tranzystor_jfet));
+        list.add(new List(getString(R.string.switch_slide_tittle), R.raw.switch_slide));
+        list.add(new List(getString(R.string.switch_twostabile_tittle), R.raw.switch_twostabile));
+        list.add(new List(getString(R.string.switch_cradle_tittle), R.raw.switch_cradle));
+        list.add(new List(getString(R.string.switch_leaf_tittle), R.raw.switch_leaf));
+        list.add(new List(getString(R.string.switch_button_tittle), R.raw.switch_click));
 
         adapter = new ListAdapter(getActivity(), list);
 

@@ -21,12 +21,9 @@ import pl.wat.wel.projekt.pumo.electronicband.R;
  * A simple {@link Fragment} subclass.
  */
 public class ChipsFragment extends Fragment {
-
-
     public ChipsFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -34,10 +31,8 @@ public class ChipsFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.list, container, false);
 
-        //Tworzenie listy słów.
         final ArrayList<List> list = new ArrayList<>();
 
-        //Dodanie przykładowych zmiennych do listy.
         list.add(new List(getString(R.string.gate_AND_tittle)));
         list.add(new List(getString(R.string.gate_NAND_tittle)));
         list.add(new List(getString(R.string.gate_OR_tittle)));
@@ -45,14 +40,10 @@ public class ChipsFragment extends Fragment {
         list.add(new List(getString(R.string.gate_XOR_tittle)));
         list.add(new List(getString(R.string.gate_XNOR_tittle)));
 
-
-        //Tworzenie obiektu klasy ListAdapter.
         ListAdapter adapter = new ListAdapter(getActivity(), list);
 
-        //Ustawianie na listView adaptera.
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
-
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -75,7 +66,6 @@ public class ChipsFragment extends Fragment {
                 if (position == 5) {
                     displayInfoAboutGate(getString(R.string.gate_XNOR_tittle), getString(R.string.gate_XNOR)).create().show();
                 }
-
             }
         });
         return rootView;

@@ -31,10 +31,8 @@ public class WorkshopFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.list, container, false);
 
-        //Tworzenie listy słów.
         final ArrayList<List> list = new ArrayList<>();
 
-        //Dodanie przykładowych zmiennych do listy.
         list.add(new List(getString(R.string.soldering_tittle)));
         list.add(new List(getString(R.string.solder_tittle)));
         list.add(new List(getString(R.string.base_solder_tittle)));
@@ -50,10 +48,8 @@ public class WorkshopFragment extends Fragment {
         list.add(new List(getString(R.string.antistatic_hand_belt_tittle)));
         list.add(new List(getString(R.string.table_contact_tittle)));
 
-        //Tworzenie obiektu klasy ListAdapter.
         ListAdapter adapter = new ListAdapter(getActivity(), list);
 
-        //Ustawianie na listView adaptera.
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 

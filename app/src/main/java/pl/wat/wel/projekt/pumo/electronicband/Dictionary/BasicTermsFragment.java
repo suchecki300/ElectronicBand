@@ -31,10 +31,8 @@ public class BasicTermsFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.list, container, false);
 
-        //Tworzenie listy słów.
         final ArrayList<List> list = new ArrayList<>();
 
-        //Dodanie przykładowych zmiennych do listy.
         list.add(new List(getString(R.string.direct_current_tittle), R.raw.dc));
         list.add(new List(getString(R.string.alternating_current_title), R.raw.ac));
         list.add(new List(getString(R.string.impedance_tittle), R.raw.impedance));
@@ -46,10 +44,8 @@ public class BasicTermsFragment extends Fragment {
         list.add(new List(getString(R.string.liniowy_ukladScalony_tittle), R.raw.liniowy_uklad_scalony));
         list.add(new List(getString(R.string.cyfrowy_ukladScalony_tittle), R.raw.cyfrowy_uklad_scalony));
 
-        //Tworzenie obiektu klasy ListAdapter.
         ListAdapter adapter = new ListAdapter(getActivity(), list);
 
-        //Ustawianie na listView adaptera.
         ListView listView = (ListView) rootView.findViewById(R.id.list);
         listView.setAdapter(adapter);
 

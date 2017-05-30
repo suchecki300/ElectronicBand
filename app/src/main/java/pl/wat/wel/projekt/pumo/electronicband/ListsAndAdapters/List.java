@@ -9,8 +9,6 @@ public class List {
     private String wordText;
     private int pictureID = NO_IMAGE_PROVIDED;
 
-    //==============================================================================================
-
     /**
      * Konstruktor tworzący obiekt, przyjmujący pojedynczy parametr. Ustawia tekst, który zostanie
      * wyświetlony w liście.
@@ -33,6 +31,10 @@ public class List {
         this.pictureID = id_zdjecia;
     }
 
+    public boolean hasImage() {
+        return pictureID != NO_IMAGE_PROVIDED;
+    }
+
     //====   Gettery   =====
     public String getWordText() {
         return wordText;
@@ -40,10 +42,5 @@ public class List {
 
     public int getPictureID() {
         return pictureID;
-    }
-    //======================
-
-    public boolean hasImage() {
-        return pictureID != NO_IMAGE_PROVIDED;
     }
 }

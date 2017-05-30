@@ -9,8 +9,6 @@ import android.view.MenuItem;
 import pl.wat.wel.projekt.pumo.electronicband.Dictionary.DictionaryFragmentPagerAdapter;
 
 public class TheoryActivity extends AppCompatActivity {
-    private long back_pressed;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
