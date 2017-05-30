@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="pl.wat.wel.projekt.pumo.electronicband.Calcs.More_Activity_moreee"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    tools:context="pl.wat.wel.projekt.pumo.electronicband.Calcs.SimpleCalc.More_Activity_moreee">
 
 
     <ListView
+        android:id="@+id/listView1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/listView1"
         android:layout_alignParentTop="true"
         >
     </ListView>

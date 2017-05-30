@@ -1,4 +1,4 @@
-package pl.wat.wel.projekt.pumo.electronicband.Calcs;
+package pl.wat.wel.projekt.pumo.electronicband.Calcs.SimpleCalc;
 
 import android.content.Intent;
 import android.os.Bundle;

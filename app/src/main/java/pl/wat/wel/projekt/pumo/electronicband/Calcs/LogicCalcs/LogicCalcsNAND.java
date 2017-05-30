@@ -1,4 +1,4 @@
-package pl.wat.wel.projekt.pumo.electronicband.Calcs;
+package pl.wat.wel.projekt.pumo.electronicband.Calcs.LogicCalcs;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -11,19 +11,19 @@ import android.widget.Toast;
 
 import pl.wat.wel.projekt.pumo.electronicband.R;
 
-public class LogicCalcsOR extends AppCompatActivity {
+public class LogicCalcsNAND extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_logic_calcs_or);
+        setContentView(R.layout.activity_logic_calcs_nand);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        Button aOr = (Button) findViewById(R.id.butAor);
-        Button bOr = (Button) findViewById(R.id.butBor);
-        TextView out = (TextView) findViewById(R.id.outQor);
-        aOr.setText("1");
-        bOr.setText("1");
+        Button aXor = (Button) findViewById(R.id.butAnand);
+        Button bXor = (Button) findViewById(R.id.butBnand);
+        TextView out = (TextView) findViewById(R.id.outQnand);
+        aXor.setText("0");
+        bXor.setText("0");
         Context context = getApplicationContext();
         CharSequence text = "Dotknij aby zmienic wartosci bramki";
         int duration = Toast.LENGTH_SHORT;
@@ -42,39 +42,35 @@ public class LogicCalcsOR extends AppCompatActivity {
         }
     }
 
-    public void OrA(View view) {
-        Button aOr = (Button) findViewById(R.id.butAor);
-        Button bOr = (Button) findViewById(R.id.butBor);
-        TextView out = (TextView) findViewById(R.id.outQor);
-
-        if (aOr.getText() == "1"){
-            aOr.setText("0");
-            if (bOr.getText() == "0"){
+    public void NandA(View view) {
+        Button aXor = (Button) findViewById(R.id.butAnand);
+        Button bXor = (Button) findViewById(R.id.butBnand);
+        TextView out = (TextView) findViewById(R.id.outQnand);
+        if (aXor.getText() == "0"){
+            aXor.setText("1");
+            if (bXor.getText() == "1")
                 out.setText("0");
-            } else {
+            else
                 out.setText("1");
-            }} else {
-            aOr.setText("1");
+        } else {
+            aXor.setText("0");
             out.setText("1");
         }
     }
 
-    public void OrB(View view) {
-        Button aOr = (Button) findViewById(R.id.butAor);
-        Button bOr = (Button) findViewById(R.id.butBor);
-        TextView out = (TextView) findViewById(R.id.outQor);
-
-        if (bOr.getText() == "1"){
-            bOr.setText("0");
-            if (aOr.getText() == "0"){
+    public void NandB(View view) {
+        Button aXor = (Button) findViewById(R.id.butAnand);
+        Button bXor = (Button) findViewById(R.id.butBnand);
+        TextView out = (TextView) findViewById(R.id.outQnand);
+        if (bXor.getText() == "0"){
+            bXor.setText("1");
+            if (aXor.getText() == "1")
                 out.setText("0");
-            } else {
+            else
                 out.setText("1");
-            }} else {
-            bOr.setText("1");
+        } else {
+            bXor.setText("0");
             out.setText("1");
         }
     }
-
-
 }

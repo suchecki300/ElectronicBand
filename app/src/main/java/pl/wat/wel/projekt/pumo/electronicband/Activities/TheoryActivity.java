@@ -1,4 +1,4 @@
-package pl.wat.wel.projekt.pumo.electronicband;
+package pl.wat.wel.projekt.pumo.electronicband.Activities;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -6,7 +6,8 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
-import pl.wat.wel.projekt.pumo.electronicband.Dictionary.DictionaryFragmentPagerAdapter;
+import pl.wat.wel.projekt.pumo.electronicband.Dictionary.Adapter.DictionaryFragmentPagerAdapter;
+import pl.wat.wel.projekt.pumo.electronicband.R;
 
 /**
  * Created by Damian Bondaruk on 2017-05-24.

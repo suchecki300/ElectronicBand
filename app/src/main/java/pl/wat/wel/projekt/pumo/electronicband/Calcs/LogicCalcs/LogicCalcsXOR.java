@@ -1,4 +1,4 @@
-package pl.wat.wel.projekt.pumo.electronicband.Calcs;
+package pl.wat.wel.projekt.pumo.electronicband.Calcs.LogicCalcs;
 
 import android.content.Context;
 import android.os.Bundle;

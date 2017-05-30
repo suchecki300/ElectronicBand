@@ -4,6 +4,6 @@
     android:id="@+id/list"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="pl.wat.wel.projekt.pumo.electronicband.TheoryActivity">
+    tools:context="pl.wat.wel.projekt.pumo.electronicband.Activities.TheoryActivity">
 
 </ListView>

@@ -2,33 +2,32 @@ package pl.wat.wel.projekt.pumo.electronicband.SchematEditor;
 
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.v4.view.GestureDetectorCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import pl.wat.wel.projekt.pumo.electronicband.Calcs.More_Activity_moreee;
 import pl.wat.wel.projekt.pumo.electronicband.R;
 
-import static android.R.attr.data;
 import static android.widget.Toast.makeText;
-import static pl.wat.wel.projekt.pumo.electronicband.R.id.editText;
-import static pl.wat.wel.projekt.pumo.electronicband.R.id.left_adding;
-import static pl.wat.wel.projekt.pumo.electronicband.R.id.right_adding;
 
 
 public class SchematicsEditor extends AppCompatActivity {
 
 
+    public String connection_names = " ";
+    ImageButton left_adding;         //połączenie z lewej
+    ImageButton right_adding;        //połączenie z prawej
+    int first_x;
+    int first_y;
     private ImageView img;
     private ViewGroup rootLayout;
     private int _xDelta;
@@ -36,22 +35,15 @@ public class SchematicsEditor extends AppCompatActivity {
     private ImageView[] imgs = new ImageView[50];
     private ImageView[] connections = new ImageView[30];
     private ImageView[] connectionspion = new ImageView[30];
-    public String connection_names=" ";
-
     private ImageView setting;
     private ImageView instruction;
     private int i=1;
     private int j=1;
     private int tryb =0;             //określa tryb w jakim pracujemy 1 - łączenie
     private int second_click=0;
-    ImageButton left_adding;         //połączenie z lewej
-    ImageButton right_adding;        //połączenie z prawej
     private int side_of_line=0;      // 1 -- lewa    0 --- prawa
-
-
-    int first_x;
-    int first_y;
-
+    /////////////////////////////////////////SWIPE/////////////////////////////////////////////////
+    private GestureDetectorCompat gestureDetectorCompat;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -128,8 +120,6 @@ public class SchematicsEditor extends AppCompatActivity {
 
     }
 
-
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -174,9 +164,6 @@ public class SchematicsEditor extends AppCompatActivity {
         /////////////////koniec konfiguracji przycisków/////////////////////////////
 
     }
-
-
-
 
     protected void tworz(int general_id, int position)
     {
@@ -226,8 +213,6 @@ public class SchematicsEditor extends AppCompatActivity {
 
 
     }
-
-
 
     protected void tworz_connect2(final int general_id, int x_position, int y_position, int x_first, int y_first )
     {
@@ -470,17 +455,14 @@ public class SchematicsEditor extends AppCompatActivity {
 
     }
 
-
-
-
-
-
-
-
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        this.gestureDetectorCompat.onTouchEvent(event);
+        return super.onTouchEvent(event);
+    }
 
     private final class ChoiceTouchListener implements View.OnTouchListener {
 
-        
 
         public boolean onTouch(View view, MotionEvent event) {
             final int X = (int) event.getRawX();
@@ -575,18 +557,6 @@ public class SchematicsEditor extends AppCompatActivity {
 
 
         }
-    }
-
-
-        /////////////////////////////////////////SWIPE/////////////////////////////////////////////////
-        private GestureDetectorCompat gestureDetectorCompat;
-
-
-
-    @Override
-    public boolean onTouchEvent(MotionEvent event) {
-        this.gestureDetectorCompat.onTouchEvent(event);
-        return super.onTouchEvent(event);
     }
 
     class MyGestureListener extends GestureDetector.SimpleOnGestureListener {

@@ -1,4 +1,4 @@
-package pl.wat.wel.projekt.pumo.electronicband;
+package pl.wat.wel.projekt.pumo.electronicband.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import pl.wat.wel.projekt.pumo.electronicband.Calcs.CalculatorsActivity;
 import pl.wat.wel.projekt.pumo.electronicband.Courses.CoursesActivity;
+import pl.wat.wel.projekt.pumo.electronicband.R;
 import pl.wat.wel.projekt.pumo.electronicband.SchematEditor.SchematicsEditor;
 
 

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/tlo_k"
     android:paddingLeft="10dp"
-    tools:context="pl.wat.wel.projekt.pumo.electronicband.Calcs.Prosty_Kalkulator">
+    tools:context="pl.wat.wel.projekt.pumo.electronicband.Calcs.SimpleCalc.Prosty_Kalkulator">
 
 
         <LinearLayout

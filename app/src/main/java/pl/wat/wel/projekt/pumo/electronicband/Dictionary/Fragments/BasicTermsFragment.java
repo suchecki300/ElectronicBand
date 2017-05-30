@@ -1,4 +1,4 @@
-package pl.wat.wel.projekt.pumo.electronicband.Dictionary;
+package pl.wat.wel.projekt.pumo.electronicband.Dictionary.Fragments;
 
 
 import android.os.Bundle;

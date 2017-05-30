@@ -1,18 +1,16 @@
-package pl.wat.wel.projekt.pumo.electronicband.Calcs;
+package pl.wat.wel.projekt.pumo.electronicband.Calcs.SimpleCalc;
 
 import android.content.Intent;
 import android.content.res.Resources;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
-import java.lang.Math;
-import pl.wat.wel.projekt.pumo.electronicband.R;
 
-import static pl.wat.wel.projekt.pumo.electronicband.R.string.sin;
+import pl.wat.wel.projekt.pumo.electronicband.R;
 
 public class More_Activity_moreee extends AppCompatActivity {
     //Deklaracja zmiennych

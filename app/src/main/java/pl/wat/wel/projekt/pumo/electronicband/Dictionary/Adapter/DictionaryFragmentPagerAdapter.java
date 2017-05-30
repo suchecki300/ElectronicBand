@@ -1,7 +1,12 @@
-package pl.wat.wel.projekt.pumo.electronicband.Dictionary;
+package pl.wat.wel.projekt.pumo.electronicband.Dictionary.Adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+
+import pl.wat.wel.projekt.pumo.electronicband.Dictionary.Fragments.BasicTermsFragment;
+import pl.wat.wel.projekt.pumo.electronicband.Dictionary.Fragments.ChipsFragment;
+import pl.wat.wel.projekt.pumo.electronicband.Dictionary.Fragments.ElecElementsFragment;
+import pl.wat.wel.projekt.pumo.electronicband.Dictionary.Fragments.WorkshopFragment;
 
 /**
  * Created by Damian Bondaruk on 2017-05-22.

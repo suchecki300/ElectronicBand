@@ -1,4 +1,4 @@
-package pl.wat.wel.projekt.pumo.electronicband.Calcs;
+package pl.wat.wel.projekt.pumo.electronicband.Activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,13 @@ import android.view.animation.AnimationUtils;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import pl.wat.wel.projekt.pumo.electronicband.Calcs.LogicCalcs.LogicCalcsAND;
+import pl.wat.wel.projekt.pumo.electronicband.Calcs.LogicCalcs.LogicCalcsNAND;
+import pl.wat.wel.projekt.pumo.electronicband.Calcs.LogicCalcs.LogicCalcsNOR;
+import pl.wat.wel.projekt.pumo.electronicband.Calcs.LogicCalcs.LogicCalcsNOT;
+import pl.wat.wel.projekt.pumo.electronicband.Calcs.LogicCalcs.LogicCalcsOR;
+import pl.wat.wel.projekt.pumo.electronicband.Calcs.LogicCalcs.LogicCalcsXOR;
+import pl.wat.wel.projekt.pumo.electronicband.Calcs.SimpleCalc.Prosty_Kalkulator;
 import pl.wat.wel.projekt.pumo.electronicband.R;
 import pl.wat.wel.projekt.pumo.electronicband.ResistorCalcs;
 

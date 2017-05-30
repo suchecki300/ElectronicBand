@@ -1,4 +1,4 @@
-package pl.wat.wel.projekt.pumo.electronicband;
+package pl.wat.wel.projekt.pumo.electronicband.Activities;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
+
+import pl.wat.wel.projekt.pumo.electronicband.R;
 
 /**
  * Created by Damian Bondaruk on 2017-05-24.

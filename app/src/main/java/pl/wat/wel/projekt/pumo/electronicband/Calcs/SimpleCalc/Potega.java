@@ -1,8 +1,8 @@
-package pl.wat.wel.projekt.pumo.electronicband.Calcs;
+package pl.wat.wel.projekt.pumo.electronicband.Calcs.SimpleCalc;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -10,9 +10,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import pl.wat.wel.projekt.pumo.electronicband.R;
-
-import static pl.wat.wel.projekt.pumo.electronicband.R.id.number_txt;
-import static pl.wat.wel.projekt.pumo.electronicband.R.id.textView2;
 
 public class Potega extends AppCompatActivity {
 
