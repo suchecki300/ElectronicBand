@@ -25,7 +25,7 @@ public class CoursesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_course_relative);
+        setContentView(R.layout.activity_courses);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         Toast.makeText(this, "Dotknij nazwy lub obrazka aby przejsc do kursu", Toast.LENGTH_SHORT).show();

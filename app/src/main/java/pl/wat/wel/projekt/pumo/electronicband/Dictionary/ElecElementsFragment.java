@@ -13,9 +13,9 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import pl.wat.wel.projekt.pumo.electronicband.ListsAndAdapters.List;
-import pl.wat.wel.projekt.pumo.electronicband.ListsAndAdapters.ListAdapter;
 import pl.wat.wel.projekt.pumo.electronicband.R;
+import pl.wat.wel.projekt.pumo.electronicband.TheoryListAndAdapter.List;
+import pl.wat.wel.projekt.pumo.electronicband.TheoryListAndAdapter.ListAdapter;
 
 /**
  * A simple {@link Fragment} subclass.

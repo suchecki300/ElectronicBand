@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import pl.wat.wel.projekt.pumo.electronicband.Calcs.Kalkulatory;
+import pl.wat.wel.projekt.pumo.electronicband.Calcs.CalculatorsActivity;
 import pl.wat.wel.projekt.pumo.electronicband.Courses.CoursesActivity;
 import pl.wat.wel.projekt.pumo.electronicband.SchematEditor.SchematicsEditor;
 
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         TextView schemaEditorView = (TextView) findViewById(R.id.schemaEditorView);
 
         moveToAnotherActivity(theoryView, TheoryActivity.class);
-        moveToAnotherActivity(calculatorsView, Kalkulatory.class);
+        moveToAnotherActivity(calculatorsView, CalculatorsActivity.class);
         moveToAnotherActivity(aboutUsView, AboutUsActivity.class);
         moveToAnotherActivity(coursesView, CoursesActivity.class);
         moveToAnotherActivity(schemaEditorView, SchematicsEditor.class);

@@ -1,4 +1,4 @@
-package pl.wat.wel.projekt.pumo.electronicband.ListsAndAdapters;
+package pl.wat.wel.projekt.pumo.electronicband.TheoryListAndAdapter;
 
 /**
  * Created by Damian-Ja on 2017-03-29.

@@ -8,6 +8,10 @@ import android.view.MenuItem;
 
 import pl.wat.wel.projekt.pumo.electronicband.Dictionary.DictionaryFragmentPagerAdapter;
 
+/**
+ * Created by Damian Bondaruk on 2017-05-24.
+ */
+
 public class TheoryActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
