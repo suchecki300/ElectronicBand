@@ -8,6 +8,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+/**
+ * Created by Damian Bondaruk on 2017-05-24.
+ */
+
+
 public class AboutUsActivity extends AppCompatActivity {
 
     @Override

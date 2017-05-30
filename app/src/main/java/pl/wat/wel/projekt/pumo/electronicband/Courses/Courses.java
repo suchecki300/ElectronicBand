@@ -1,6 +1,5 @@
 package pl.wat.wel.projekt.pumo.electronicband.Courses;
 
-import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -12,19 +11,12 @@ import android.widget.Toast;
 import pl.wat.wel.projekt.pumo.electronicband.R;
 
 public class Courses extends AppCompatActivity {
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_courses);
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        Context context = getApplicationContext();
-        CharSequence text = "Dotknij nazwy lub obrazka aby przejsc do kursu";
-        int duration = Toast.LENGTH_SHORT;
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
+        Toast.makeText(this, "Dotknij nazwy lub obrazka aby przejsc do kursu", Toast.LENGTH_SHORT).show();
     }
 
     @Override

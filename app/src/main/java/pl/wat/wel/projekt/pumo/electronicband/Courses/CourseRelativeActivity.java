@@ -13,11 +13,14 @@ import java.util.ArrayList;
 
 import pl.wat.wel.projekt.pumo.electronicband.R;
 
+/**
+ * Created by Damian Bondaruk on 2017-05-24.
+ */
+
 public class CourseRelativeActivity extends AppCompatActivity {
     private final ArrayList<CourseModel> courseModels = new ArrayList<>();
     private RecyclerView recyclerView;
     private String tabUrl[];
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +28,7 @@ public class CourseRelativeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_course_relative);
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        String text = "Dotknij nazwy lub obrazka aby przejsc do kursu";
-        Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Dotknij nazwy lub obrazka aby przejsc do kursu", Toast.LENGTH_SHORT).show();
 
         tabUrl = new String[]{getString(R.string.kurs_arduino1),
                 getString(R.string.kurs_arduino2),

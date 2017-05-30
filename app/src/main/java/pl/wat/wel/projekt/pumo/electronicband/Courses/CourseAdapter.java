@@ -69,9 +69,5 @@ public class CourseAdapter extends RecyclerView.Adapter<CourseAdapter.MyViewHold
             });
 
         }
-
-
     }
-
-
 }
