@@ -474,4 +474,5 @@ milimetrów kwadratowych.
     <string name="field_Q">Q</string>
     <string name="field_B">B</string>
     <string name="field_A">A</string>
+    <string name="field_notA">~A</string>
 </resources>

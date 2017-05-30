@@ -1,154 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/textView3"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="40sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:textColor="@color/black"
+        android:gravity="center"
         android:text="@string/OR"
-        android:layout_alignParentEnd="true" />
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="200dp"
         android:layout_height="150dp"
-        android:src="@drawable/or"
         android:layout_below="@+id/textView3"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/or"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/outQor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1"
-        android:textSize="30sp"
-        android:textColor="@color/black"
+        android:layout_alignBottom="@+id/butBor"
         android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/imageView3"
         android:layout_alignTop="@+id/butAor"
+        android:layout_toEndOf="@+id/imageView3"
         android:gravity="center"
-        android:layout_alignBottom="@+id/butBor" />
+        android:text="@string/one_1"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
 
     <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/tableLayout"
-        android:layout_marginTop="17dp"
+        android:layout_alignEnd="@+id/imageView3"
         android:layout_below="@+id/textView20"
-        android:layout_alignEnd="@+id/imageView3">
+        android:layout_marginTop="17dp">
 
         <TableRow
             android:layout_width="wrap_content"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
+                android:text="@string/field_A"
                 android:textColor="@color/black"
-                android:text="A" />
-
-            <TextView
-                android:layout_width="50dp"
-                android:textStyle="bold"
-                android:textColor="@color/black"
-                android:layout_height="wrap_content"
-                android:text="B" />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="50dp"
                 android:layout_height="wrap_content"
+                android:text="@string/field_B"
                 android:textColor="@color/black"
-                android:textStyle="bold"
-                android:text="Q" />
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/field_Q"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0" />
+                android:text="@string/zero_0" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0" />
+                android:text="@string/zero_0" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="0" />
+                android:text="@string/zero_0" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0" />
+                android:text="@string/zero_0" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1" />
+                android:text="@string/one_1" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1" />
+                android:text="@string/one_1" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1" />
+                android:text="@string/one_1" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0" />
+                android:text="@string/zero_0" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1" />
+                android:text="@string/one_1" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1" />
+                android:text="@string/one_1" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1" />
+                android:text="@string/one_1" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1" />
+                android:text="@string/one_1" />
         </TableRow>
     </TableLayout>
 
@@ -156,12 +158,12 @@
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TABELA PRAWDY"
-        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/imageView3"
         android:layout_marginTop="18dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true" />
+        android:gravity="center"
+        android:text="@string/true_table" />
 
     <Button
         android:id="@+id/butAor"
@@ -175,7 +177,7 @@
         android:id="@+id/butBor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="OrB"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/butAor"
-        android:layout_alignParentStart="true"  />
+        android:onClick="OrB" />
 </RelativeLayout>
