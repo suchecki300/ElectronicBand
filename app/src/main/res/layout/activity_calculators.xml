@@ -3,143 +3,130 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorBackgroundCalculators"
     android:orientation="vertical"
     tools:context="pl.wat.wel.projekt.pumo.electronicband.Activities.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#828aff"
-        android:orientation="vertical">
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorCalculators">
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#878787" />
+        <ImageView
+            android:id="@+id/calc_pic"
+            android:layout_width="@dimen/image_width_value"
+            android:layout_height="@dimen/image_hight_value"
+            android:layout_gravity="center"
+            android:src="@drawable/calculator_icon"
+            tools:ignore="ContentDescription" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="#4551ff">
-
-            <ImageView
-                android:id="@+id/calc_pic"
-                android:layout_width="88dp"
-                android:layout_height="88dp"
-                android:layout_gravity="center"
-                android:src="@drawable/calculator_icon" />
-
-            <TextView
-                android:id="@+id/prosty_k"
-                style="@style/button_text"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="@string/prosty" />
-        </LinearLayout>
-
-        <Button
-            android:id="@+id/bramki_k"
+        <TextView
+            android:id="@+id/simple_calculator"
             style="@style/button_text"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:drawableStart="@drawable/and_gate_icon"
-            android:text="@string/logic_bram" />
+            android:layout_height="match_parent"
+            android:text="@string/prosty" />
+    </LinearLayout>
 
-        <!-- shows submenu -->
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lineBetweenViews" />
 
-            <LinearLayout
-                android:id="@+id/logic_submenu"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
-                android:background="#828aff"
-                android:orientation="vertical"
-                android:visibility="gone">
+    <Button
+        android:id="@+id/logic_gates_calculator"
+        style="@style/button_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:drawableStart="@drawable/and_gate_icon"
+        android:text="@string/logic_bram" />
 
-                <Button
-                    android:id="@+id/gate_not"
-                    style="@style/LittleButtons"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:onClick="onClickNOT"
-                    android:text="NOT" />
-
-                <Button
-                    android:id="@+id/gate_and"
-                    style="@style/LittleButtons"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:onClick="onClickAND"
-                    android:text="AND" />
-
-                <Button
-                    android:id="@+id/gate_nand"
-                    style="@style/LittleButtons"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:onClick="onClickNAND"
-                    android:text="NAND" />
-
-                <Button
-                    android:id="@+id/gate_or"
-                    style="@style/LittleButtons"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:onClick="onClickOR"
-                    android:text="OR" />
-
-                <Button
-                    android:id="@+id/gate_nor"
-                    style="@style/LittleButtons"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:onClick="onClickNOR"
-                    android:text="NOR" />
-
-                <Button
-                    android:id="@+id/gate_xor"
-                    style="@style/LittleButtons"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginBottom="5dp"
-                    android:onClick="onClickXOR"
-                    android:text="XOR" />
-
-            </LinearLayout>
-        </ScrollView>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="#878787" />
+    <!-- shows submenu -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <LinearLayout
+            android:id="@+id/logic_submenu"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:background="#4551ff">
+            android:background="@color/colorBackgroundCalculators"
+            android:orientation="vertical"
+            android:visibility="gone">
 
-            <ImageView
-                android:id="@+id/calc_pic_res"
-                android:layout_width="88dp"
-                android:layout_height="88dp"
-                android:layout_gravity="center"
-                android:src="@drawable/test_icon" />
-
-            <TextView
-                android:id="@+id/opisy_k"
-                style="@style/button_text"
+            <Button
+                android:id="@+id/gate_not"
+                style="@style/LittleButtons"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/descriptions" />
+                android:text="@string/not" />
+
+            <Button
+                android:id="@+id/gate_and"
+                style="@style/LittleButtons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/and" />
+
+            <Button
+                android:id="@+id/gate_nand"
+                style="@style/LittleButtons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/nand" />
+
+            <Button
+                android:id="@+id/gate_or"
+                style="@style/LittleButtons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/or" />
+
+            <Button
+                android:id="@+id/gate_nor"
+                style="@style/LittleButtons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/nor" />
+
+            <Button
+                android:id="@+id/gate_xor"
+                style="@style/LittleButtons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:text="@string/xor" />
 
         </LinearLayout>
+    </ScrollView>
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lineBetweenViews" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorCalculators">
+
+        <ImageView
+            android:id="@+id/calc_pic_res"
+            android:layout_width="@dimen/image_width_value"
+            android:layout_height="@dimen/image_hight_value"
+            android:layout_gravity="center"
+            android:src="@drawable/test_icon" />
+
+        <TextView
+            android:id="@+id/resistors_calculator"
+            style="@style/button_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/descriptions" />
 
     </LinearLayout>
 </LinearLayout>

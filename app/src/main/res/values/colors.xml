@@ -17,6 +17,7 @@
 
     <color name="customDialogBackground">#817d48</color>
     <color name="colorTheory">#9C27B0</color>
+    <color name="colorCalculators">#4551ff</color>
     <color name="colorCoursesActivity">#ac61f7</color>
     <color name="cardBackgroundCourses">#CE93D8</color>
     <color name="colorRed">#FF0000</color>
@@ -25,4 +26,6 @@
     <color name="colorBackgroundInternalCardView">#EF9A9A</color>
     <color name="colorBackgroundExternalCardView">#FF8A80</color>
     <color name="colorEmailTextViewAboutUs">#72FF0000</color>
+    <color name="colorBackgroundCalculators">#828aff</color>
+    <color name="lineBetweenViews">#878787</color>
 </resources>

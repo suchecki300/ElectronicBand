@@ -28,7 +28,7 @@ public class CalculatorsActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        TextView gateCalculatorView = (TextView) findViewById(R.id.bramki_k);
+        TextView gateCalculatorView = (TextView) findViewById(R.id.logic_gates_calculator);
 
         final Animation animZoomOut = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.zoom_out);
         final Animation animZoomIn = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.zoom_in);
@@ -51,8 +51,8 @@ public class CalculatorsActivity extends AppCompatActivity {
             }
         });
 
-        moveToCalculator(findViewById(R.id.opisy_k), ResistorCalcs.class);
-        moveToCalculator(findViewById(R.id.prosty_k), Prosty_Kalkulator.class);
+        moveToCalculator(findViewById(R.id.resistors_calculator), ResistorCalcs.class);
+        moveToCalculator(findViewById(R.id.simple_calculator), Prosty_Kalkulator.class);
         moveToCalculator(findViewById(R.id.gate_nor), LogicCalcsNOR.class);
         moveToCalculator(findViewById(R.id.gate_nand), LogicCalcsNAND.class);
         moveToCalculator(findViewById(R.id.gate_not), LogicCalcsNOT.class);

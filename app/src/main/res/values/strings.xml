@@ -461,4 +461,10 @@ milimetrów kwadratowych.
     <string name="gate_NOR_tittle">Bramka NOR</string>
     <string name="gate_XOR_tittle">Bramka XOR</string>
     <string name="gate_XNOR_tittle">Bramka XNOR</string>
+    <string name="not">NOT</string>
+    <string name="and">AND</string>
+    <string name="nand">NAND</string>
+    <string name="or">OR</string>
+    <string name="nor">NOR</string>
+    <string name="xor">XOR</string>
 </resources>
