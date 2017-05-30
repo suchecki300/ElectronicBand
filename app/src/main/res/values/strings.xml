@@ -467,4 +467,5 @@ milimetrów kwadratowych.
     <string name="or">OR</string>
     <string name="nor">NOR</string>
     <string name="xor">XOR</string>
+    <string name="add">Dodaj</string>
 </resources>

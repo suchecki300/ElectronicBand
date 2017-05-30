@@ -9,46 +9,39 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="@dimen/marginTop30EditElements"
         android:text="@string/podaj_nazw_elementu"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/name_of_element"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="10dp"
-        android:ems="10"
-
-         />
-
-
+        android:layout_marginStart="@dimen/marginStart80EditElements"
+        android:layout_marginTop="@dimen/marginTop10EditElements"
+        android:ems="10" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="@dimen/marginTop50EditElements"
         android:text="@string/podaj_warto_elementu"
-        android:textSize="20sp"/>
+        android:textSize="@dimen/textSize20EditElements" />
 
     <EditText
         android:id="@+id/value_of_element"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="10dp"
-        android:ems="10"
-
-        />
-
+        android:layout_marginStart="@dimen/marginStart80EditElements"
+        android:layout_marginTop="@dimen/marginTop10EditElements"
+        android:ems="10" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:onClick="addelements"
-        android:text="Dodaj" />
+        android:layout_marginTop="@dimen/marginTop50EditElements"
+        android:onClick="addElements"
+        android:text="@string/add" />
 
 </LinearLayout>

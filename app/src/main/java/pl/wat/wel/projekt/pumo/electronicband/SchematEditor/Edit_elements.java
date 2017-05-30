@@ -1,11 +1,10 @@
 package pl.wat.wel.projekt.pumo.electronicband.SchematEditor;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -17,9 +16,8 @@ import java.io.IOException;
 import pl.wat.wel.projekt.pumo.electronicband.R;
 
 public class Edit_elements extends AppCompatActivity {
-
-    int detector = 0;
     public static final String Elements_FILE = "elements.txt";
+    int detector = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,12 +26,9 @@ public class Edit_elements extends AppCompatActivity {
 
     }
 
-
-    public void addelements(View view) {
-
+    public void addElements(View view) {
         EditText editText = (EditText) findViewById(R.id.name_of_element);
         EditText editText1 = (EditText) findViewById(R.id.value_of_element);
-
 
         File file = new File(getFilesDir(), Elements_FILE);
 
@@ -54,9 +49,6 @@ public class Edit_elements extends AppCompatActivity {
         intent.putExtra("tryb", 1);
         setResult(RESULT_FIRST_USER, intent);
         finish();
-
     }
-
-
-    }
+}
 

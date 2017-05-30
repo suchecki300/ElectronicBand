@@ -18,4 +18,9 @@
     <dimen name="marginTop45AboutUs">45dp</dimen>
     <dimen name="padding5AboutUs">5dp</dimen>
     <dimen name="textSoze12AboutUs">12sp</dimen>
+    <dimen name="marginTop30EditElements">30dp</dimen>
+    <dimen name="marginStart80EditElements">80dp</dimen>
+    <dimen name="marginTop10EditElements">10dp</dimen>
+    <dimen name="marginTop50EditElements">50dp</dimen>
+    <dimen name="textSize20EditElements">20sp</dimen>
 </resources>
