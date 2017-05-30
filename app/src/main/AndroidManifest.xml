@@ -48,7 +48,6 @@
             android:screenOrientation="landscape"
             android:theme="@style/AppTheme.NoActionBar" />
 
-        <activity android:name=".Courses.Courses" />
         <activity android:name=".Calcs.LogicCalcsAND" />
         <activity android:name=".Calcs.LogicCalcsXOR" />
         <activity android:name=".Calcs.LogicCalcsNOT" />
@@ -61,7 +60,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Calcs.Potega" />
         <activity android:name=".ResistorCalcs"></activity>
-        <activity android:name=".Courses.CourseRelativeActivity"></activity>
+        <activity android:name=".Courses.CoursesActivity"></activity>
     </application>
 
 </manifest>

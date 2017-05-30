@@ -27,7 +27,7 @@ public class ResistorCalcs extends AppCompatActivity implements AdapterView.OnIt
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_resistor_calcs2);
+        setContentView(R.layout.activity_resistor_calcs);
 
         // Spinner Drop down elements
         List<String> categories = new ArrayList<String>();

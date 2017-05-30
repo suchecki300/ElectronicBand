@@ -17,7 +17,7 @@ import pl.wat.wel.projekt.pumo.electronicband.R;
  * Created by Damian Bondaruk on 2017-05-24.
  */
 
-public class CourseRelativeActivity extends AppCompatActivity {
+public class CoursesActivity extends AppCompatActivity {
     private final ArrayList<CourseModel> courseModels = new ArrayList<>();
     private RecyclerView recyclerView;
     private String tabUrl[];
