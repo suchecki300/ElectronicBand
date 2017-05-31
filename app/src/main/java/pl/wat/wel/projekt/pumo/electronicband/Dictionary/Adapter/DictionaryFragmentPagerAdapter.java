@@ -13,8 +13,8 @@ import pl.wat.wel.projekt.pumo.electronicband.Dictionary.Fragments.WorkshopFragm
  */
 
 public class DictionaryFragmentPagerAdapter extends android.support.v4.app.FragmentPagerAdapter {
-    final int PAGE_COUNT = 4;
-    private String tabViewPagerTittles[] = new String[]{"Elementy", "Bramki logiczne", "Ogólne pojęcia", "Warsztat"};
+    private final int PAGE_COUNT = 4;
+    private String tabViewPagerTittles[] = {"Elementy", "Bramki logiczne", "Ogólne pojęcia", "Warsztat"};
 
     public DictionaryFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
