@@ -1,50 +1,47 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/view_root"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
 
-<ImageView
-    android:id="@+id/settings"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:src="@drawable/ustaw"
+    <ImageView
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
 
 
-    android:layout_alignParentRight="true"
-    android:layout_alignParentBottom="true"
-    android:layout_marginBottom="30dp"
-    android:layout_marginRight="30dp"
-    />
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/ustaw" />
 
     <ImageView
         android:id="@+id/instruction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/transition"
-        android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="30dp" />
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:src="@drawable/transition" />
 
     <ImageButton
         android:id="@+id/left_adding"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        app:srcCompat="@android:drawable/ic_media_rew"
         android:layout_alignTop="@+id/right_adding"
-        android:layout_toStartOf="@+id/right_adding" />
+        android:layout_toStartOf="@+id/right_adding"
+        app:srcCompat="@android:drawable/ic_media_rew" />
 
     <ImageButton
         android:id="@+id/right_adding"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:cropToPadding="false"
-        app:srcCompat="@android:drawable/ic_media_ff"
         android:layout_alignBottom="@+id/settings"
+        android:layout_marginEnd="17dp"
         android:layout_toStartOf="@+id/settings"
-        android:layout_marginEnd="17dp" />
+        android:cropToPadding="false"
+        app:srcCompat="@android:drawable/ic_media_ff" />
 
     <ImageButton
         android:id="@+id/button13"

@@ -476,4 +476,9 @@ milimetrów kwadratowych.
     <string name="field_A">A</string>
     <string name="field_notA">~A</string>
     <string name="beta">BETA</string>
+    <string name="insert_here">Tu wprowadź wykładnik</string>
+    <string name="ok">OK</string>
+    <string name="calculate">Oblicz!</string>
+    <string name="answer">Wynik</string>
+    <string name="connections">Połączenia</string>
 </resources>

@@ -20,7 +20,7 @@ public class Potega extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_potega);
+        setContentView(R.layout.activity_power);
 
         button_ok = (Button) findViewById(R.id.button_ok) ;
         number_txt = (TextView) findViewById(R.id.number_txt);

@@ -1,25 +1,12 @@
-<GridView
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/gridview"
-    android:layout_height="match_parent"
     android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:numColumns="auto_fit"
-    android:verticalSpacing="20dp"
-    android:horizontalSpacing="-100dp"
-    android:stretchMode="columnWidth"
-    android:gravity="center"
+    android:layout_height="match_parent"
     android:background="@drawable/backg_switching_elements"
-    >
-
-
-
-
-
-
-
-
-
+    android:gravity="center"
+    android:horizontalSpacing="-100dp"
+    android:numColumns="auto_fit"
+    android:stretchMode="columnWidth"
+    android:verticalSpacing="20dp">
     <!-- android:background="@drawable/backg_switching_elements" -->
-
-
 </GridView>
