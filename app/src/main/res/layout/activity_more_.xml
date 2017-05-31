@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
     tools:context="pl.wat.wel.projekt.pumo.electronicband.Calcs.SimpleCalc.More_Activity_moreee">
 
-
     <ListView
         android:id="@+id/listView1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        >
-    </ListView>
-
-
+        android:layout_height="match_parent" />
 
 </LinearLayout>
 

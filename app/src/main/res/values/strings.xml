@@ -9,7 +9,7 @@
     <string name="app_name">ElectronicBand</string>
     <string name="theory">Teoria</string>
     <string name="calculators">Kalkulatory</string>
-    <string name="descriptions">Rezystory</string>
+    <string name="descriptions_resistor_calculator">REZYSTORY</string>
     <string name="logic_bram">Bramki \nlogiczne</string>
     <string name="prosty">PROSTY</string>
     <string name="asin">asin</string>
@@ -475,4 +475,5 @@ milimetrów kwadratowych.
     <string name="field_B">B</string>
     <string name="field_A">A</string>
     <string name="field_notA">~A</string>
+    <string name="beta">BETA</string>
 </resources>

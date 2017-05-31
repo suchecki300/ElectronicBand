@@ -119,14 +119,15 @@
             android:layout_width="@dimen/image_width_value"
             android:layout_height="@dimen/image_hight_value"
             android:layout_gravity="center"
-            android:src="@drawable/test_icon" />
+            android:src="@drawable/test_icon"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/resistors_calculator"
             style="@style/button_text"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/descriptions" />
+            android:text="@string/descriptions_resistor_calculator" />
 
     </LinearLayout>
 </LinearLayout>
